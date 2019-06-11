@@ -1,0 +1,701 @@
+html {
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default; 
+}
+
+body { 
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/titlescreen3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p {
+  display: block;
+}
+
+a {
+  padding: 0px;
+}
+
+#container {
+  margin: center;
+  width: 1920;
+  height: 1080;
+}
+
+#center {
+  width: 100%;
+  float: left;
+}
+
+#left {
+  float: left;
+  width: 50%;
+}
+
+#right {
+  float: left;
+  width: 50%;
+}
+
+.startbutton {
+  width: 35%;
+  height: 35%;
+  margin-top: 23%;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.F11notice {
+  width: 20%;
+  margin-top: 1%;
+}
+
+.nextbutton {
+  width: 10%;
+  height: 10%;
+  margin-top: 50%;
+  margin-right: 4%;
+  float: right;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.prevbutton {
+  width: 10%;
+  height: 10%;
+  margin-top: 50%;
+  margin-right: 1%;
+  float: right;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.gotitbutton {
+  width: 8%;
+  height: 8%;
+  margin-top: 51%;
+  margin-right: 4%;
+  float: right;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+
+.eatbutton {
+  width: 15%;
+  margin-top: 19%;
+  padding-left: 22%;
+  float: top;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.donteatbutton {
+  width: 15%;
+  margin-top: 1%;
+  padding-left: 22%;
+  float: top;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.optionbutton1 {
+  width: 15%;
+  height: 15%;
+  margin-top: 50%;
+  margin-left: 77%;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.optionbutton2 {
+  width: 15%;
+  height: 15%;
+  margin-top: 50%;
+  margin-left: 77%;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.optionbutton3 {
+  width: 15%;
+  height: 15%;
+  margin-top: 50%;
+  margin-left: 77%;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.optionbutton4 {
+  width: 15%;
+  height: 15%;
+  margin-top: 50%;
+  margin-left: 77%;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.startoverbutton {
+  width: 10%;
+  height: 10%;
+  margin-top: 50%;
+  margin-right: 4%;
+  float: right;
+  cursor: url(https://i.imgur.com/0XJl1BY.png), default;
+}
+
+.titlescreen {
+  background-image: url(../images/titlescreen3.png);
+}
+
+.gameoverscreen {
+  background-image: url(../images/gameoverscreen.png);
+}
+
+.congratulationscreen {
+  background-image: url(../images/congratulationscreen.png);
+}
+
+.page1 {
+  background-image: url(../images/1.png);
+}
+
+.page2 {
+  background-image: url(../images/2.png);
+}
+
+.page3 {
+  background-image: url(../images/3.png);
+}
+
+.page4 {
+  background-image: url(../images/4.png);
+}
+
+.page5 {
+  background-image: url(../images/5.png);
+}
+
+.page6 {
+  background-image: url(../images/6.png);
+}
+
+.page7 {
+  background-image: url(../images/7.png);
+}
+
+.page8 {
+  background-image: url(../images/8.png);
+}
+
+.page9 {
+  background-image: url(../images/9.png);
+}
+
+.page10 {
+  background-image: url(../images/10.png);
+}
+
+.page11 {
+  background-image: url(../images/11.png);
+}
+
+.page12 {
+  background-image: url(../images/12.png);
+}
+
+.page13 {
+  background-image: url(../images/13.png);
+}
+
+.page14 {
+  background-image: url(../images/14.png);
+}
+
+.page15 {
+  background-image: url(../images/15.png);
+}
+
+.page16 {
+  background-image: url(../images/16.png);
+}
+
+.page17 {
+  background-image: url(../images/17.png);
+}
+
+.page18 {
+  background-image: url(../images/18.png);
+}
+
+.page19 {
+  background-image: url(../images/19.png);
+}
+
+.page20 {
+  background-image: url(../images/20.png);
+}
+
+.page21 {
+  background-image: url(../images/21.png);
+}
+
+.page22 {
+  background-image: url(../images/22.png);
+}
+
+.page23 {
+  background-image: url(../images/23.png);
+}
+
+.page24 {
+  background-image: url(../images/24.png);
+}
+
+.page25 {
+  background-image: url(../images/25.png);
+}
+
+.page26 {
+  background-image: url(../images/26.png);
+}
+
+.page27 {
+  background-image: url(../images/27.png);
+}
+
+.page28 {
+  background-image: url(../images/28.png);
+}
+
+.page29 {
+  background-image: url(../images/29.png);
+}
+
+.page30 {
+  background-image: url(../images/30.png);
+}
+
+.page31 {
+  background-image: url(../images/31.png);
+}
+
+.page32 {
+  background-image: url(../images/32.png);
+}
+
+.page33 {
+  background-image: url(../images/33.png);
+}
+
+.page34 {
+  background-image: url(../images/34.png);
+}
+
+.page35 {
+  background-image: url(../images/35.png);
+}
+
+.page36 {
+  background-image: url(../images/36.png);
+}
+
+.page37 {
+  background-image: url(../images/37.png);
+}
+
+.page38 {
+  background-image: url(../images/38.png);
+}
+
+.page39 {
+  background-image: url(../images/39.png);
+}
+
+.page40 {
+  background-image: url(../images/40.png);
+}
+
+.page41 {
+  background-image: url(../images/41.png);
+}
+
+.page42 {
+  background-image: url(../images/42.png);
+}
+
+.page43 {
+  background-image: url(../images/43.png);
+}
+
+.page44 {
+  background-image: url(../images/44.png);
+}
+
+.page45 {
+  background-image: url(../images/45.png);
+}
+
+.page46 {
+  background-image: url(../images/46.png);
+}
+
+.page47 {
+  background-image: url(../images/47.png);
+}
+
+.page48 {
+  background-image: url(../images/48.png);
+}
+
+.page49 {
+  background-image: url(../images/49.png);
+}
+
+.page50 {
+  background-image: url(../images/50.png);
+}
+
+.page51 {
+  background-image: url(../images/51.png);
+}
+
+.page52 {
+  background-image: url(../images/52.png);
+}
+
+.page53 {
+  background-image: url(../images/53.png);
+}
+
+.page54 {
+  background-image: url(../images/54.png);
+}
+
+.page55 {
+  background-image: url(../images/55.png);
+}
+
+.page56 {
+  background-image: url(../images/56.png);
+}
+
+.page57 {
+  background-image: url(../images/57.png);
+}
+
+.page58 {
+  background-image: url(../images/58.png);
+}
+
+.page59 {
+  background-image: url(../images/59.png);
+}
+
+.page60 {
+  background-image: url(../images/60.png);
+}
+
+.page61 {
+  background-image: url(../images/61.png);
+}
+
+.page62 {
+  background-image: url(../images/62.png);
+}
+
+.page63 {
+  background-image: url(../images/63.png);
+}
+
+.page64 {
+  background-image: url(../images/64.png);
+}
+
+.page65 {
+  background-image: url(../images/65.png);
+}
+
+.page66 {
+  background-image: url(../images/66.png);
+}
+
+.page67 {
+  background-image: url(../images/67.png);
+}
+
+.page68 {
+  background-image: url(../images/68.png);
+}
+
+.page69 {
+  background-image: url(../images/69.png);
+}
+
+.page70 {
+  background-image: url(../images/70.png);
+}
+
+.page71 {
+  background-image: url(../images/71.png);
+}
+
+.page72 {
+  background-image: url(../images/72.png);
+}
+
+.page73 {
+  background-image: url(../images/73.png);
+}
+
+.page74 {
+  background-image: url(../images/74.png);
+}
+
+.page75 {
+  background-image: url(../images/75.png);
+}
+
+.page76 {
+  background-image: url(../images/76.png);
+}
+
+.page77 {
+  background-image: url(../images/77.png);
+}
+
+.page78 {
+  background-image: url(../images/78.png);
+}
+
+.page79 {
+  background-image: url(../images/79.png);
+}
+
+.page80 {
+  background-image: url(../images/80.png);
+}
+
+.page81 {
+  background-image: url(../images/81.png);
+}
+
+.page82 {
+  background-image: url(../images/82.png);
+}
+
+.page83 {
+  background-image: url(../images/83.png);
+}
+
+.page84 {
+  background-image: url(../images/84.png);
+}
+
+.page85 {
+  background-image: url(../images/85.png);
+}
+
+.page86 {
+  background-image: url(../images/86.png);
+}
+
+.page87 {
+  background-image: url(../images/87.png);
+}
+
+.page88 {
+  background-image: url(../images/88.png);
+}
+
+.page89 {
+  background-image: url(../images/89.png);
+}
+
+.page90 {
+  background-image: url(../images/90.png);
+}
+
+.page91 {
+  background-image: url(../images/91.png);
+}
+
+.page92 {
+  background-image: url(../images/92.png);
+}
+
+.page93 {
+  background-image: url(../images/93.png);
+}
+
+.page94 {
+  background-image: url(../images/94.png);
+}
+
+.page95 {
+  background-image: url(../images/95.png);
+}
+
+.page96 {
+  background-image: url(../images/96.png);
+}
+
+.page97 {
+  background-image: url(../images/97.png);
+}
+
+.page98 {
+  background-image: url(../images/98.png);
+}
+
+.page99 {
+  background-image: url(../images/99.png);
+}
+
+.page100 {
+  background-image: url(../images/100.png);
+}
+
+.page101 {
+  background-image: url(../images/101.png);
+}
+
+.page102 {
+  background-image: url(../images/102.png);
+}
+
+.page103 {
+  background-image: url(../images/103.png);
+}
+
+.page104 {
+  background-image: url(../images/104.png);
+}
+
+.page105 {
+  background-image: url(../images/105.png);
+}
+
+.page106 {
+  background-image: url(../images/106.png);
+}
+
+.page107 {
+  background-image: url(../images/107.png);
+}
+
+.page108 {
+  background-image: url(../images/108.png);
+}
+
+.page109 {
+  background-image: url(../images/109.png);
+}
+
+.page110 {
+  background-image: url(../images/110.png);
+}
+
+.page111 {
+  background-image: url(../images/111.png);
+}
+
+.page112 {
+  background-image: url(../images/112.png);
+}
+
+.page113 {
+  background-image: url(../images/113.png);
+}
+
+.page114 {
+  background-image: url(../images/114.png);
+}
+
+.page115 {
+  background-image: url(../images/115.png);
+}
+
+.page116 {
+  background-image: url(../images/116.png);
+}
+
+.page117 {
+  background-image: url(../images/117.png);
+}
+
+.page118 {
+  background-image: url(../images/118.png);
+}
+
+.page119 {
+  background-image: url(../images/119.png);
+}
+
+.page120 {
+  background-image: url(../images/120.png);
+}
+
+.page121 {
+  background-image: url(../images/121.png);
+}
+
+.page122 {
+  background-image: url(../images/122.png);
+}
+
+.page123 {
+  background-image: url(../images/123.png);
+}
+
+.page124 {
+  background-image: url(../images/124.png);
+}
+
+.page125 {
+  background-image: url(../images/125.png);
+}
+
+.page126 {
+  background-image: url(../images/126.png);
+}
+
+.page127 {
+  background-image: url(../images/127.png);
+}
+
+.page128 {
+  background-image: url(../images/128.png);
+}
+
+.page129 {
+  background-image: url(../images/129.png);
+}
+
+.page130 {
+  background-image: url(../images/130.png);
+}
+
+.page131 {
+  background-image: url(../images/131.png);
+}
+
+.page132 {
+  background-image: url(../images/132.png);
+}
+
+.page133 {
+  background-image: url(../images/133.png);
+}
+
+.page134 {
+  background-image: url(../images/134.png);
+}
+
+.page135 {
+  background-image: url(../images/135.png);
+}
+
+.page136 {
+  background-image: url(../images/136.png);
+}
+
+.page137 {
+  background-image: url(../images/137.png);
+}
+
+.page138 {
+  background-image: url(../images/138.png);
+}
