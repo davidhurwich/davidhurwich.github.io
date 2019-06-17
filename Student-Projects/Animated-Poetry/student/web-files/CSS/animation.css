@@ -1,0 +1,433 @@
+
+/* General Layout Styles */
+* {
+	text-align: center;
+
+
+}
+
+body {
+	width: 90%;
+	margin: 0 auto;
+    background-color: #D7D7D7;
+    background-size: cover;
+    background: url(../images/Animation_bg.png) no-repeat center center fixed;
+}
+
+	
+li {
+	display: inline;
+	padding: 0.5em;
+}
+
+
+
+#content {
+	overflow: auto;
+    height: 50em;
+    background-color: transparent;
+    width: 90%;
+    background: url(../images/Animation_bg.png) no-repeat center center fixed;
+    background-color: transparent;
+
+}
+			
+#nav, #feature, #footer {
+	margin: 1%;
+}
+			
+.column1 {
+	width: 80%;
+	float: center;
+    background: url(../images/Animation_bg.png) no-repeat center center fixed;
+    background-color: transparent;
+}
+
+.column1 {
+	margin-right: 0%;
+}			
+			
+#nav, #footer {
+	background-color: #efefef;
+	padding: 0.5em 0;
+}
+			
+#feature, .article {
+	height: 3em;
+	margin-bottom: 0.5em;
+	background-color: #efefef;
+}
+
+
+/* ANIMATION 1 STYLES */
+
+#animation1 {
+    width: 700px;
+    position: relative;
+    -webkit-animation-name: exampleOne; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleOne;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    z-index: initial;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampleOne {
+    0% {left:0px; top:0px; opacity: 0;}
+    50%  {left:200px; top:0px; opacity: 1;}
+    100% {left:200px; top:0px; opacity:0;}
+}
+
+/* Standard syntax */
+@keyframes exampleOne {
+    0%   {left:0px; top:20px; opacity: 0;}
+    50%  {left:200px; top:20px; opacity: 1;}
+    100% {left:200px; top:20px; opacity:0;}
+
+}
+
+
+
+/* ANIMATION 2 STYLES */
+
+#animation2 {
+    width: 700px;
+    position: relative;
+    -webkit-animation-name: exampleTwo; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleTwo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    z-index: initial;
+    animation-delay: 1s;
+    opacity: 0;
+    margin-top: -50px
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampleTwo {
+    0% {left: 200px; top:-200px; opacity: 0;}
+    30% {left: 200px; top:0px;opacity: 0;}
+    50%  {left:200px; top:20px; opacity: 1;}
+    100% {left:200px; top:20px; opacity:0;}
+}
+
+/* Standard syntax */
+@keyframes exampleTwo {
+    0% {left: 200px; top:-200px; opacity: 0;}
+    30% {left: 200px; top:0px;opacity: 0;}
+    50%  {left:200px; top:20px; opacity: 1;}
+    100% {left:200px; top:20px; opacity:0;}
+}
+
+
+/* ANIMATION 3 STYLES */
+
+#animation3 {
+    width: 700px;
+    position: relative;
+    -webkit-animation-name: exampleThree; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleThree;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+    opacity: 0;
+    z-index: initial;
+    margin-top: -390px
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampleThree {
+    0%   {left:0px; top:20px; opacity: 0;}
+    30% {opacity:0;}
+    70%  {left:200px; top:20px; opacity: 1;}
+    100% {left:200px; top:20px; opacity:0;}
+}
+
+/* Standard syntax */
+@keyframes exampleThree {
+    0%   {left:0px; top:20px; opacity: 0;}
+    30% {opacity:0;}
+    70%  {left:200px; top:20px; opacity: 1;}
+    100% {left:200px; top:20px; opacity:0;}
+
+}
+
+#animation4 {
+    width: 700px;
+    position: relative;
+    -webkit-animation-name: exampleFour; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleFour;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    animation-direction: reverse;
+    animation-fill-mode: both;
+    opacity: 0;
+    animation-delay: 5s;
+    z-index: initial;
+    margin-top:-40px;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampleFour {
+    0%   {left:200px; top:10px; opacity: 0;}
+    25%  {opacity: 1;}
+    80%  {opacity: 0;}
+    90%  {left:400px; top:10px; opacity: 0;}
+    100% {left:400px; top:10px; opacity:0;}
+}
+
+/* Standard syntax */
+@keyframes exampleFour {
+    0%   {left:200px; top:10px; opacity: 0;}
+    25%  {opacity: 1;}
+    80%  {opacity: 0;}
+    90%  {left:400px; top:10px; opacity: 0;}
+    100% {left:400px; top:10px; opacity:0;}
+
+}
+
+/* ANIMATION 5 STYLES */
+
+#animation5 {
+    width: 700px;
+    position: relative;
+    -webkit-animation-name: exampleFive; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleFive;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    opacity: 0;
+    z-index: initial;
+    margin-top: -350px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampleFive {
+  0% {opacity: 1; left:200px; top:0px;}
+  50% {opacity: 0; left:200px; top:0px; -webkit-transform: scale3d(0.1, 0.1, 0.1);transform: scale3d(0.1, 0.1, 0.1);}
+  100% {opacity: 0; left:200px; top:0px;}
+}
+
+@keyframes exampleFive {
+  0% {opacity: 1; left:200px; top:0px;}
+  50% {opacity: 0; left:200px; top:0px; -webkit-transform: scale3d(0.1, 0.1, 0.1);transform: scale3d(0.1, 0.1, 0.1);}
+  100% {opacity: 0; left:200px; top:0px;}
+}
+
+#animation6 {
+    width: 900px;
+    position: relative;
+    -webkit-animation-name: exampleSix; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleSix;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    opacity: 0;
+    z-index: initial;
+    margin-top: -270px;
+
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampleSix {
+    0%   {left:0px; top:0px; opacity: 0;}
+    50%  {left:140px; top:0px; opacity: 1;}
+    100% {left:140px; top:0px; opacity:0;}
+}
+
+/* Standard syntax */
+@keyframes exampleSix {
+    0%   {left:0px; top:0px; opacity: 0;}
+    50%  {left:140px; top:0px; opacity: 1;}
+    100% {left:140px; top:0px; opacity:0;}
+
+}
+
+#animation7 {
+    width: 700px;
+    position: relative;
+    -webkit-animation-name: exampleSeven; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleSeven;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-delay: 11s;
+    opacity: 0;
+    z-index: initial;
+    margin-top: -85px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes exampleSeven {
+    0% {left: 200px; top:-200px; opacity: 0;}
+    30% {left: 200px; top:0px;opacity: 0;}
+    50%  {left:200px; top:20px; opacity: 1;}
+    100% {left:200px; top:20px; opacity:0;}
+}
+
+/* Standard syntax */
+@keyframes exampleSeven {
+    0% {left: 200px; top:-200px; opacity: 0;}
+    30% {left: 200px; top:0px;opacity: 0;}
+    50%  {left:200px; top:20px; opacity: 1;}
+    100% {left:200px; top:20px; opacity:0;}
+}
+
+#animation8 {
+    width: 700px;
+    position: relative;
+    -webkit-animation-name: exampleEight; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleEight;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+    opacity: 0;
+    z-index: initial;
+    margin-top: -400px;
+}
+
+@-webkit-keyframes exampleEight {
+  from,
+  50%,
+  to {left:200px; top:0px; opacity: 1;}
+
+  25%,
+  75% {left:200px; top:0px; opacity: 0;}
+  100% {left:200px; top:0px; opacity: 0;}
+}
+
+@keyframes exampleEight {
+  from,
+  50%,
+  to {left:200px; top:0px; opacity: 1;}
+
+  25%,
+  75% {left:200px; top:0px; opacity: 0;}
+  100% {left:200px; top:0px; opacity: 0;}
+}
+
+#animation9 {
+    width: 1000px;
+    position: relative;
+    -webkit-animation-name: exampleNine; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: exampleNine;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 16s;
+    opacity: 0;
+    z-index: initial;
+    margin-top: -90px
+
+}
+
+@-webkit-keyframes exampleNine {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    left: 100px; top: 0px;
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    left: 100px; top: 0px;
+    }
+
+  100% {left: 100px; top: 0px; opacity: 0}
+    }
+
+@keyframes exampleNine {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    left: 100px; top: 00px;
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    left: 100px; top: 0px;
+  }
+
+  100% {left: 100px; top: 0px; opacity: 0}
+}
+
+.Cabin{
+    color: #FFFECF;
+    font-size: 100px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+
+.Lobster {
+    color:#FFFECF;
+    font-size: 120px;
+    font-family: 'Lobster', cursive;
+}
+
+.Itim{
+    color:#FFFECF;
+    font-size: 100px;
+    font-family: 'Itim', cursive;
+}
+
+.UnderdogSmall{
+    color:#FFFECF;
+    font-size: 100px;
+    font-family: 'Underdog', cursive;
+}
+
+.UnderdogBig {
+    color:#FFFECF;
+    font-size: 110px;
+    font-family: 'Underdog', cursive;
+}
+
+
