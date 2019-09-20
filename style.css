@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    
+    background-color:#834D43;
+}
+
+h1 {
+    font-family: 'Squada One', cursive;
+
+}
+
+#main {
+    background-color: #FFAEA1;
+    width: 85%;
+    margin: auto;
+    color: #222;
+    font-family: 'Helvetica', sans-serif;
+    padding: 25px;
+    border-radius: 35px;
+    
+}
+
+#checkbox, #date, #submit {
+    margin-bottom: 25px;
+}
+
+#date {
+    padding: 10px;
+    width: 100%;
+}
+#submit {
+    background-color: #FF5235;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+}
+
+#submit:hover {
+    background-color: #933020;
+}
