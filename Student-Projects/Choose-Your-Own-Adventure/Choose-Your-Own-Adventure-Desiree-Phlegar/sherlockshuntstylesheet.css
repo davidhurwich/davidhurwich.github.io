@@ -1,0 +1,45 @@
+body{background-image:url("4c65f913798dcd566fb929d0973a37e6.jpg");
+background-repeat: no-repeat, repeat;}
+
+p{color: #000000;
+        font-size:12pt;
+        font-family: 'Courier';
+        line-height:16px;
+        font-style:normal;
+        text-align: center;}
+
+header{color: #000000;
+        font-size:20pt;
+        font-family: 'Courier';
+        line-height:40px;
+        font-style:normal;
+        text-align: center;}
+
+figure{text-align: center;
+        font-family: 'Courier';
+        color: #000000;}
+
+#container{ 
+margin: auto;
+padding: 30px;
+width:500px;}
+
+
+button{background-color:#394f41;
+padding:5px;
+width:100px;
+border:1px solid black;
+font-size:10pt;
+font-weight:bold;
+border-radius: 10px;
+text-align: center;
+cursor: url(magnifyingglasscopy.png),auto;}
+
+body{cursor: url(magnifyingglasscopy.png),auto;}
+
+a:link {color:white;
+cursor: url(magnifyingglasscopy.png),auto;}
+a:visited { color: #fff;
+cursor: url(magnifyingglasscopy.png),auto;}
+a:hover {color: #f1f5c6;
+cursor: url(magnifyingglasscopy.png),auto;}
