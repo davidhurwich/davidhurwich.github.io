@@ -1,0 +1,29 @@
+img {
+    display: block;
+    width: 600px;
+    height: auto;
+    padding-top: 50px;
+}
+
+embed {
+    width: 100px;
+
+}
+
+embed:hover {
+    filter: hue-rotate(-0.25turn);
+}
+
+footer {
+    font-size: 8pt;
+    padding-top: 50px;
+}
+
+#button {
+    background-color: white;
+    border: none;
+  cursor: pointer;
+}
+
+p {padding-left: 200px;
+padding-right: 200px;}

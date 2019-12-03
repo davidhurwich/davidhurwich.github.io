@@ -1,0 +1,61 @@
+h1 {
+    font-family: sans-serif, "Helvetica", "Arial";
+    color: white;
+
+}
+
+H p {
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(images/jr-korpa-rS6Dg6k-klY-unsplash.jpg);
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif, "Helvetica";
+    color: midnightblue;
+    background-color: white;
+    padding: 8px;
+    border: 3px solid white;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    background-color: midnightblue;
+}
+
+.justwork {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif, "Helvetica";
+
+}
+
+.main {
+
+    width: 1000px;
+    Margin-left: auto;
+    margin-right: auto;
+    Padding: 20px;
+    background-color: midnightblue;
+
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    color: midnightblue;
+
+}
+
+button:hover {
+    background-color: midnightblue;
+    border: 10px solid white;
+    color: white;
+
+}

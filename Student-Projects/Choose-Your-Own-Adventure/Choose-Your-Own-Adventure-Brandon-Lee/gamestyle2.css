@@ -1,0 +1,38 @@
+body {
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+}
+footer {
+    font-size: 8pt;
+    padding-top: 50px;
+}
+
+img {
+    padding-top: 25px;
+    width: 500px;
+    height: auto;
+}
+
+embed{
+    width:150px;
+    height:auto;
+}
+
+.option {
+    width:300px;
+    height:auto;
+}
+
+#button {
+    background-color: white;
+    border: none;
+  cursor: pointer;
+}
+
+.option:hover {
+    filter: hue-rotate(-0.25turn);
+}
+
+

@@ -1,0 +1,58 @@
+        img {
+            display: block;
+
+        }
+
+        embed {
+            display: block;
+
+        }
+
+        body {
+            background-image: url(Background.jpg);
+            background-size: contain;
+        }
+
+        body {
+            color: white;
+            font-size: 11px;
+            letter-spacing: 3px;
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+        }
+
+
+        #link {
+            color: orangered;
+        }
+
+        h1 {
+            color: white;
+
+        }
+
+        h2 {
+            color: white;
+        }
+
+        #container {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 50px;
+            border: solid 5px #000000;
+        }
+
+        .section {
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+
+        .section2 {
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-bottom: 50px;
+        }
+
+        .spaceunderthelinks {
+            padding-bottom: 15px;
+        }
