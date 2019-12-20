@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Varela Round');
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: antiquewhite;
+}
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(background-beverage-breakfast-brown-414645.jpg) no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: 'Mansalva', sans-serif;
+	color: #FFF;
+	text-shadow: 6px 6px #2e291e;
+	font-size: 700%;
+}
+
+.btn {
+	border-radius: 9px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 135%;
+	color: antiquewhite;
+	padding: 10px 20px;
+	border: solid 3px;
+	border-color: antiquewhite;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn:hover {
+	color: #fff;
+	border: solid #fff 3px;
+
+}
+
+.row:after {
+	background-color: #806855;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	text-align: center;
+	content: "";
+	display: table;
+	clear: both;
+	max-width: none;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	height: 35px;
+	background-color: #852222;
+	color: antiquewhite;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14pt;
+	padding-top: 10pt;
+}
+
+.bann {
+	float: left;
+	width: 50%;
+	text-align: center;
+	height: 25px;
+	background-color: #d6b46f;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15pt;
+	padding-bottom: 10pt;
+	padding-top: 7pt;
+}
+
+.splash {
+	height: 550px;
+	width: 100%;
+	background: url(bokeh-cafe-chair-coffee-shop-597929.jpg) 100% no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Mansalva', sans-serif;
+	font-size: 55pt;
+	text-align: center;
+	float: right;
+	color: #FFF;
+	text-shadow: 6px 6px #2e291e;
+
+}
+
+.nav a {
+	text-decoration: none;
+	color: #3d3222;
+	
+}
+
+a:hover {
+	background-color: #852222;
+	color: antiquewhite;
+	border-radius: 10px;
+	box-sizing: 20px;
+	padding: 15px 15px;
+}
+
+.nav {
+	background-color: antiquewhite;
+	height: 150px;
+	color: #3d3222;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16pt;
+	text-decoration: none;
+}
+
+.navs {
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+.products {
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	color: black;
+	padding-top: 550px;
+	font-size: 18pt;
+	letter-spacing: 3px;
+}
+
+.grid-container {
+	display: grid;
+	grid-gap: 1px;
+	justify-content: space-evenly;
+	text-align: center;
+	padding-bottom: 50pt;
+	padding-top: 20pt;
+	padding-right: 15pt;
+	font-family: 'Mansalva', sans-serif;
+	font-size: 24pt;
+	text-shadow: 4px 4px, white;
+
+}
+
+hr {
+	display: block;
+	position: relative;
+	padding-bottom: 0pt;
+	margin: 8px auto;
+	height: 0;
+	width: 60%;
+	max-height: 0;
+	font-size: 0.5px;
+	line-height: 0;
+	clear: both;
+	border: none;
+	border-top: 1px solid #4a453b;
+	border-bottom: 1px solid #4a453b;
+}
+
+.item1 {
+	grid-column-start: 1;
+	grid-row-start: 1;
+}
+
+.item2 {
+	grid-column-start: 2;
+	grid-row-start: 2;
+}
+
+.item3 {
+	grid-column-start: 2;
+	grid-row-start: 1;
+
+}
+
+.item4 {
+	grid-column-start: 3;
+	grid-row-start: 1;
+
+}
+
+.item5 {
+	grid-column-start: 1;
+	grid-row-start: 2;
+}
+
+.item6 {
+	grid-column-start: 3;
+	grid-row-start: 2;
+}
+
+.pic {
+ padding-bottom: 100pt;
+ padding-left: 50pt;
+padding-top: 75pt;
+display: block;
+	margin-right: 0;
+	width: 70%;
+}
+
+img {
+	border-radius: 5%;
+}
+
+.grid-container2 {
+	display: grid;
+	grid-gap: 1px;
+	text-align: left;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 24pt;
+	text-shadow: 4px 4px, white;
+	background-color: #fcf4ed;
+	border-radius: 3%;
+	margin-right: 20pt;
+	margin-left: 20pt;
+	margin-top: 30pt;
+	margin-bottom: 30pt;
+
+}
+
+.aboutxt {
+	width:75%;
+	grid-column-start: 2;
+	grid-row-start: 1;
+	padding-top: 50pt;
+	padding-left: 35pt;
+	font-size: 18pt;
+
+}
+

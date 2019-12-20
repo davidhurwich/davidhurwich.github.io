@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+/* for the rest of the page*/
+#container {
+    font-family: 'Calluna-Light', serif;
+    font-size: 12pt;
+    line-height: 14pt;
+    font-weight: normal;
+    color: #dce0da;
+    width: 100%;
+    margin: auto;
+}
+
+.biggerfont {
+    font-size: 25pt;
+    line-height: 27pt;
+    color: #c7aa98;
+}
+
+/*for the footer of the page*/
+#footercontainer {
+    font-family: 'Calluna-Light', serif;
+    font-size: 12pt;
+    line-height: 14pt;
+    font-weight: normal;
+    color: #000000;
+    width: 100%;
+    margin: auto;
+}
+
+/*Grid system for the header of the page*/
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*A class to apply offwhite color to a word*/
+.offwhite {
+    color: #dce0da;
+}
+
+body {
+    background-color: #62644b;
+    width: 100%;
+    margin: auto;
+}
+
+/*description padding only on the left and right sides*/
+p {
+    padding-right: 60px;
+    padding-left: 30px;
+}
+
+/*An ID for the homepage which, applied to the BODY tag*/
+#homepage {
+    justify-content: center;
+    align-items: center;
+}
+
+/*Aligns the Search and Bag(0) navigations*/
+header nav {
+    color: #dce0da;
+    margin-top: 150px;
+    text-align: right;
+}
+
+/*ID to push things to the left*/
+#pushleft {
+    padding-right: 30px;
+}
+
+/*ID to push things to the right for the homegoods side bar*/
+#pushright {
+    padding-left: 40px;
+}
+
+/*Three Style grid system for the MAIN tag located in the BODY tag*/
+main {
+    display: grid;
+    grid-template-columns: 25% 37.5% 37.5%;
+    grid-row-gap: 25px;
+
+}
+
+/*header1 specifications*/
+h1 {
+    font-family: 'Industry-Inc-Inline-Stroke', sans-serif;
+    font-size: 50pt;
+    font-style: inline stroke;
+    color: #dce0da;
+    padding-left: 100px;
+    line-height: 65px;
+}
+
+
+/*Header1 navigation color and style*/
+h1 a {
+    color: #dce0da;
+    text-decoration: none;
+}
+
+/*Header2 style, subtracted spaces on top and bottom margin to match the picture height, added padding only to the left to justify it with the description*/
+h2 {
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #dce0da;
+    padding-left: 30px;
+}
+
+/*Side Navigation bar, justifying it with the logo, and adding Leading*/
+main nav {
+    padding-left: 65px;
+    line-height: 30pt;
+}
+
+/*Side Navigation bar, matching the height of the picture and Malka Dina*/
+main nav ul {
+    margin-top: -15px;
+}
+
+/*side navigation bar color and style*/
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/*Matching the margins with the description's, Search and Bag(0) */
+header nav {
+    list-style: none;
+    padding-right: 60px;
+}
+
+/*style for the navigation styles*/
+ul {
+    list-style-type: none;
+}
+
+/*set the tumblr pic and link to be offwhite color and no underline*/
+a {
+    color: #dce0da;
+    text-decoration: none;
+}
+
+/*footer style*/
+footer {
+    background-color: #62644b;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+/*lining the footer navigation on the bottom evenly*/
+footer nav a {
+    color: #dce0da;
+    width: 19%;
+    text-align: center;
+    display: inline-block;
+}
+
+img {
+    height: 450px;
+    width: 450px;
+    overflow: hidden;
+}
+
+.imgnone {
+    width: 100%;
+    height: 100%;
+}

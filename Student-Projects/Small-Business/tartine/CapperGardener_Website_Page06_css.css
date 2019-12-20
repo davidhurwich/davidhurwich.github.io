@@ -1,0 +1,132 @@
+/* Typography */
+h1 {
+    font-family: 'Myriad', sans-serif;
+    font-size: 75pt;
+    color: #FFFFFF;
+
+}
+
+h2 {
+
+    font-family: 'Myriad', sans-serif;
+    font-size: 16pt;
+    line-height: 18px;
+    height: 15px;
+    color: #6B6C6F;
+    letter-spacing: 2pt;
+    padding-top: 5pt;
+
+}
+
+p {
+    font-family: 'HelveticaNeue',
+        cursive;
+    font-size: 10pt;
+    padding-top: 35pt;
+    padding-bottom: 45pt;
+}
+
+
+h5 {
+    font-family: 'Myriad';
+    font-size: 20pt;
+    color: #DE943E;
+    padding-right: 425pt;
+    padding-left: 20pt;
+    padding-top: 20pt;
+    padding-bottom: 5pt;
+}
+
+
+/* Layout */
+
+header {
+    height: 500px;
+    padding-bottom: 100pt;
+}
+
+/* Backgrounds */
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(BannerImage_02.png);
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#container {
+    margin: auto;
+    align-content: center;
+    width: 1000px;
+}
+
+
+
+.btn {
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #943a35;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background: #eee;
+}
+
+.success {
+    color: green;
+}
+
+.info {
+    color: dodgerblue;
+}
+
+.warning {
+    color: orange;
+}
+
+.danger {
+    color: red;
+}
+
+.default {
+    color: black;
+}
+
+.img {
+    float: left;
+    width: 400pt;
+    padding: 0px 35px 20px 30px;
+}
+
+.topnav {
+    font-size: 15pt;
+    padding-left: 610px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: center;
+    word-spacing: 15px;
+    text-decoration: none;
+    position: static;
+}
+
+.topnav a:hover {
+    color: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: #6B6C6F;
+    font-family: Myriad, sans-serif;
+}

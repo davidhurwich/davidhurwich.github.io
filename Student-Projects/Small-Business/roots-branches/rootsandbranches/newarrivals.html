@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title> New Arrivals </title>
+    <link href="styles2.css" rel="stylesheet">
+
+
+    <style>
+        @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+        #cart {
+            margin-left: 30px;
+            margin-right: 25px;
+            margin-top: 20px;
+            font-size: 25pt;
+            color: white;
+
+        }
+
+        #bars {
+            margin-left: 5px;
+            margin-right: 25px;
+            margin-top: 20px;
+            font-size: 20pt;
+            color: white;
+
+        }
+
+        @media only screen and (min-width: 600px) {
+            #bars {
+                display: none;
+                margin-left: 10px;
+            }
+        }
+
+
+        #search {
+            margin-left: 80px;
+            margin-right: 25px;
+            margin-top: 20px;
+            font-size: 20pt;
+            color: white;
+
+        }
+
+        @media only screen and (min-width: 600px) {
+            #search {
+                display: none;
+                margin-left: 10px;
+            }
+
+        }
+
+        #logo {
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 50pt;
+        }
+
+        @media screen and (max-width:650px) {
+            #logo {
+                display: flex;
+                margin-left: 70px;
+
+            }
+
+        }
+
+
+        .topnav {
+            display: flex;
+            background-color: #182D2E;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+
+        }
+
+        .button {
+
+            background-color: #726659;
+            border-radius: 5px;
+            color: white;
+            padding: 20px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            width: 15%;
+            margin-left: 3%;
+            font-family: 'Avenir';
+
+        }
+
+
+
+        @media screen and (max-width:650px) {
+            .button {
+                display: flex;
+                width: 20%;
+                text-align: center;
+                display:table-cell;
+    
+            }
+
+        }
+
+
+
+        #images {
+            display: grid;
+            grid-template-columns: 20% 80%;
+            grid-column-gap: 5px;
+            grid-row-gap: 25px;
+            padding-left: 150px;
+
+        }
+
+        .img {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+
+        #description1 {
+            margin: 50px 50px;
+            align-items: center;
+            justify-content: center;
+            padding-left: 10px;
+            padding-right: 100px;
+
+        }
+
+        @media screen and (max-width:650px) {
+            #description1 {
+                margin-left: -20px;
+                margin-right: 90px;
+                padding-left: 0px;
+                padding-right: 0px;
+                text-align: left;
+
+
+            }
+
+        }
+
+
+
+        @media screen and (max-width:650px) {
+            #images {
+                display: grid;
+                grid-template-columns: 100%;
+                background-color: #C8C8C8;
+                padding-bottom: 25px;
+                padding-top: 25px;
+                padding-left: 120px;
+
+            }
+
+        }
+
+
+        header {
+            height: 150px;
+        }
+
+        footer {
+            margin-top: 300px;
+            width: 100%;
+            height: 250px;
+
+        }
+
+        @media screen and (max-width:650px) {
+            footer {
+                display: none;
+
+            }
+
+        }
+
+
+        #menu-footer {
+            margin-left: 150px;
+            margin-top: 80px;
+            font-size: 12pt;
+            color: white;
+            text-align: left;
+            line-height: 1.6;
+            font-family: 'Raleway';
+        }
+
+        #info {
+            margin-left: 20px;
+            margin-top: 80px;
+            font-size: 12pt;
+            color: white;
+            text-align: left;
+            line-height: 1.6;
+            font-family: 'Raleway';
+
+        }
+
+        #mailinglist {
+            margin-left: 10px;
+            margin-top: 5px;
+            font-size: 30pt;
+            color: white;
+            text-align: left;
+        }
+
+
+        @media screen and (max-width:650px) {
+
+            input,
+            #cart,
+            ul {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+
+
+<div id="container">
+
+    <header>
+
+        <nav class="topnav">
+
+            <section id="bars">
+                <i class="fa fa-bars" aria-hidden="true"></i></section>
+
+            <section id="logo">
+                <a href="Index.html"> <img src="RootsandBranches-logo-01.png" height="50px"></a>
+            </section>
+
+
+            <ul>
+
+                <li><a href="Popular.html">Popular</a></li>
+                <li><a href="newarrivals.html">New Arrivals</a></li>
+                <li><a href="Pots-Hardware.html">Pots & Hardware</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+            <input type="text" placeholder="Search.." name="search">
+
+            <section id="cart">
+
+                <a href="Cart.html"> <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+
+            </section>
+
+
+            <section id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </section>
+
+        </nav>
+
+    </header>
+
+
+
+    <body>
+
+        <main>
+
+
+            <section id="images">
+
+                <section><img class="img" src="Maranta-Lemon-Lime02.jpg"></section>
+
+
+                <section id="description1">
+                    <h2>Maranta Lemon-Lime $60 </h2>
+
+
+
+                    <p> Marantas do well in bright, indirect lighting, and prefer to stay moist, but not too wet. Avoid direct light, as it will cause the leaves to fade. They also love humidity, so give it a spritz a couple times a week. Pet friendly!
+
+                        Price includes a white cylinder pot and delivery.</p>
+
+                    <a href="Cart.html" class="button">Add to cart</a>
+                </section>
+
+
+                <section><img class="img" src="zebraplant.jpg"></section>
+
+
+                <section id="description1">
+                    <h2>Zebra Plant $60</h2>
+
+                    <p> The Aphelandra Squarrosa, or Zebra Plant, has spectacular foliage and exotic-looking flowers. Zebra plants require very bright, but indirect light. Do not place in direct sun, especially if you want them to bloom. Keep the soil moist, but not soggy, and never allow the soil to totally dry out. Bottom leaves drop off a Zebra plant when it is over or under-watered. </p>
+
+                    <a href="Cart.html" class="button">Add to cart</a>
+                </section>
+
+
+                <section><img class="img" src="Calathea-Jungle-Velvet.jpg"></section>
+
+
+                <section id="description1">
+                    <h2>Calathea Jungle Velvet $65</h2>
+
+                    <p> Calatheas loves bright, indirect light, but also do well in low light settings. Keep the soil moist, but never soggy, and allow the top 2-3” to dry out before watering. Never let this plant sit in water. They also love humidity and are pet friendly!</p>
+
+                    <a href="Cart.html" class="button">Add to cart</a>
+                </section>
+               
+
+            </section>
+            
+            <div>
+               <a href="../browsestuff.html" id="brsmr">Browse More...</a>
+                
+            
+        </main>
+
+
+        <footer>
+            <section id="menu-footer">
+                <a href="Popular.html">Popular</a>
+                <br><a href="New-Arrivals.html">New Arrivals</a>
+                <br> <a href="Accessories.html">Accessories</a>
+                <br> <a href="About.html">About</a>
+                <br> <a href="Cart.html">Cart</a>
+            </section>
+
+            <section id="info">
+                <a href="Help.html">Help/FAQ</a>
+                <br><a href="Suppliers.html">Suppliers</a>
+                <br> <a href="Donate.html">Donate</a>
+                <br> <a href="Privacy.html">Privacy</a>
+                <br> <a href="Wholesale.html">Wholesale</a>
+            </section>
+
+            <section id="mailinglist">
+                <H1>Join Our Mailing List!</H1>
+                <p>Be the first to hear about upcoming sales, community events, new arrivals, and so much more!</p>
+                <input type="text" placeholder="Enter Email Address" name="email">
+            </section>
+
+        </footer>
+
+    </body>
+</div></html>

@@ -1,0 +1,245 @@
+
+/* === background === */
+
+
+#splash {
+    background-image: url(../Assets/Plant-Selection-1.jpg);
+    background-size: cover;
+ 
+}
+
+
+footer {
+    background-color: black;
+    margin-top:20px;
+
+}
+
+
+/*=== Typography ===*/
+h1 {
+
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+    margin-left: 20px;
+    font-family: 'Avenir';
+}
+
+p {
+    font-size: 15px;
+    margin-left: 20px;
+    line-height: 1.6;
+    font-family: 'Raleway';
+}
+
+
+
+/*=== Style ===*/
+
+
+#conflictinput {
+    width: 100px;
+    padding: 10px 80px 10px 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-family: 'Raleway';
+
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 40px 30px 20px 30px;
+    font-family: 'Raleway';
+}
+
+
+a {
+
+    text-decoration: none;
+    color: white;
+ 
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*=== box model ===*/
+
+
+
+img {
+    margin-left: 0px;
+    margin-top: 20px;
+
+ 
+    
+}
+
+#splash {
+    margin-top: 49px;
+    height: 300px;
+
+}
+
+nav {
+    padding: 5px 10px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 50px;
+
+
+}
+
+nav1 {
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+#container: {
+
+    width: 800px;
+
+}
+
+/* === grids === */
+
+footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+/*== Browse section ==*/
+
+#spacer {
+    display: block;
+    width: 100%;
+    height: 10%
+}
+
+main {
+    width: 92%;
+    height: 1500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.box1 {
+    border-radius: 5px;
+    width: 18.75em;
+    height: 18.75em;
+    background-size: cover;
+
+}
+
+
+.filling {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 1s;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Avenir';
+    font-size: 18;
+   
+
+}
+
+.filling:hover {
+    opacity: 1;
+
+}
+
+
+.item {
+    width: 18.75em;
+    height: 18.75em;
+
+}
+
+.floatleft {
+    border-radius: 5px;
+    float: left;
+    width: 20%;
+    background-color: firebrick;
+    color: white;
+    font-family: sans-serif;
+    margin-right: auto;
+
+}
+
+.floatleft2 {
+    border-radius: 5px;
+    float: left;
+    background-color: firebrick;
+    color: white;
+    font-family: sans-serif;
+    margin-right: auto;
+    /*== no idea why to make two of these, but this was the only way ==*/
+
+}
+
+
+.floatright {
+    float: right;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 8% 8%;
+    margin-right: 8%
+}
+
+.formset {
+    padding: 12px;
+    font-family: 'Avenir'
+}
+
+#sectitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 5%;
+
+
+

@@ -1,0 +1,124 @@
+html {
+    align-content: center;
+    background-image: url("tartinebackground.jpg");
+    background-attachment: fixed;
+    overflow: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.topnav {
+    font-size: 15pt;
+    padding-left: 500px;
+    padding-top: 86px;
+    float: center;
+    word-spacing: 70px;
+    position: static;
+
+}
+
+.topnav a:hover {
+    color: lightgray;
+}
+
+a{
+    text-decoration: none;
+    color: #6B6C6F;
+    font-family: Myriad, sans-serif;
+    
+}
+
+.bodytext {
+    font-family: myriad, sans-serif;
+    font-size: 12pt;
+    text-align: left;
+    padding-right: 100px;
+    padding-left: 595px;
+    padding-top: 50px;
+    line-height: 20pt;
+    position: fixed;
+}
+
+/*slideshow*/
+
+ .slider-holder
+        {
+            width: 2500px;
+            height: 500px;
+            padding-left: 50px;  
+            padding-top: 240px;
+            padding-bottom: 200px;
+            overflow: hidden;
+            position: fixed;
+            text-align: center;
+        }
+       
+.image-holder
+        {
+            width: 2500px;
+            height: 20px;
+            clear: both;
+            position: relative;
+           
+           
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+       
+.slider-image
+        {
+            float: left; 
+            margin: 5px;
+            padding: 0px;
+            position: relative;
+        }
+
+       
+#slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+       
+#slider-image-2:target ~ .image-holder
+        {
+            left: -700px;
+        }
+       
+#slider-image-3:target ~ .image-holder
+        {
+            left: -1400px;
+        }
+
+#slider-image-4:target ~ .image-holder
+        {
+            left: -2100px;
+        }
+#slider-image-5:target ~ .image-holder
+        {
+            left: -2800px;
+        }
+.button-holder
+        {
+            position: static;
+            top: 20px;
+            padding-right: 1150px;
+            
+        }
+       
+.slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: #6B6C6F;
+         }
+
+.button-holder a:hover{ 
+    background-color: lightgray;
+    
+}
+
