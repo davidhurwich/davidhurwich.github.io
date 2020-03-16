@@ -1,0 +1,20 @@
+<!DOTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+    Href="Style.css">
+    </head>
+<body>
+<div class="container">
+    <img src="banner.png">
+            
+    <nav> 
+        <a href="#">HOME</a>
+        <a href="#">FLOWERS</a> 
+        <a href="#">SHOP</a>
+        <a href="#">CONTACT</a>
+    </nav>
+            
+            
+            <h1>Sally's Flowershop</h1>

@@ -1,0 +1,267 @@
+/* ==== GENERAL====*/
+
+.opacity {
+    opacity: 0.8;
+}
+
+.center {
+    margin-left: 12%;
+}
+
+.center10 {
+    margin-left: 30%;
+}
+
+
+/* ==== float ====*/
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right
+}
+
+/* ==== margin iterations ====*/
+
+.marginTop {
+    margin-top: 100px;
+}
+
+.marginTop4b {
+    margin-top: 200px;
+}
+
+.marginTop5 {
+    margin-top: 50px;
+}
+
+.marginTop6b {
+    margin-top: 30px;
+}
+
+.marginTop7 {
+    margin-top: 42px;
+}
+
+.marginTop8 {
+    margin-top: 120px;
+}
+
+.marginTop10 {
+    margin-top: 5px;
+}
+
+.marginBottom {
+    margin-bottom: 100px;
+}
+
+.marginBottomBeforeButtons {
+    margin-bottom: 75px;
+}
+
+.marginBottomBefore1Button {
+    margin-bottom: 45px;
+}
+
+.marginBottom6 {
+    margin-bottom: 170px;
+}
+
+
+
+/* ==== BODY ====*/
+
+/* ==== bone ====*/
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    height: auto;
+    width: auto;
+    font-family: "Helvetica Neue";
+}
+
+.backImage {
+    background-image: url(pics/dark_room.jpg)
+}
+
+.container {
+    background-color: #000000;
+    margin: auto;
+}
+
+.containerMainP {
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+#footerMargin {
+    margin-left: 9%;
+}
+
+footer p {
+    padding-top: 165px;
+    margin-left: 40%;
+}
+
+/* ==== content of the bone ====*/
+
+h1 {
+    font-family: "Times New Roman";
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #FF0000;
+    font-size: 169px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 150px;
+}
+
+#firstpageParagraph {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 60px;
+}
+
+/* ==== text iterations ====*/
+
+.text3 {
+    font-size: 35px;
+}
+
+.text4 {
+    font-size: 30px;
+}
+
+.text5 {
+    font-size: 25px;
+}
+
+.text7 {
+    font-size: 20px;
+}
+
+.textGrey {
+    color: #787878;
+}
+
+
+.footerText {
+    color: #212121;
+}
+
+.textAlign {
+    text-align: center;
+}
+
+
+
+/* ==== BUTTONS ====*/
+
+/* ==== standard ====*/
+
+button {
+    background-color: #0014FF;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #0014FF;
+}
+
+button:hover {
+    box-shadow: 0px 0px 50px #5353ff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+
+/* ==== different ====*/
+
+#unlockExperience {
+    background-color: #0014FF;
+    width: 200px;
+    height: 50px;
+    margin-left: 44%;
+    display: block;
+    margin-top: 110px;
+    border: 2px solid #0014FF;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#playOnlooker {
+    background-color: #0014FF;
+    width: 250px;
+    height: 100px;
+    border: 2px solid #0014FF;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 110px;
+}
+
+#whileWaiting {
+    width: 200px;
+    height: 50px;
+    margin-left: 38%;
+    display: block;
+}
+
+#TRYAGAIN {
+    background-color: #ff0004;
+    border: 2px solid #ff0004;
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+#TRYAGAIN:hover {
+    box-shadow: 0px 0px 50px #ff0004;
+}
+
+#WINNING {
+    background-color: #2e5932;
+    border: 2px solid #2e5932;
+    margin-left: 25%;
+    margin-top: 130px;
+    height: 50px;
+}
+
+#WINNING:hover {
+    box-shadow: 0px 0px 50px #2e5932;
+}
+
+.height50 {
+    height: 50px;
+}
+
+.buttonL {
+    width: 300px;
+    height: auto;
+}
+
+.buttonR {
+    width: 300px;
+    height: auto;
+}

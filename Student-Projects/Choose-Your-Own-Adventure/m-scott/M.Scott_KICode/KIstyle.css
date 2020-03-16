@@ -1,0 +1,45 @@
+/* #79D0DC
+#88B742
+#FF7BA1
+#FF8DBA
+#F1FF40
+*/
+
+body {
+    background-color: #FF7BA1;
+    width: 700px;
+    margin: auto;
+}
+
+#container {
+    text-align: center;
+}
+
+header {
+    align-content: center;
+}
+
+p { color: #F1FF40;
+    font-size: 20px;
+}
+
+button {
+    background-color: #F1FF40;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 24px;
+    
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+
+}
+
+#button {
+    text-align: center;
+}
+
+a {text-decoration: none;
+    color: #FF8DBA;
+}

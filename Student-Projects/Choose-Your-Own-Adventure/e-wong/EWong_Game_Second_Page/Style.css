@@ -1,0 +1,99 @@
+body {
+    background-color: #a7fcd2;
+}
+
+title {
+    font-family: 'goodkitty';
+    font-size:100pt;
+    font-weight:bold;
+}
+
+nav {
+    color: #6da88b;
+    font-family:'goodkitty';
+    font-size:13pt;
+    font-weight:bold;
+}
+
+a{ 
+    color: #f74fa3;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-family: 'mati';
+}
+/* == backgrounds == */
+
+.clear {
+            clear: both;
+        }
+        
+.container {
+    background-color: #e9f062;
+    width: 900px;
+    padding: 25px; 
+    margin:auto; 
+    border: 10px solid pink;
+}
+
+/* == typography == */ 
+.center {
+   align-self: center;
+}
+.float{
+    float: left;
+}
+.floatcenter{
+    float: center;
+}
+.text {
+    font-family: 'goodkitty';
+    font-size: 14pt;
+}
+
+.img {
+    max-width 20%;
+    height: auto;
+}
+button {
+    font-family: 'mati';
+    font-size: 20pt;
+}
+p { 
+    font-family: 'goodkitty';
+    font-size: 14pt; 
+    text-align: center; 
+}
+
+ul {
+    font-family: 'goodkitty';
+    font-size: 14pt;
+    line-height: inherit;
+}
+
+h1 {
+    font-family: 'mati';
+    font-size: 40pt;
+    line-height: inherit;
+    font-variant: small-caps;
+    color: #78ccfa;
+}
+
+h2 {
+    font-family: 'mati';
+    font-size: 40pt;
+    color: #fca553;
+    line-height: inherit;
+    font-variant: small-caps;
+}
+h3 {
+    font-family: 'mati';
+    color: #ed7c6f;
+    font-size: 40pt;
+    font-variant: small-caps;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-family: 'mati';
+}
