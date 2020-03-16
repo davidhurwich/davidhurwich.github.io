@@ -1,0 +1,43 @@
+       h1 {
+            font-family: 'Courier'Bold;
+            font-size:  36pt;
+        }
+        body {
+            background-color: dimgray;
+            font-family: 'Courier';
+            font-size: 14pt;
+            line-height: 18pt;
+        }
+
+        div {
+            padding 100px;
+            width: 800px;
+            margin: auto;
+        }
+
+        .container {
+            background-color: #c8f0ff;
+            width: 900px;
+            padding: 70px;
+            margin: auto;
+        }
+        head {
+            margin: auto;
+        }
+        nav {
+        font-family: 'Times New Roman' Bold 14pt;
+        }
+
+        h2{
+            font-family: 'Courier'Bold;
+            font-size:  24pt;
+        }
+
+        button {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border-radius: 7px;
+            font-family: 'Courier';
+            font-size: 15pt;
+            text-decoration: none;

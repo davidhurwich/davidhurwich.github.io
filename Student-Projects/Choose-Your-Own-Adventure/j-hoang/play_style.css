@@ -1,0 +1,88 @@
+/*import Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Simonetta:400,900&display=swap');
+
+
+/*create bg for any size*/
+html {
+    background-image: url(images/darkwoodsred.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+* {
+    color: rgb(220, 220, 220);
+    box-sizing: border-box;
+    
+}
+.imgleft{
+    float:left;
+    width: 30%;
+    height:675px;
+    object-fit: cover;
+}
+
+h1 {
+    text-shadow: 4px 4px rgb(0, 30, 0, 0.5);
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 5px;
+    font-size: 75pt;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    font-size: 36pt;
+    margin-bottom:10px;
+    text-transform: uppercase;
+}
+
+.textbox{
+    float:left;
+    padding:20px;
+    width:70%;
+    height:675px;    
+    background-color:rgb(0, 30, 0, 0.6);
+}
+
+p {
+    font-family: 'Simonetta', cursive;
+    font-size: 12pt;
+}
+
+button {
+    background-color: rgb(60, 0, 0, 0.9);
+    border-color: rgb(220, 220, 220, 0.2);
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+    text-transform: lowercase;
+    font-size: 12pt;
+    width:250px;
+}
+
+button:hover {
+    background-color: rgb(0, 30, 0);
+}
+
+a:link {
+    text-decoration: none;
+    display: block;
+}
+
+footer {
+    font-size: 10pt;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 25px;
+}
+
+/*
+    New:
+        rgb(#,#,#, opacity) //transparent 0.1 to 1 normal
+        display: block //takes up whole block aka width
+*/

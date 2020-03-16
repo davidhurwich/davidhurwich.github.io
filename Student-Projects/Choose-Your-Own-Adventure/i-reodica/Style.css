@@ -1,0 +1,82 @@
+.container {
+    width:600px;
+    margin:auto;
+}
+
+/* -- TEXT -- */
+
+body {
+    background-image: url(images/bg_tile.png);
+    background-color: #45ACBC;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 12pt;
+    width: 75%;
+    margin: auto;
+}
+
+h1 {
+    background-color: #fff;
+    font-size: 25pt;
+    border-radius: 17px;
+    padding: 10px;
+}
+
+.textbox {
+    background-color: #fff;
+    border-radius: 17px;
+    padding: 15px;
+    margin: 25px 50px;
+}
+
+/* -- LINKS -- */
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+/* -- IMAGE -- */
+
+img {
+    width: 100%;
+    border: #30104D 2px solid;
+    border-radius: 17px;
+    margin: auto;
+}
+
+/* -- BUTTONS -- */
+.button {
+    text-align: center;
+}
+
+button {
+    background-color: #F7C250;
+    font-family: 'Lucida Sans', serif;
+    font-size: 14px;
+    color:#936230;
+    width:80%;
+    border: none;
+    border-radius: 17px;
+    padding: 10px;
+    margin:5px;
+}
+
+button:hover {
+    background-color: #337193;
+    color:#fff;
+}
+
+button:active {
+    background-color: #54C199;
+        color:#fff;
+}
+
+/* -- CREDIT -- */
+footer {
+    float: right;
+    font-size: 10pt;
+}

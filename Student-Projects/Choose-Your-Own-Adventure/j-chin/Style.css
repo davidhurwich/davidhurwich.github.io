@@ -1,0 +1,245 @@
+div {
+        
+        font-family: "scalapro";
+        padding: 10px;
+        margin: auto;
+        
+    }         
+        
+        
+.button {
+    
+    text-align:center;
+    border: 2px ridge #525542;
+    padding: 10px;
+    color: white;
+    background-color: #7c7295;
+    font-family: "scalapro";
+    font-size: 40pt;
+  align-items: center;
+  justify-content: center;
+    box-shadow: 5px 10px 10px #301f0b;
+    
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+ a:active {
+        Color: black;
+    }
+
+  a:hover {
+        Color: white;
+    }
+    
+
+.header {
+    font-size: 40pt; 
+}
+
+body {
+    background-image: url(175-1759122_fantasy-castle-background.png);
+    margin: auto;
+     display: flex;
+  align-items: center;
+  justify-content: center;
+    background-size: cover;
+}
+
+.temple {
+    text-align:center;
+    border: 2px ridge #525542;
+    padding: 10px;
+    color: white;
+    background-color: #7c7295;
+    font-family: "scalapro";
+    font-size: 20pt;
+  align-items: center;
+  justify-content: center;
+    box-shadow: 5px 10px 10px #301f0b;
+}
+
+p {
+    font-size: 20pt;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    
+}
+    
+.header {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #563150;
+}
+
+.header2 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #295963;
+    
+}
+
+.orange {
+    
+    text-align:center;
+    border: 2px ridge #525542;
+    padding: 10px;
+    color: white;
+    background-color: #f5b216;
+    font-family: "scalapro";
+    font-size: 20pt;
+  align-items: center;
+  justify-content: center;
+    box-shadow: 5px 10px 10px #301f0b;
+}
+
+.purple {
+    text-align:center;
+    border: 2px ridge #525542;
+    padding: 10px;
+    color: white;
+    background-color: #8b5aad;
+    font-family: "scalapro";
+    font-size: 20pt;
+  align-items: center;
+  justify-content: center;
+    box-shadow: 5px 10px 10px #301f0b;
+}
+    
+.header3 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #2b0149;
+}
+
+.chamber {
+    text-align:center;
+    border: 2px ridge #525542;
+    padding: 10px;
+    color: white;
+    background-color: #7c7295;
+    font-family: "scalapro";
+    font-size: 20pt;
+  align-items: center;
+  justify-content: center;
+    box-shadow: 5px 10px 10px #301f0b;
+}
+
+.header4 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #e5520f;
+}
+
+.header5 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #7a4533;
+}
+    
+.portals {
+      text-align:center;
+    border: 2px ridge #525542;
+    padding: 10px;
+    color: white;
+    background-color: #7c7295;
+    font-family: "scalapro";
+    font-size: 20pt;
+  align-items: center;
+  justify-content: center;
+    box-shadow: 5px 10px 10px #301f0b;
+}
+
+.header6 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #0342b4;
+}
+
+.options {
+      text-align:center;
+    border: 2px ridge #525542;
+    padding: 10px;
+    color: white;
+    background-color: #7c7295;
+    font-family: "scalapro";
+    font-size: 20pt;
+  align-items: center;
+  justify-content: center;
+    box-shadow: 5px 10px 10px #301f0b;
+}
+    
+
+.header6 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #054dbc;
+}
+
+.header7 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #1c2732;
+}
+
+.header8 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #911f14;
+}
+
+.header9 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #3b130b;
+}
+
+.header10 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #63310e;
+}
+
+.header11 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #899a90;
+}
+
+.header12 {
+    font-size: 30pt;
+    margin: 10px;
+    padding: 5px; 
+    color: white;
+    background-color: #a56b46;
+}
