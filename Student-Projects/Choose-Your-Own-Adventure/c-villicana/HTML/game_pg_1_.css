@@ -1,0 +1,90 @@
+header {
+    text-align: center;
+    background-color: lightslategrey;
+    font-style: italic;
+    width: auto;
+    height: 120px;
+    font-family: "futura";
+    font-size: 100pt;
+    color: white;
+    padding: 50px;
+
+}
+
+.lowerimage {
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "futura";
+    font-size: 55pt;
+    line-height: normal;
+
+}
+
+.smallerheader {
+    text-align: center;
+    font-family: "futura";
+    font-size: 45pt;
+    line-height: normal;
+
+}
+
+p {
+    font-family: "futura";
+    font-size: 25pt;
+
+
+}
+
+.aligncenter {
+    text-align: center;
+
+}
+
+.alignleft {
+    text-align: left;
+    align-content: left;
+}
+
+.alignright {
+    text-align: right;
+}
+
+
+.homebutton {
+    float: right;
+    padding: 1px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+button {
+    font-family: "futura";
+    font-size: 30pt;
+    color: black;
+    line-height: 100pt;
+    padding: inherit;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div {
+    color: white;
+    padding: 250px;
+    width: 1000px;
+    margin: auto;
+
+}
+
+title {
+    font-size: 100px;
+}
+
+section {}
+
+body {
+    background-color: black;
+    float: center;
+}
