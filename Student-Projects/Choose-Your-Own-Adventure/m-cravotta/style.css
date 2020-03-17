@@ -1,0 +1,32 @@
+main {
+    font-family: "Futura";
+    color: #80774B;
+    background-color: #EDE0B5;
+    width: 300px;
+    float: left;
+    border: 12px single black;
+    }
+
+
+.imageright {
+    float: right; 
+}
+
+body{ 
+    background-color: #EDE0B5;
+}
+.button {
+   border: 12px double black;
+    background-color: #B5B6A5;
+    width: 200px;
+    font-family: "Futura";
+    color: green;
+    font-size: 22px;
+    padding: 4pt;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    padding-bottom: 45px;}

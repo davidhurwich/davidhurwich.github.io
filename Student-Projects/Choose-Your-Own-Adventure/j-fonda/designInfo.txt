@@ -1,0 +1,11 @@
+Fonts:
+Blackadder ITC Regular
+
+Colors:
+text- #f0eacc
+button hover/outline- #212670
+button text- #f7f7f0
+	visited text- gray
+shadow- #d19900
+bg color- black
+border color-  #292929

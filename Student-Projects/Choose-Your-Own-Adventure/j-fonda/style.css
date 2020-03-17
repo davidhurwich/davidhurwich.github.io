@@ -1,0 +1,161 @@
+/*    ===  TYPOGRAPHY  ===    */
+
+h1 {
+    font-family: 'Blackadder ITC Regular', 'Courier';
+    font-size: 40pt;
+    
+    line-height: 20pt;
+    
+    text-align: center;
+    color: #f0eacc;
+}
+
+h2 {
+    font-family: 'Blackadder ITC Regular', 'Courier';
+    font-size:30pt;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    color: #f0eacc;
+}
+
+p {
+    color:#f0eacc;
+    
+    margin: auto;
+    margin-bottom: 20px;
+    
+    width: 1000px;
+    
+}
+
+.justify {
+    text-align: justify;
+}
+
+/*    ===  BUTTONS  ===    */
+
+button {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    
+    background-color: black;
+    
+    border-radius: 8px;
+    border: 2px solid #212670;
+    
+    text-align: center;
+    font-size: 25pt;
+    
+}
+
+/* LINK decoration */
+a {
+    text-decoration: none;
+    color: #f0eacc;
+    
+    font-family: 'Blackadder ITC Regular', 'Courier';
+    
+    font-size: 25pt;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: darkred;
+}
+
+button:hover {
+    background-color: #212670;
+    box-shadow: 0px 0px 35px #d19900;
+    
+    color: darkred;
+}
+
+
+/*    ===  IMAGES and CLASSES  ===    */
+
+img {
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    
+    text-align: center;
+}
+
+img:hover {
+    cursor: no-drop;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.imgPgTwo {
+    padding-right: 50px;
+    padding-left: 100px;
+}
+
+.buttonCenter {
+    
+    margin-left: 40%;
+}
+
+.firstPageButton {
+    margin-left: 45%;
+}
+
+.redHead {
+    margin-left: 70px;
+    margin-right: 60px;
+}
+
+.horns {
+    margin-left:200px;
+    margin-right:50x;
+}
+
+/*    ===  BACKGROUND  ===    */
+
+.container {
+    background-color: black;
+    
+    width: 100%;
+    
+    height: auto;
+    margin: auto;
+    
+    text-align: inherit;
+}
+
+body {
+    background-color: black;
+    cursor: crosshair;
+}
+
+/*    FOOTER    */
+footer p {
+    color: #303030;
+    font-style: oblique;
+}
+
+/*    NAV BAR    */
+nav {
+    margin-bottom: 10px;
+}

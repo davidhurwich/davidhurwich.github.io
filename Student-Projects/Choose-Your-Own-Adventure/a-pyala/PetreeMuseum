@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> The Museum </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <div>
+            <header align="center">
+                <img src="alena-aenami-003-1@0.25x.jpg">
+            </header>
+
+            <section>
+                <h1 align="center"> The Rescue </h1>
+            </section>
+            <section>
+                <h3> Backstory:</h3>
+                <figure>
+                    <figcaption>
+                        <p> *You know your daughter is brave but you can't help but worry if she'll be alright*
+                        </p>
+                        <p>
+                            You scope out the museum with Petreē. He suggests that you be the distraction while he attemps to steal the painting. You hesitate for a moment thinking that would be a good idea but after all, there is no honor among thieves. What if he steals the painting for himself? Although you feel like you can trust him, you would rather take the risk yourself.
+
+                        </p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <button class="floatright"> <a href="page2.html"> <span style="cursor:progress">Proceed</span></a><br></button>
+
+
+
+    </main>
+    </div>
+</body>
+
+</html>

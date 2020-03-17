@@ -1,0 +1,75 @@
+body {
+	background-image: url(skycitybackground.png);
+	background-size: cover;
+	background-repeat: round;
+}
+
+h1 {
+	font-family: 'Overlock';
+	font-size: 40pt;
+	color: #FFE76E;
+	text-align: center;
+	border: 5px solid #FFE76E;
+	margin: 20px 15% 20px 15%;
+	padding: 15px;
+
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+figcaption {
+	font-size: 14pt;
+	font-family: 'Marcellus';
+	color: dimgrey;
+	text-indent: 30px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sign {
+	text-align: center;
+}
+
+
+button {
+	width: 300px;
+	padding: 25px;
+	background-color: #194D80;
+	border: none;
+	border-radius: 12px;
+	margin-bottom: 30px;
+
+}
+
+a {
+	color: whitesmoke;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+.buttonleft {
+	float: left;
+	margin-left: 10%;
+	margin-top: 15px;
+}
+
+.buttoncenter {
+	float: left;
+	margin-left: 10%;
+	margin-top: 15px;
+}
+
+.buttonright {
+	float: right;
+	margin-right: 10%;
+	margin-top: 15px;
+}
+
+button:hover {
+	background-color: #FFC629;
+}

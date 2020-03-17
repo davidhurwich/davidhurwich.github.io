@@ -1,0 +1,70 @@
+body {
+	background-image: url(greencitybackground.png);
+	background-size: cover;
+	background-repeat: round;
+
+}
+
+h1 {
+	font-family: 'Overlock';
+	font-size: 40pt;
+	color: whitesmoke;
+	text-align: center;
+	border: 5px solid white;
+	padding: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+img {
+	float: left;
+	margin-left: 20px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+
+figcaption {
+	font-size: 16pt;
+	font-family: 'Marcellus';
+	color: whitesmoke;
+	text-indent: 30px;
+	clear: right;
+	padding-top: 130px;
+
+}
+
+
+button {
+	width: 200px;
+	padding: 25px;
+	background-color: #4c6e54;
+	border: none;
+	border-radius: 12px;
+	margin-bottom: 60px;
+
+}
+
+a {
+	color: darkkhaki;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+.buttonleft {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+.buttonright {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+button:hover {
+	background-color: whitesmoke;
+}

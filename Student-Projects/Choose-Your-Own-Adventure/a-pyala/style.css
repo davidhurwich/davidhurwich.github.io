@@ -1,0 +1,45 @@
+body {
+    background: #2c2d3b;
+}
+
+
+h1 {
+    font-family: futura;
+
+}
+
+h3 {
+    font-family: verdana;
+
+}
+
+button {
+    color: #526166;
+
+    background-color: #7dad7d;
+    border-radius: 20px;
+}
+
+p {
+    padding: 10px;
+    background: #4a6678;
+    border-radius: 25px;
+    font-family: verdana;
+    font-size: 10pt;
+}
+
+div {
+    margin: auto;
+    background-color: #393759;
+    padding: 25px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.floatright {
+    float: right;
+}
+
+button {
+    font-family: futura;
+}
