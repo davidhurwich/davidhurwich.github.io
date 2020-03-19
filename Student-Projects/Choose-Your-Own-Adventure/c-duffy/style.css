@@ -1,0 +1,304 @@
+/*
+-----------------
+HOME PAGE CSS
+-----------------
+*/
+.bodyhome {
+    background-image: url(images/seblil.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+
+}
+
+/*WHO KILLED LI'L SEB MAIN BOX*/
+.red {
+    width: 50%;
+    background: red;
+    padding: 3px;
+    font-family: "roboto";
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50pt;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+}
+
+/*PINK BUTTONS PLACEMENT AND SIZE*/
+.button {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 3px;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 300px;
+    height: 40px;
+    float: left;
+    margin-left: 250pt;
+    margin-top: 100pt;
+    margin-bottom: 100pt;
+}
+
+.wrapper2 {
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-right: 250pt;
+    margin-top: 100pt;
+    margin-bottom: 100pt;
+}
+
+/*LINE THEM BUTTONS UP*/
+.div {
+    display: inline-block;
+}
+
+/*SMALL TEXT UNDER RED BOX*/
+.p1 {
+    font-family: 'Roboto', sans-serif;
+    color: orangered;
+    font-size: 8pt;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*
+--------- ASK JERRY ---------
+*/
+
+.choices {
+    font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 200;
+
+}
+
+.jerryfire {
+    /*    padding-left: 500px;*/
+    text-align: center;
+}
+
+.ppp {
+    line-height: 90%;
+}
+
+.wrapper3 {
+    width: 300px;
+    height: 40px;
+    float: left;
+    margin-left: 250pt;
+    /*        margin-top: 100pt;*/
+    margin-bottom: 100pt;
+}
+
+.wrapper4 {
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-right: 250pt;
+    /*        margin-top: 100pt;*/
+    margin-bottom: 100pt;
+}
+
+.container1 {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.jerrysbody {
+    background-color: #49B338;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------- ASK RON ---------*/
+.wrapper5 {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+
+    margin-left: 450pt;
+    margin-bottom: 100pt;
+}
+
+.resize {
+    width: 400px;
+    height: 500px;
+}
+
+.move {
+    text-align: center;
+}
+
+/*------ FIND A CLUE --------*/
+.question {
+    background-image: url(images/questionmark.png);
+}
+
+.choices2 {
+    font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 400;
+}
+
+.red {
+    width: 50%;
+    background: pink;
+    padding: 3px;
+    font-family: "roboto";
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50pt;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+
+}
+
+.clue {
+    background-color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*---------- BYE BYE #1 -----------*/
+.lilsebbackground {
+    background-image: url(images/byebye.jpg);
+}
+
+.byebye {
+    text-align: center;
+}
+
+.choices3 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 400;
+}
+
+.loser {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 54pt;
+    text-align: center;
+    font-weight: 1200;
+}
+
+/*_____________ WINNER ! ______________*/
+
+.justice {
+    text-align: center;
+}
+
+.beloved {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 10.5pt;
+    /*    text-align: center;*/
+    font-weight: 900;
+}
+
+/*------------- trial --------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0, 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: baseline;
+}
+
+.row1 {
+    text-align: center;
+}
+
+/*_______ OPENING PAGE _______*/
+.stru {
+    margin: 50pt;
+    padding: 100pt;
+    padding-top: 0pt;
+}
+
+/*texts under lil seb photo splash page*/
+.choices4 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 50pt;
+    margin-bottom: 50pt;
+
+}
+
+.choices5 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 400;
+    padding: 30pt;
+}
+
+.bobody {
+    background-color: #49B338;
+}
+
+.heading1 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.guilty {
+    color: red;
+}
+
+.div2 {
+    text-align: center;
+    padding-right: 0px;
+}
+
+.wrapper5 {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+
+    /*    margin-left: 450pt;*/
+    /*
+    margin-bottom: 100pt;
+
+*/
+}

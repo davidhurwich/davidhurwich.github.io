@@ -1,0 +1,93 @@
+.i1{
+    display: block;
+    width: 550px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+
+button{
+    
+    margin: auto;
+    text-align: center;
+    color: #022d51;
+    font-family: 'ChunkFive';
+    font-weight: bold;
+    background-color: #ffd900;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 15px;   
+     
+}
+
+a{
+    color: #022d51;
+    font-family: 'ChunkFive';
+    font-weight: bold;
+    background-color: #ffd900;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 15px;   
+    
+}
+
+.h1{
+    font-family: 'ChunkFive';
+    font-size: 70px;
+    color: #ffd900;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
+    
+    }
+
+body{
+    background-color: #e20025;
+    
+    
+}
+
+.p1{
+    font-family: 'ChunkFive';
+    color: #022d51;
+    font-size: 15pt;
+    letter-spacing: 0.8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    width: 530px;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
