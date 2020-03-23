@@ -9,6 +9,6 @@ function readFile() {
 
     
 function test(){
-    console.log('test has been run');
+    console.log('test function has been run');
 }    
     
