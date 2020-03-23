@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    
+     navigator.geolocation.getCurrentPosition(success);
+
+    function success(pos) {
+        var lat = pos.coords.latitude;
+        var long = pos.coords.longitude;
+        console.log('lat:' + lat);
+        console.log('long:'+ long);
+    }
+        
+    https://fcc-weather-api.glitch.me/api/current?lat=37.75&lon=-122.45`;    
+        </script>
+
+</body>
+</html>
