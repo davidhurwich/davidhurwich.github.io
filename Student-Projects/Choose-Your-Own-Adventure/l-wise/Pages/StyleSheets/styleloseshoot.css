@@ -1,0 +1,53 @@
+
+
+body {background-color: darkred}
+
+.color {background-color: beige;
+width:1000px;
+margin:auto}
+
+.description {background-color:beige;
+height: 150px;
+margin-right: auto;
+padding:25px;
+text-align: justify;
+
+}
+
+.image {
+width:620px;
+height: 450px;
+margin-left: auto;
+padding:5px;
+
+}
+
+/*== Image and Text Alignment ==*/
+
+img {width:1000px;
+    height:450px;}
+
+.choice1 {background-color: darkred;
+border: 2px solid black; text-align:center;
+width:175px;
+padding:5px;
+float:right;
+}
+
+/*== Typography ==*/
+
+a {color:beige}
+
+body {font-family:"king";
+padding-bottom: }
+
+h1{font-family: "king";
+text-align:left;
+font-size: 20px;
+padding-left: 20px;
+}
+
+footer {font-size: 9px;
+padding-top: 5px;
+padding-left: 10px
+}

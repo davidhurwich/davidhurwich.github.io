@@ -1,0 +1,66 @@
+/*== side by side layout ==*/
+
+.column{float:left;
+padding;10px;
+}
+
+.left {width:25%}
+.right {width:75%}
+
+.row:after {content:"";
+display: table;
+clear:both}
+
+
+/*== background ==*/
+
+body {background-color: darkred}
+
+.color {background-color: beige;
+padding:25px;
+width:1000px;
+margin:auto}
+
+.intro {background-color:beige;
+width:350px;
+height: 450px;
+margin-right: auto;
+padding:25px;
+border:5px solid black;
+}
+
+.character {
+width:550px;
+height: 450px;
+margin-left: auto;
+padding:15px;
+
+}
+
+/*== Image and Text Alignment ==*/
+
+img {width:220px;
+height:350px;
+    border:4px solid black;}
+
+.text {background-color: darkred;
+border: 2px solid black; text-align:center;
+width:250px;
+padding:10px;
+float:left;
+}
+
+
+/*== Typography ==*/
+
+a {text-decoration: none;
+color:beige}
+
+h3 {text-align: center; font-family:"king"
+}
+
+body {font-family:"king"}
+
+h1{font-family: "king";
+text-align:center;
+text-decoration: underline}
