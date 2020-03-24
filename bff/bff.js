@@ -2,13 +2,8 @@
 
 function readFile() {
 
-  jQuery.get('test.txt', function(data) {
+  jQuery.get('https://data.bff.fm/nowplaying.txt', function(data) {
      console.log(data);
   });
 };
 
-    
-function test(){
-    console.log('test has been run');
-}    
-    
