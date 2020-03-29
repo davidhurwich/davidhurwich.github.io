@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+	color: #FFC7C8;
+	font-family: 'Courier', monospace;
+	font-size: 80pt;
+	text-align: center;
+	-webkit-text-stroke: 3px #FF00D2;
+}
+p {
+	color: #FF49C6;
+	font-size: 12pt;
+	line-height: 18pt;
+	margin-left: 150px;
+	margin-right: 150px;
+	text-align: justify;
+}
+a {
+	color: #ad0c00;
+	text-decoration: none;
+	
+}
+ul {
+	list-style-type: circle;
+}
+body{
+	background-color: black;
+}
+button {
+	background-color: #FFC5C6;
+	font-family: "courier";
+	font-size: 20pt;
+	-webkit-text-stroke: 1px #FF00D2;
+}
+
+img {
+	margin-left: 90px;
+	background-color: #F9D2D3;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+homebutton {
+	color: black;
+	float: left;
+	background-color: #FFC5C6;
+	font-family: "courier";
+	font-size: 14pt;
+	margin: auto;
+}
+div {
+	background-color: black;
+	padding:25px;
+	width: 800px;
+	margin:auto;
+}
+p2 {
+	margin-left: 350px;
+}
