@@ -2,6 +2,7 @@ var clicks = 0;
 var eyes = false;
 var nose = false;
 var mouth = false;
+var ele;
 var img;
 
 function preload() {
