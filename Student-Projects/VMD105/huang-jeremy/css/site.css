@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.border {
+    width: 100%;
+    height: auto;
+    border: 0px !important;
+    z-index: 100;
+    padding: 0px;
+}
+
+.border a {
+    position: relative;
+    z-index: 9999;
+}
+
+#section1,#section1 video{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;
+}
+
+video::-webkit-media-controls {
+    display: none;
+}
+
+.caption {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 500;
+    font-size: 26pt;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.leftside,
+.rightside {
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+
+    .leftside,
+    .rightside {
+        height: 100vh;
+    }
+
+}
+
+.leftside,.rightside {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.raster {
+    background-image: url(../images/raster.png);
+    filter: brightness(90%);
+}
+
+.vector {
+    background-image: url(../images/vector.png);
+    filter: brightness(95%);
+}
+
+.film {
+    background-image: url(../images/shirley.gif)
+}
+
+.arts {
+    background-image: url(../images/paul_wonner_3.jpg)
+}
+
+.project-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    text-align: center;
+    transition: all .3s ease 0s;
+    font-size: 20px;
+    padding: 3px 12px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.project-title:hover {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.project-title a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.project-title a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*------------------------------------------*/
+.contact {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.contact-title {
+    width: 500px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #444;
+    font-size: 18pt;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.form-control {
+    width: 500px;
+    border: 1px solid #e2e2e2;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    font-size: 14pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background-color: #cbd6b0;
+    border: none;
+    color: #fff;
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100pt;
+    width: 15%;
+    text-align: center;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+
+form .submit:hover {
+    background-color: #cbd6b0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 250px;
+}
+
+/*------------------------------------------*/
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+.content__left,
+.content__right {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+}
+
+.content__right {
+    right: 0;
+    left: auto;
+    background: #e2e2e2;
+}
+
+.content__left {
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.content__left h1 {
+    position: absolute;
+    top: 50%;
+    margin-top: -3vw;
+    text-align: center;
+    font-size: 5vw;
+    height: 10vw;
+    opacity: 1;
+    color: #444;
+    width: 100%;
+    letter-spacing: 0.15em;
+    line-height: 0.6;
+    color:#fff;
+}
+
+.content__left span {
+    font-size: 1vw;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    opacity: 0.9;
+}
+
+.content__right {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.content__right .content__main {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    color: #444;
+    font-size: 1.3vw;
+    padding: 0 8vw;
+    line-height: 1.65;
+    font-weight: 300;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.content__right .content__main a {
+    text-decoration: none;
+    color: #626262;
+    letter-spacing: 1px;
+    text-align:center;
+    display:block;
+    text-align: left;
+}
+
+.content__right .content__main a:hover{
+    color:#fff;
+}
+
+[data-type="raster"] .content__left {
+    background-image: url("../images/raster.png");
+}
+
+[data-type="vector"] .content__left {
+    background-image: url("../images/vector.png");
+}
+
+[data-type="arts"] .content__left {
+    background-image: url("../images/paul_wonner_1.jpeg");
+}
+
+[data-type="film"] .content__left {
+    background-image: url("../images/shirley.gif");
+}
+
+[data-type="about"] .content__left {
+    background-image: url("../images/Alba.jpg");
+}
+
+/*----------------------------------------------*/
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    right: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%) transition: opacity .3s;
+}
+
+.demo a:hover {
+    opacity: .5;
+}
+
+#scrolldown a {
+    padding-top: 70px;
+}
+
+#scrolldown a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb05 {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+@keyframes sdb05 {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+/*----------------------------------------------*/
+
+#logo {
+    width: 160px;
+    height: auto;
+    margin:0 0 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#626262;
+    margin:0 10px;
+
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color:#444;
+    font-weight: 450;
+}

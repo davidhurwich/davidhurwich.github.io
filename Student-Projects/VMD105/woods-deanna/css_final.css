@@ -1,0 +1,141 @@
+html { }
+
+
+h1 {text-align: center;
+    
+    font-size: 24pt;
+
+   font-family: 'Permanent Marker', cursive;
+    
+    color:azure;       
+    
+    }
+
+
+
+html,
+body {
+    
+    background-image: linear-gradient(to bottom right, teal,  tan);
+    min-height: 100%;
+}
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border: 8px solid #0234;
+  
+  
+}
+
+body { 
+
+    width: 650px;
+    margin: auto;
+    padding: 50px;
+    
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color:snow;
+    font-size: 14pt;
+    
+    
+}
+
+div{text-align: center}
+a{
+    font-size:15pt;
+
+    color:cornsilk;
+    
+    text-align: center;
+}
+
+a:hover
+        {color:darksalmon;}
+
+
+
+.contact_banner {
+    
+  
+    
+    background-image: url(images/contact_banner.png);
+    height: 144px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+    
+}
+
+
+.home_banner {
+    
+  
+    
+    background-image: url(images/home_banner.png);
+    height: 144px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+    
+}
+
+
+.favorite_image_banner {
+    
+  
+    
+    background-image: url(images/Favorite_image_banner.png);
+    height: 144px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+    
+}
+
+.raster_banner{
+    
+  
+    
+    background-image: url(images/raster_banner.png);
+    height: 144px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+    
+}
+
+.vector_banner{
+    
+  
+    
+    background-image: url(images/vector_banner.png);
+    height: 144px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+    
+}
+
+.favorite_video{
+    
+  
+    
+    background-image: url(images/favorite_video_banner.png);
+    height: 144px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+    
+}

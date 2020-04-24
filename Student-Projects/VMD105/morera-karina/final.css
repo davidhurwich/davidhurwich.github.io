@@ -1,0 +1,45 @@
+html {
+    background-image: url(yellow-bokeh-photo-949587.png)
+}
+
+body {
+    width: 990px;
+    padding: 60px;
+    margin: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #AF513D;
+    font-style: normal;
+    font-family: 'Playfair', serif;
+    border: #AF513D 4px solid;
+    background-color: #F2BD81;
+}
+
+img {
+    border: medium solid #E7A20D;
+
+}
+
+h1 {
+    font-size: 34px;
+    font-family: 'Oleo Script';
+    color: #2f4957;
+}
+
+header {
+    color: #A44506;
+}
+
+p {
+    font-size: 20px;
+    font-family:'Handlee', cursive;
+    color: #452201;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    font-size: 16px;
+    color: #741B09;
+}

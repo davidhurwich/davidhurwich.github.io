@@ -1,0 +1,47 @@
+h1{
+    font-family:Pacifico,sans-serif;
+    font-size:150px;
+    text-align: center
+}
+
+body{
+    text-align: right;
+    margin-top: auto;
+    background-repeat:no-repeat;
+    background-size:cover;
+   
+}
+
+.container {
+     display: grid;
+    grid-template-columns: 45% 55%;
+    
+}
+
+a{
+    font-size: 50px;
+    color:red;
+    text-decoration: none;
+    background-image: url(link%20background.jpg);
+    writing-mode: vertical-lr;
+    margin-top:70px;
+    
+    
+}
+
+a:hover{
+    box-shadow: 20px 20px 20px;
+}
+
+article{
+    font-family:DM Serif Display,serif;
+    font-size:30px;
+    writing-mode: horizontal-tb;
+
+    background-image:url("description%20background.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+

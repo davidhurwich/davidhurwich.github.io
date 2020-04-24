@@ -1,0 +1,62 @@
+
+html {
+    background-image: url("../images/moon.jpg");
+}
+
+    body{
+    width:1000px;
+    
+    padding:50px;
+    
+    margin-top: 50px;
+    
+    margin-right:auto;    
+}
+
+    body{text-align: center;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+body{
+    
+    border:6px solid #FFFBF4;
+    border-bottom-style: groove;
+    background-color: :#C1761C;
+}
+
+a{
+    font-family:monospace;
+    font-size: 15pt;
+    color: #FAF1DE;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #fff;
+}
+
+h1{
+    font-family:monospace;
+    font-style: oblique;
+    font-size: 40pt;
+    color:#FFFFFF;
+    border-top: 10px double #FFF2E2;
+    border-bottom: 10px double #FFF2E2;
+    text-transform: uppercase;
+}
+
+p{
+    font-family:monospace;
+    font-style:oblique;
+    font-size:16pt;
+    line-height: 15pt;
+}
+
+img{
+    border: 5px solid #FFFBF4;
+    box-shadow: 5px 5px 5px rgba(0,0,0,5);
+}
+
