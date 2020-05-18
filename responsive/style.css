@@ -1,0 +1,43 @@
+/*   === Base CSS ===   */
+
+img {
+    max-width: 100%;
+}
+
+body {
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    grid-column: 1/-1;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 1.15rem;
+    line-height: 2rem;
+    color: dimgray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width:500px) {
+
+    .container {
+        grid-template-columns: 100%;
+    }
+
+    header,
+    h2 {
+        text-align: center;
+    }
+}
