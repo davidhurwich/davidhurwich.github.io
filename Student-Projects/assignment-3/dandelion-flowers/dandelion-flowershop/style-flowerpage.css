@@ -1,0 +1,199 @@
+/* == Navigation == */
+
+.nav{
+    float: right;}
+
+nav li{
+    float: right; 
+    display: inline-block; 
+    margin-left: 3.48rem;
+    padding-top:5.25rem;}
+   
+
+
+nav a{ 
+    color:#8E8E8E;
+    font-size:1rem;
+    text-decoration: none;
+    font-family: "helvetica"; 
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+nav ul{
+   margin: 0rem;
+    padding-right: 3.48rem;
+    list-style: none;
+    padding-top: 1.23rem;
+}
+
+
+#buttons a{
+    text-decoration: none;
+    color: white
+}
+
+#back a{
+    text-decoration: underline;
+    color: #8e8e8e;
+}
+
+
+
+/* == Typography == */
+
+#address{
+    color: #A4A4A4;
+    font-family: "helvetica";
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    line-height: .42rem;
+    
+}
+
+#contact{
+    color: #A4A4A4;
+    font-family: "helvetica";
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    line-height: .42rem
+}
+
+#copyright{
+    color: #A4A4A4;
+    font-family: "helvetica";
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-size: .8rem;
+}
+
+h1{
+    font-family: "prata";
+    color: #8E8E8E;
+    font-size: 2rem;
+    font-weight: lighter;
+   padding-bottom: 1.07rem;
+}
+
+h3{
+    font-family: "prata";
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: .42rem;
+    letter-spacing: 2px;
+    color: #8E8E8E;
+    text-align: left;
+    padding-top: 1.07rem
+}
+
+#description, #buttons, #back{
+     font-family: "helvetica";
+    font-weight: 100;
+    letter-spacing: 3px;
+    line-height: 40px;
+    font-size: 1rem;
+    color: #8E8E8E;
+}
+
+
+
+/* == Layout == */
+
+main{
+    display: grid;
+grid-template-columns: 50% 50%;
+grid-column-gap: 25px;
+max-width: 1150px;
+margin: auto}
+
+header,
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+} 
+
+/* Padding */
+
+footer{
+    padding-top: 1.07rem;
+    border-top: 2px solid #A4A4A4;
+    border-bottom: 2px solid #A4A4A4;
+    width: 80.35rem
+}
+
+
+#address{
+    padding-top: 1.34rem
+}
+
+#copyright{
+    padding-top: 1.34rem;
+    padding-bottom: 1.34rem;
+}
+
+body{ 
+    max-width: 80.35rem;
+    margin: auto
+}
+
+main{
+    padding-bottom: 6.16rem
+}
+
+#about{
+    padding-right: 2.68rem;
+    padding-top: 1.07rem
+}
+
+#back{
+    padding-left: .5rem; 
+    text-decoration: underline;}
+
+#buttons{
+    padding-top: 2.68rem
+}
+
+/* Alignment */
+
+#buttons{
+    text-align: right;
+    float: right
+}
+
+#address{
+    text-align: right;
+}
+
+#contact{
+    text-align: left;
+}
+
+#copyright{
+    text-align: center;
+}
+
+/* Decoration */
+
+#button1{
+    background-color: #B2CDB0;
+    width:9rem;
+    height: 2.4rem;
+    text-align: center;  
+}
+
+#button2{
+    background-color: #B2CDB0;
+    width:9rem;
+    height: 2.4rem;
+    text-align: center;
+    align-content: right;
+    padding-bottom: 0px  
+}
+
+/*== Extra==*/
+
+#cart{
+    opacity: 0.5
+}

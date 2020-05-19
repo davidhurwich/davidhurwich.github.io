@@ -1,0 +1,244 @@
+/* === TYPOGRAPHY === */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+    color: #80262A;
+}
+
+h1 {
+    font-size: 1.43rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none; 
+    font-weight: 700;
+    font-size: 1.43rem;
+    
+    display: inline-grid;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+#logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.43rem;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #8A8A8A;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #597e93;
+}
+
+
+.oneCol {
+    font-weight:300;
+}
+
+#menuContainer {
+    color: #80262A;
+}
+
+footer {
+    color: #8A8A8A;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+button {
+    color: #ffffff;
+}
+
+.price {
+    font-style: italic; 
+}
+
+.copyright {
+    font-style: italic;
+}
+
+.name {
+    font-weight: 500;
+    margin-bottom: 0.27rem;
+}
+
+/* === BACKGROUNDS === */
+
+header {
+    background-color: #80262A;
+}
+
+footer {
+    background-color: #DCC7AB;
+}
+
+.brownBg {
+    background-color: #DCC7AB;
+}
+
+/* === BOX MODEL === */
+
+img {
+    max-width: 100%;
+}
+
+main {
+    padding-top: 7.55rem;
+    
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    width: 100%;
+    padding-top: 2.5rem;
+    
+}
+
+.order {
+    
+    display: flex;
+    align-items: flex-end;
+    
+    justify-content: flex-end;
+    padding-right: 1rem;
+    
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1rem;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    top: 0rem;
+    left:0rem;
+    
+    padding-bottom: 1rem;
+    
+}
+
+#homeMain {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#headerImg {
+    height: 21.43rem;
+    background-image: url(header.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+    display:flex;
+    justify-content: center;
+    
+    grid-column: 1 / -1;
+    
+}
+
+#introduction {
+    margin-right: 0.54rem;
+    margin-left: 10%;
+}
+
+aside {
+    margin-left: 10%;
+}
+
+#buttonCenter{
+    height: 2.68rem;
+    display: flex;
+    margin-top:20%;
+    
+    background-color: #80262A;
+    box-shadow: 0rem 0rem 0.11rem 0.11rem #ffffff;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.29rem;
+    font-weight: 500;
+    padding: 0.54rem;
+    
+    border-radius: 0.27rem 0.27rem 0.27rem 0.27rem;
+    border: none;
+}
+
+#kiteButton {
+    float: right;
+    
+    position: fixed;
+    bottom: 0rem;
+    right: 1.61rem;
+}
+
+#menuMain {
+    display: grid;
+    grid-template-columns: 25% 8% 25% 8% 25% 8%;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.price {
+    text-align: left;
+    padding-left: 30%
+}
+
+.oneCol {
+    text-align: center;
+    grid-column-start:1;
+    grid-column-end: 7;
+}
+
+.menuItem {
+    padding-right: 5%;
+}
+
+#beverages {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#locationMain {
+    margin:4%;
+    
+    padding-top: 6.43rem;
+    
+    display: grid;
+    grid-template-columns: 55% 45%;
+    
+    column-gap: 1.07rem;
+    
+}
+
+#text {
+    margin-right: 15%;
+}
+
+#map {
+    text-align: center;
+}

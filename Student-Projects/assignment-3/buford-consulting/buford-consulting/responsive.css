@@ -1,0 +1,45 @@
+/* --- Responsive CSS ---*/
+
+@media screen and (max-width:600px) {
+	header {
+		grid-template-columns: 100%;
+	}
+	
+	
+	nav a {
+		display: block;
+	}
+	
+	img {
+		max-width: 100%;
+	}
+	
+	
+	
+	.callus{
+		font-size: 1rem;
+	}
+	
+	#A1{
+		font-size: 1rem;
+	}
+	
+	#A3{
+		font-size: 1rem;
+	}
+
+	
+	#sub{
+		font-size: 2rem;
+	}
+	
+	h1 {
+		font-size: 2rem;
+	}
+	
+	#consult{
+		max-width: 100%;
+	}
+}
+
+

@@ -1,0 +1,86 @@
+/* === For your Responsive CSS === */
+
+
+
+/* CSS for Small Devices / Smartphone */
+
+
+img { 
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        grid-template-columns: 100%;
+        background-color: whitesmoke;
+    }
+    #nav a{
+        display: block;
+        background-color: mediumaquamarine;
+        text-align: center;
+        align-content: center;
+        padding: .3rem;
+        margin: .6rem;
+        
+    }
+    #a {
+        align-content: center;
+    }
+    
+    h1 {
+        font-size:2rem;
+    }
+
+    #splashSection {
+        font-size: 6rem;
+    }
+    #splash {
+        grid-column: 1/2;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        height: 10.7rem;
+    }
+    
+    main {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    
+    footer {
+        grid-auto-columns: 100%;
+        text-align: center;
+        background-color: whitesmoke;
+        color: mediumaquamarine;
+        padding: .3rem;
+    }
+    
+    #milan-text-1,
+#milan-text-2 {
+    padding:1rem;
+}
+
+/* CSS for large device/ Computers */
+
+@media screen and (min-width: 601px) {
+   #mobile-menu {
+        display: none;
+    }
+}
+    
+/*Light mode*/ 
+
+@media (prefers-color-scheme: light){
+            body {
+                background-color: white; 
+                color: black;
+    }
+}
+    
+/* Dark mode*/
+    
+ @media (prefers-color-scheme: dark){
+        body {
+            background-color: black;
+            color: white;
+        }
+    }

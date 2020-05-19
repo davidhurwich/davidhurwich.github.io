@@ -1,0 +1,92 @@
+#story {
+    padding-top: 55px;
+}
+
+#promise{
+    padding-top: 10px;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 20px;
+    padding-top: 25px;
+}
+
+
+#fooditems{
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-column-gap: 7px;
+    padding-right: 11px;
+}
+
+
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+    display: block;
+    background-color: #9ab55e;
+    font-family: 'Poiret One';
+    padding: 5px
+}
+
+nav a {
+    padding-right: 15px;
+}
+
+
+footer {
+    display: block;
+    background-color: #4d5736;
+
+    text-align: center;
+}
+
+footer a {
+    color: white;
+
+
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: #e1e8d1;
+    text-align: center;
+}
+
+header {
+    background-color: #bcd199;
+    padding: 15px;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Cinzel';
+
+
+}
+
+
+header p {
+    font-family: 'Poiret One';
+}
+
+
+
+section {
+    font-family: 'Poiret One';
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+
+footer {
+    padding: 5px;
+}

@@ -1,0 +1,137 @@
+/* 
+Lab: Basics Grids and Flexbox
+=== Do not change CSS below === 
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.29rem;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    color: #052e00;
+
+}
+
+
+    
+header {
+    display: grid;
+    padding: 40px 20px 40px 20px;
+    background-color: whitesmoke;
+    grid-template-columns: 50% 50%;
+    font-family: 'Helvetica';
+}
+
+main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-row-gap: 25px;
+}
+
+footer {
+     font-family: 'Helvetica';
+    display: grid;
+    padding: 0 1.6rem;
+    color: whitesmoke;
+    height: 1.6rem;
+    text-align: center;
+    margin: 1rem;
+    font-size:0.7rem;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    text-decoration: none; 
+    color: #262D33;
+    grid-template-columns: 33% 33% 33%;
+    margin: 30px;
+}
+
+h1 {
+    font-family: 'futura';
+    font-weight: bold;
+    font-size: 3rem; 
+    color: #1D4E11;
+    margin: 0 0;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+
+.splash {
+    background-size: cover;
+    min-height: 16rem;
+    background-image: url("pastries2.jpg");
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 7rem;
+    padding-top: 9.6rem;
+	padding-left: 1rem;
+    display: block;
+}
+
+#splashSection {
+    display: flex;
+    background-color: whitesmoke;
+    background-position: center center;
+    height: 26.79rem;
+     display: flex; 
+
+}
+
+#splash2 {
+     grid-template-columns: 33.33% 33.33% 33.33%;
+    background-image: url(milan05.jpg);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin: 1rem;
+
+}
+
+#splash3 {
+     grid-template-columns: 33.33% 33.33% 33.33%;
+    background-image: url(milan07.jpg);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 1rem;
+    
+}
+
+
+li { 
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+
+#milan { 
+    display: grid; 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#milan-text-1,
+#milan-text-2 {
+    padding:3.75rem;
+    color: #298235;
+    text-align: center;
+    font-family: 'Helvetica';
+    line-height:1.3rem;
+}
+
+/* === Add New CSS Below === */

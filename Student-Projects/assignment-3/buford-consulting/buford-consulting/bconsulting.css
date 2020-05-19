@@ -1,0 +1,353 @@
+/* --- HEADER/NAV ---*/
+
+nav a {
+	color: #482B7A;
+	font-size: 13pt;
+	text-decoration: none;
+	font-family:'Shree Devanagari 714','Helvetica Neue';
+	margin-right: 40px;
+	margin-left: 40px;
+
+}
+a:hover {
+	color:#b49fe2
+}
+
+nav {
+	text-align: center;
+	background-color: #f0f0f0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logo {
+	margin-left: 50px;
+}
+
+i {
+	color: #1DA1F2;
+	font-size: 40pt;
+}
+
+h1 {
+	color: #EEA220;
+	font-size: 50pt;
+	text-align: center;
+	font-family:'Tahoma';
+	font-weight: 200;
+
+}
+
+h2 {
+	color: #482B7A;
+	text-align: center;
+	font-size: 30pt;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+
+}
+
+hr {
+	width: 50px;
+	height: 5px;
+	background-color: #482B7A;
+	border: none;
+	
+}
+
+.heroimg {
+	background-image: url(Hero_image_p2.jpg);
+	background-size: cover;
+	text-align: center;
+	color: #482B7A;
+	font-size: 30pt;
+	padding: 200px;
+}
+
+button {
+	font-size: 25pt;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	color: white;
+	padding: 40px;
+	background-color: #482B7A;
+	border-radius: 80px;
+	border: solid #482B7A 0px;
+	font-style: italic;
+}
+
+/* --- CALL, MAIL ---*/
+
+.callus {
+	color: #482B7A;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	font-size: 30pt;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 600px;
+	font-style: italic;
+}
+
+/*--- HOME ---*/ 
+
+#splash {
+  height: 400px;
+  background-image: url(HomeSplash.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+margin-bottom: 30px;
+}
+
+#consult {
+  width: 20rem;
+  padding: 1rem;
+  background-color: #482B7A;
+  color: white;
+    font-family: 'Shree Devanagari 714';
+    'Arial';
+    margin-left: 252px;
+}
+
+#coachblurbs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+	grid-column-gap: 50px;
+	grid-row-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.floatleft {
+    float: left;
+	margin-top: 50px;
+}
+
+#floatleftb {
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
+
+#clearb {
+    clear: left;
+	margin-top: 50px;
+}
+
+#A1 {
+    width: 600px;
+	font-family: 'Shree Devanagari 714';
+    'Arial';
+	text-indent: 30px;
+	flex-shrink: 14pt;
+}
+
+#A3 {
+    display: block;
+	width: 800px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Shree Devanagari 714';
+    'Arial';
+	text-indent: 30px;
+	flex-shrink: 14pt;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#test {
+    text-align: center;
+	background-image: url(Testibkg.jpg);
+	padding: 50px;
+	background-size: cover;
+    
+}
+
+/* --- SERVICE : DESCRIPTION --- */ 
+
+.grill {
+	display: grid;
+	height: 500px;
+	background-color: #f0f0f0;
+	grid-template-columns: 30% 30% 30%;
+	padding-left: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	grid-column-gap: 50px;
+
+}
+
+.frame {
+	border: solid #d3d3d3 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: white;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+}
+
+.indent {
+
+	text-indent: 30px;
+	line-height: 20px;
+}
+
+/* --- PRICING --- */
+
+.pricea {
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	font-size: 12pt;
+	margin: 30px 20px 30px 20px;
+	text-align: center;
+}
+
+.priceimg {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divb {
+	background-color: #f0f0f0;
+	padding-top: 30px;
+	padding-bottom: 90px;
+}
+
+.image {
+	margin-left: 120px;
+}
+
+.grillb {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 400px;
+	margin-bottom: 50px;
+
+}
+
+.grillbis {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-row-gap: 5px;
+
+}
+
+.pricetag {
+	font-size: 30pt;
+	color: #482B7A;
+}
+
+figcaption {
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	font-size: 12pt;
+	margin-top: 20px;
+	margin-left: 130px;
+	padding-right: 30px;
+}
+
+/* --- FOOTER ---*/
+
+footer {
+	text-align: center;
+	color: grey;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-style: italic;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	font-style: italic;
+
+}
+
+/* --- ABOUT --- */ 
+
+.aboutuspic {
+	margin-left: 200px;
+	margin-top: 70px;
+}
+
+.headerabout {
+	margin-top: 200px;
+	margin-left: -300px;
+	line-height: -1;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	font-size: 35pt;
+	font-weight:bolder;
+}
+
+.aboutdiv {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.textus {
+	color: rgb(94, 94, 94);
+	font-size: 12pt;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	text-indent: 30px;
+	text-align: justify;
+
+}
+
+h3 {
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	font-size: 16pt;
+	margin-top: 50px;
+
+}
+
+.mail {
+	font-size: 25pt;
+	color: #EEA220;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+}
+
+.submail {
+	text-align: center;
+	font-size: 14pt;
+	font-family: 'Shree Devanagari 714';'Helvetica Neue';
+}
+
+/* --- MAILING --- */  
+
+form {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+}
+
+input[type=text] {
+	width: 500px;
+	padding: 10px;
+	border: none;
+	border-bottom: solid 4px #cccccc;
+	font-family: 'Shree Devanagari 714','Helvetica Neue';
+	font-size: 14pt;
+
+}
+
+input[type=submit] {
+	background-color: #482B7A;
+	border: none;
+	color: white;
+	padding: 20px;
+	padding: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: 'SHree Devanagari 714','Helvetica Neue';
+	font-size: 14pt;
+	border-radius: 30px;
+
+}
+
+input:hover[type=submit]{
+	background: #b49fe2;
+	border: none;
+}
