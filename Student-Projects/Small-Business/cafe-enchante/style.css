@@ -1,0 +1,377 @@
+/* === MOBILE MENU===*/
+
+
+/* == typography == */
+
+span {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 6.86rem;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+/* unvisited link */
+header a:link {
+    color: #494949;
+}
+
+/* visited link */
+header a:visited {
+    color: #494949;
+}
+
+/* mouse over link */
+header a:hover {
+    color: #494949;
+}
+
+/* selected link */
+header a:active {
+    color: #494949;
+}
+
+#nav1 {
+    font-size: 1.20rem;
+    font-variant-caps: all-small-caps;
+    color: #494949;
+    margin-left: 20%;
+    max-width: 80%;
+}
+
+
+button {
+    font-size: 1.64rem;
+    font-variant-caps: all-small-caps;
+    color: #494949;
+}
+
+button {
+    color: #ffffff;
+}
+
+input {
+    font-size: 0.71rem;
+}
+
+h2 {
+    font-size: 2.57rem;
+    font-variant-caps: all-small-caps;
+    color: #87413F;
+}
+
+
+h3 {
+    font-size: 1.43rem;
+    color: #87413F;
+}
+
+.aboutResponses {
+    display: inline;
+    font-size: 1.14rem;
+    color: #494949;
+}
+
+.legal {
+    color: #c2bfbf;
+}
+
+#beverage,
+#breakfast,
+#sandwiches {
+    text-align: center;
+    font-size: 0.71rem;
+}
+
+#beverage a {
+    color: #87413f;
+
+}
+
+#breakfast a {
+    color: #87413F;
+}
+
+#sandwiches a {
+    color: #87413F;
+}
+
+
+/* FOOTER */
+
+/* unvisited link */
+footer a:link {
+    color: #000000;
+}
+
+/* visited link */
+footer a:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+footer a:hover {
+    color: #000000;
+}
+
+/* selected link */
+footer a:active {
+    color: #000000;
+}
+
+#nav2 {
+    margin-top: 1rem;
+}
+
+.legal {
+    margin-bottom: 0.28rem;
+}
+
+.fab {
+    font-size: 1.43rem;
+    margin-right: 0.36rem;
+    margin-top: 1rem;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+form p {
+    margin-bottom: 1.3rem;
+}
+
+
+
+/* == background == */
+
+header {
+    background-color: #C2BFBF;
+}
+
+#splashHome {
+    background-image: url(general/splash_01.jpg);
+    background-size: cover;
+}
+
+button {
+    background-color: #87413f;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #494949;
+}
+
+input {
+    background-color: #c2bfbf;
+    color: #494949;
+    opacity: 0.5;
+}
+
+.yellowButton {
+    background-color: #e8cc96;
+    opacity: 1;
+}
+
+.cart {
+    width: 1.61rem;
+}
+
+
+/* == box model == */
+
+header {
+    padding: 1.07rem;
+}
+
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#splashHome {
+    height: 42.86rem;
+}
+
+.textButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+#splash {
+    overflow: hidden;
+}
+
+.headerImage {
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 600px;
+    margin: -100px 0px -300px 0px;
+}
+
+#nav1 a {
+    margin-right: 4rem;
+}
+
+header #nav1 {
+    margin-top: 2.7rem;
+}
+
+#logo img {
+    width: 55%;
+}
+
+button {
+    width: 15.64rem;
+    height: 3.7rem;
+}
+
+footer {
+    padding: 0.60rem;
+    bottom: 0;
+}
+
+
+/* === Columns === */
+
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#logo {
+    float: left;
+}
+
+#nav1 {
+    float: right;
+
+}
+
+#splashHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twoColumns {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#about {
+    float: left;
+    justify-content: center;
+    padding: 30px;
+}
+
+#profile {
+    float: right;
+    text-align: center;
+    margin-top: 2.68rem;
+}
+
+
+/* === FOOTER ===*/
+
+footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#leftFooter {
+    float: left;
+    margin-left: 0.71rem;
+}
+
+
+#socialMedia {
+    text-align: center;
+}
+
+#formBox {
+    text-align: center;
+}
+
+#nav2 a {
+    margin-right: 1.43rem;
+}
+
+#nav2 {
+    margin-bottom: 3.57rem;
+}
+
+#formBox {
+    float: right;
+}
+
+/* === MENU SECTIONS ===*/
+
+.oneColumn {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#beverage {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 0.71rem;
+}
+
+#breakfast {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 0.71rem;
+}
+
+#sandwiches {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 0.71rem;
+}
+
+
+/*=== DETAILS===*/
+
+.circle {
+    border-radius: 50%;
+    width: 50%;
+}
+
+#content {
+    padding-top: 4.29rem;
+    padding-bottom: 4.29rem;
+}
+
+#about {
+    float: left;
+    padding-left: 14.29rem;
+}
+
+#map {
+    float: right;
+    text-align: center;
+}

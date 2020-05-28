@@ -1,0 +1,215 @@
+/* === For your Responsive CSS === */
+
+img {
+    width: 100%;
+}
+
+/* === MOBILE === */
+
+@media screen and (max-width:600px) {
+
+    /* === HEADER ===*/
+
+    header {
+        grid-template-columns: 100%;
+    }
+
+    #logo {
+        width: 100%;
+        display: block;
+        position: center;
+    }
+
+
+    #logo img {
+        width: 100%;
+    }
+
+    #mobileMenu {
+        display: block;
+        width: 100%;
+        top: 130px;
+        left: 7%;
+        font-size: 2.68rem;
+    }
+
+
+    header #nav1 {
+        max-width: none;
+        margin-top: 0.27rem;
+        margin-left: 0;
+    }
+
+
+    #nav1 a {
+        display: block;
+        background-color: #969696;
+        text-align: center;
+        padding: 0.36rem;
+        margin-right: 0;
+
+    }
+
+    /* === HOME-BODY ===*/
+    body {
+        grid-template-columns: 100%;
+    }
+
+    .splashText {
+        font-size: 3.48rem;
+    }
+
+    #textButton p {
+        font-size: 1.07rem;
+        margin-top: 0.48rem;
+    }
+
+    #textButton button {
+        width: 10rem;
+        height: 3rem;
+
+    }
+
+    /* === ABOUT ===*/
+
+    #content {
+        grid-template-columns: 100%;
+        padding-top: 0;
+    }
+
+    #about {
+        float: none;
+        padding-left: 1.61rem;
+        margin-bottom: 1.61rem;
+    }
+
+    #about h2 {
+        text-align: center;
+    }
+
+    #about p {
+        text-align: center;
+    }
+
+
+    #profile {
+        float: none;
+        margin-top: 0;
+    }
+
+
+    /* === MENU ===*/
+
+
+    menuColumns {
+        grid-template-columns: 100%;
+    }
+
+    #beverage,
+    #breakfast,
+    #sandwiches {
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+
+
+    /* === CONTACT ===*/
+
+    #about h3 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+
+    h3 p {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+
+    /*=== FOOTER ===*/
+    footer {
+        display: block;
+        grid-template-columns: 100%;
+        text-align: center;
+        padding: 0.54rem
+    }
+
+
+    #nav2 {
+        margin-bottom: 0.27rem;
+    }
+
+    #nav2 a {
+        display: block;
+    }
+
+
+    #socialMedia {
+        text-align: center;
+        float: none;
+        margin-bottom: 1.07rem;
+    }
+
+    #leftFooter {
+        float: none;
+        margin-bottom: 0.54rem;
+    }
+
+    #formBox {
+        float: none;
+        margin-top: 1.07rem;
+        margin-bottom: 2.68rem;
+    }
+
+    form {
+        margin-bottom: 1.07rem;
+    }
+
+    footer .legal {
+        bottom: 0;
+    }
+
+
+    #leftFooter .legal {
+        display: none;
+    }
+
+}
+
+
+/* === DESKTOP ===*/
+@media screen and (min-width: 601px) {
+    #mobileMenu {
+        display: none;
+    }
+
+
+    #nav {
+        margin-left: 20%;
+    }
+
+    #textButton p {
+        margin-top: 0.48rem;
+    }
+
+    footer .legal {
+        display: none;
+    }
+
+    #leftFooter .legal {
+        display: block;
+    }
+
+    #map {
+        margin-top: 6.7rem;
+        margin-right: 5.36rem;
+    }
+
+
+    #about {
+        padding-left: 14.29rem;
+    }
+}

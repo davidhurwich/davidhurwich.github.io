@@ -1,0 +1,139 @@
+a {
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    width: 20%;
+    display: inline-block;
+    font-size: 1rem;
+
+}
+
+.sale {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background: #8096A2;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+  
+
+}
+
+.links {
+    width: 80%;
+    position: center;
+    padding-left: 15%;
+    padding-bottom: 5%;
+  
+}
+
+
+
+#zen-title {
+    text-align: center;
+    padding-bottom: 3.214rem;
+    padding-top: 1.607rem;
+}
+
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5%;
+}
+
+
+.picture1 {
+    padding-left: 20%;
+    padding-bottom: 10%;
+}
+
+.picture2 {
+    padding-right: 20%;
+    padding-bottom: 10%;
+
+}
+
+footer {
+    background-color: #8096A2;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+.icons {
+    float: right;
+    padding-right: 1.0714rem;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1.339rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.head {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1.339rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.clear {
+    width: 100%;
+}
+
+.paddingbottom {
+    padding-bottom: .5357rem;
+}
+
+.paddingleft {
+    padding-left: 1rem;
+}
+
+.addtocart {
+    width: 16.0714rem;
+    padding: .5357rem;
+    border-bottom: .1071rem;
+}
+
+.outpage {
+    width: 70%;
+    display: grid;
+    padding-left: 17%;
+    grid-template-columns: 100%;
+    text-align: center;
+    justify-content: center;
+    
+    }
+
+i {
+     font-size: 1.7rem;
+    text-align: center;
+    padding-right: 10px;
+    position: relative; right: 1rem; bottom: 1.5rem;
+    
+        
+}
+    

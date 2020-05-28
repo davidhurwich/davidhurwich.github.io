@@ -1,0 +1,162 @@
+/* == Navigation == */
+
+.nav{
+    float: right;}
+
+nav li{
+    float: right; 
+    display: inline-block; 
+    margin-left: 3.48rem;
+    padding-top:5.35rem;}
+   
+
+
+nav a{ 
+    color:#8E8E8E;
+    font-size:1rem;
+    text-decoration: none;
+    font-family: "helvetica"; 
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+nav ul{
+   margin: 0rem;
+    padding-right:3.48rem;
+    list-style: none;
+    padding-top: 1.23rem;
+}
+
+a{
+    text-decoration: none
+}
+
+/* == Typography == */
+
+#address{
+    color: #A4A4A4;
+    font-family: "helvetica";
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    line-height: .42rem;
+    
+}
+
+#contact{
+    color: #A4A4A4;
+    font-family: "helvetica";
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    line-height: .42rem
+}
+
+#copyright{
+    color: #A4A4A4;
+    font-family: "helvetica";
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-size: .8rem;
+}
+
+h1{
+    font-family: "prata";
+    color: #8E8E8E;
+    font-size: 2rem;
+    font-weight: lighter;
+   padding-bottom: 1.07rem;
+}
+
+h3{
+    font-family: "helvetica";
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: .42rem;
+    letter-spacing: 2px;
+    color: #8E8E8E;
+    text-align: center;
+}
+
+h4{
+    font-family: "helvetica";
+    font-size: .9rem;
+    font-weight: 100;
+    line-height: .42rem;
+    letter-spacing: 2px;
+    color: #8E8E8E;
+    text-align: center;
+}
+
+footer{
+    padding-top: 1.07rem;
+    border-top: 2px solid #A4A4A4;
+    border-bottom: 2px solid #A4A4A4;
+    width: 80.35rem
+}
+
+
+/* == Layout == */
+
+#banner{
+    position: relative;
+    top: -30.3rem;
+    left: -.8rem;
+}
+
+
+#photos{
+    display: grid;
+grid-template-columns: 33% 33% 33%;
+    max-width: 900px;
+    margin: center;
+    grid-row-gap: 2.67rem;
+    grid-column-gap: 5.35rem;
+    padding-left: 6.16rem;
+    padding-right: 0rem;
+    padding-bottom: 6.16rem;
+}
+
+h3,h4{
+    text-align: center
+}
+
+#address{
+    padding-top: 1.34rem
+}
+
+#copyright{
+    padding-top: 1.34rem;
+    padding-bottom: 1.34rem;
+}
+
+body{ max-width: 80.35rem;
+margin: auto}
+
+h1{text-align: center;
+padding-left: 1rem}
+
+header,
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#address{
+    text-align: right;
+}
+
+#contact{
+    text-align: left;
+}
+
+#copyright{
+    text-align: center;
+}
+
+/*== Extra==*/
+
+#cart{
+    opacity: 0.5
+}
+
