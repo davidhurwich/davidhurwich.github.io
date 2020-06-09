@@ -1,7 +1,7 @@
 let character;
 
 function preload() {
-    character = loadAnimation('character01.png', 'character05.png');
+    character = loadAnimation('../character01.png', '../character05.png');
 
 }
 
