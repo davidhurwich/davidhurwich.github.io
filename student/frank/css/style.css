@@ -1,0 +1,172 @@
+body {
+    background-image: url("../images/logo.jpg");
+    background-size: cover;
+
+}
+
+#2 {
+    background-image: url(../images/Corner2.jpg);
+    background-size: auto;
+
+}
+
+#thirdP {
+    background-image: url(../images/3rdPlace.jpg);
+    background-size: auto;
+}
+
+#win {
+    background-image: url(../images/WinnersPodium.jpg);
+    background-size: auto;
+}
+
+#mess {
+    background-image: url(../images/bikeMess.jpg);
+    background-size: auto;
+}
+
+#container {
+    width: auto;
+    border: 14px dotted orange;
+    padding: 50px;
+    text-align: center;
+
+
+}
+
+#center {
+    margin: 50px auto;
+
+
+}
+
+h1 {
+    width: 500px;
+    border: 10px solid grey;
+    padding: 25px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 100px;
+    background-color: white;
+
+}
+
+h2 {
+    width: 500px;
+    border: 10px solid grey;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+#below {
+    margin: 50px auto;
+    width: 750px;
+    /*    border: 10px solid grey;*/
+}
+
+#botom {}
+
+.bodyText {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px auto;
+    border: 10px solid grey;
+    background-color: white;
+}
+
+.bodyText2 {
+    padding: 10px;
+    font-size: 20px;
+    margin: 15px;
+    border: 10px solid grey;
+    background-color: white;
+}
+
+.bodyText3 {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px auto;
+    border: 10px solid grey;
+    background-color: white;
+
+}
+
+
+/*
+p2 {
+    float: left;
+    width: 20px;
+    border: 5px solid grey;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px
+*/
+}
+
+p3 {
+    float: right;
+    width: 20px;
+    border: 5px solid grey;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+.button {
+    background-color:orange;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    line-height: 25px;
+    font-size: 30px;
+    margin: 50px auto;
+    border-radius: 50%;
+    color: white;
+
+}
+
+
+/*
+.buttonStart {
+    border-radius: 50%;
+
+}
+
+.button2 {
+    border-radius: 50%;
+}
+
+.button3 {
+    border-radius: 50%;
+    float: left;
+
+}
+
+.button4 {
+    border-radius: 50%;
+    float: right;
+}
+
+.button5 {
+    border-radius: 50%;
+    float: left;
+}
+
+.button6 {
+    border-radius: 50%;
+    float: right;
+}
+*/
+*/ */
