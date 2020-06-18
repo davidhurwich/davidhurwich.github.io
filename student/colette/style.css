@@ -1,0 +1,68 @@
+body {
+    background-color: lightpink;
+      background-image:url(back%20ground%20image%20.jpg);
+ background-size: cover;
+}
+    
+h1{
+    text-align: center;
+
+}
+div{
+    text-align: center;
+      padding:0;
+   border:8px;   
+    
+}
+  .centered {
+  position: center;
+  top: 50%;
+ right: 50%;
+      
+}
+
+ img {
+  
+   border:15px solid #021a40;
+     border-color:gray;
+     width: 50xp;
+     padding: 60;
+     margin: 50;
+      
+}
+            
+
+   
+        
+     
+
+     .button{
+border-color:lightpink;
+         padding: 12px 28px;
+         border-radius: 8%;   
+         
+}
+.button:hover {
+  background-color: orange;
+  color: white;
+}
+    
+    
+ .centertext{
+  width: 600px;
+  margin: auto;
+        border:8px solid ;
+     border-color:gray;
+    background-color: white
+}
+
+
+  
+
+        
+                  
+
+
+      
+        
+

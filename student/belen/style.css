@@ -1,0 +1,101 @@
+/* == background ==*/
+
+
+.mainbox {
+    width: 600px;
+    margin: auto;
+}
+
+body {
+    background-color: forestgreen;
+}
+
+.textbox {
+    opacity: 50%;
+    border-radius: 10px;
+    padding: 15px;
+    width: 530px;
+    margin: auto;
+    height: 300px;
+    overflow: scroll;
+}
+
+.smalltextbox {
+    opacity: 50%;
+    border-radius: 10px;
+    padding: 15px;
+    width: 530px;
+    margin: auto;
+    height: 150px;
+    overflow: scroll;
+}
+
+.image {
+    display: block;
+    width: 250px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* == typography ==*/
+
+
+.maintitle {
+    font-family: 'Helvetica';
+    font-size: 60px;
+    font-variant: small-caps;
+    color: navajowhite;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.maintext {
+    font-family: 'Helvetica';
+    color: #FFECBE;
+    letter-spacing: 1.3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    width: 530px;
+    line-height: 20px;
+}
+
+.button {
+    float: center;
+    margin: auto;
+    text-align: center;
+    padding: 20px
+}
+
+a {
+    color: black;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    background-color: #ffd300;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+a:hover {
+    background-color: #fada5e;
+}
+
+a:active {
+    background-color: #FFFFFF;
+}
+
+li {
+    padding: 20px 20px;
+    margin: -15px;
+    font-size: 15px;
+    list-style: none;
+}
