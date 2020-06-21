@@ -1,0 +1,44 @@
+.background{
+    margin:auto;
+    background: url(milky%20way.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+div {
+    background-color:black;
+    width:800px;
+    margin:auto;
+    border:outset black 10px;
+    padding:0px 10px 20px 10px;
+}
+h1 {
+    font-family:"courier";
+    text-indent:10pt;
+    color:greenyellow;
+}
+p {
+    font-family:"courier";
+    color:greenyellow;
+    padding:0px 10px 0px 0px;
+}
+a {
+    background-color:yellowgreen;
+    color:black;
+    text-align: center;
+    padding:5px 5px 5px 5px;
+    text-indent:10px;
+    font-family:"courier";
+    border:darkgreen 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

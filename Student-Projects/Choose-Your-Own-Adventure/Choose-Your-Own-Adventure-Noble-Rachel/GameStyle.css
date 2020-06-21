@@ -1,0 +1,78 @@
+#container {
+    margin: 5%
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    font-family: "Courier";
+    background-color: #ffe8f2;
+    font-size: 14pt;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    opacity: .8;
+}
+
+.Margindown {
+    margin-bottom: 100px
+}
+
+button {
+    font-size: 15pt;
+    margin: 5%;
+    width: auto;
+    margin-left: 10pt;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 15%;
+    padding: 5px;
+    cursor: pointer;
+    background-color: beige;
+}
+
+button:hover {
+    background-color: #cce3e2
+}
+
+.Intro {
+    font-family: "Courier";
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div {
+    text-align: center;
+}
+
+.Darktext {
+    color: beige;
+    font-family: "Courier";
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Path {
+    background-color: beige;
+    width: 30%;
+    font-family: "Courier";
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 15px;
+}
+
+.Blue {
+    background-color: #a3b9d4;
+    opacity: 0.8;
+}

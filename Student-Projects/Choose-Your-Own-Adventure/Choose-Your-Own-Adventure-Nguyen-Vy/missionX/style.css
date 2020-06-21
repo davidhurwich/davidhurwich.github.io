@@ -1,0 +1,82 @@
+/* CONTAINER */
+.containerA {
+    border: 5px solid #000000;
+    padding: 50px 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: auto;
+    background-color: rgba(214, 214, 214, .8);
+    border-radius: 25px;
+}
+
+.container {
+    border: 5px solid #000000;
+    padding: 50px 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: auto;
+    background-color: rgba(214, 214, 214, .8);
+    border-radius: 25px;
+
+}
+
+    {
+    color:
+}
+
+/* BACKGROUNDS */
+
+.bg {
+    background-image: url(image1.jpg);
+}
+
+
+
+/* TYPEFACE */
+.bodyA {
+    font-size: 13pt;
+    font-family: "Verdana";
+    color: #2b2222;
+
+}
+
+body {
+    font-size: 12pt;
+    font-family: "Verdana";
+    color: #2b2222;
+
+}
+
+.footer {font-size: 11pt;
+    font-family: "Verdana";
+    color: #ffffff;
+    text-align: center;
+    
+    
+}
+
+.a2{
+    text-align: right;
+}
+
+/* BUTTONS */
+#button {
+    text-align: center;
+}
+
+a {
+    font-size: 13pt;
+    font-family: "Verdana";
+    text-decoration: none;
+    color: darkred;
+    text-transform: uppercase;
+
+}

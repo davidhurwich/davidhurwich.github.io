@@ -1,0 +1,108 @@
+header {
+    display:block;
+    margin: 15px 10px;
+}
+.banner .logo{
+    height: 85px;
+}
+
+.banner {
+    text-align: center
+}
+.logo:hover {
+    background: url(logo_hover.png);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+ 
+}
+
+
+body {
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.container {
+    text-align: left;
+    width: 60%;
+    height: auto;
+    background-color: black;
+    background: rgba(0,0,0,0.6);
+    margin: auto;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-position: center
+}
+
+/* == play button == */
+.start {
+    text-align: center;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-variant-caps: all-small-caps;
+    font-weight: bolder;
+    font-style: italic;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 150px;
+
+}
+.play {
+    background: none;
+    color: white;
+    border: 4.5px solid white;
+    border-radius: 5px
+}
+
+.play:hover {
+    transition-duration: 0.4s;
+    border-radius: 0px;
+    border: solid 4.5px black;
+    background-color: #000000;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body {
+    background: url(apocalypse_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center
+}
+
