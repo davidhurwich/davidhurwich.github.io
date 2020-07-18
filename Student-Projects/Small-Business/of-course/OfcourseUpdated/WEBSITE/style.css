@@ -1,0 +1,317 @@
+/*== BACKGROUND ==*/
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.dom {
+
+    background-image: url("dominant_1.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*== FONTS ==*/
+
+#nav1 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 17pt;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+nav a {
+    margin-right: 40px;
+}
+
+#nav2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+}
+
+body {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+}
+
+h1 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35pt;
+
+}
+
+.sizing a {
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+h3,
+h4 {
+    text-align: center;
+    margin-top: 0
+}
+
+/*== LAYOUT ==*/
+
+header {
+    text-align: right;
+    display: block;
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    left: 0px;
+    top: 0px;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.imgfloatleft {
+    float: left;
+    margin-right: 50px;
+}
+
+.sqfloatleft {
+    float: left;
+    margin-right: 35px;
+}
+
+h2 {
+    margin: 0;
+    font-family:
+}
+
+
+/*== CONTAINER ==*/
+main {
+    width: 1250px;
+    margin: auto;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+    margin-bottom: 120px;
+}
+
+#featured-1 {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#featured-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center
+}
+
+#featured-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center
+}
+
+#productpg {
+    width: 1250px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+
+
+
+/*== BUTTON ==*/
+button {
+    padding: 12px 28px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13pt;
+    background-color: white;
+    text-transform: uppercase;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-image: url(54WestShirt.jpg);
+    background-size: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+#add-nav a {
+    display: block;
+    padding: 15px;
+    background-color: lightgreen;
+    font-size: 18pt;
+    text-decoration: none;
+    text-align: center;
+    color: green;
+}
+
+#add-nav a {
+    display: block;
+    padding: 15px;
+    background-color: lightgreen;
+    font-size: 18pt;
+    text-decoration: none;
+    text-align: center;
+    color: green;
+}
+
+#add-nav {
+    display: none;
+}
+
+#menuBtnClose {
+    display: none;
+}
+
+/*== Product Page: Pair of Dice T-Shirt==*/
+.reveal-1:hover {
+    opacity: 75%
+}
+
+#product-big {
+    height: 500px;
+    width: 500px;
+    background-image: url(dice-t-front.jpg);
+    background-size: cover;
+}
+
+#product-big:hover {
+    background-image: url(dice-t-back.jpg)
+}
+
+.redsquare1 {
+    height: 100px;
+    width: 100px;
+    background-image: url(dice-t-front.jpg);
+    background-size: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+.redsquare2 {
+    height: 100px;
+    width: 100px;
+    background-image: url(dice-t-back.jpg);
+    background-size: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+.redsquare3 {
+    height: 100px;
+    width: 100px;
+    background-image: url(dice-closeup.jpg);
+    background-size: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+/*=== DROPDOWN MENU ===*/
+..dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    text-decoration:
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: solid .02px gray;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12pt;
+}
+
+.dropdown-content a:hover {
+    opacity: 50%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+}

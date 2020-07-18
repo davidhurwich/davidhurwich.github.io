@@ -1,0 +1,134 @@
+/*== BACKGROUND ==*/
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url(dark-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+}
+
+/*== FONTS ==*/
+
+#nav1 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 17pt;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+nav a {
+    margin-right: 40px;
+}
+
+#nav2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+}
+
+body {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+}
+
+h1 {
+    font-family: atrament-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35pt;
+
+}
+
+.sizing a {
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+h3,
+h4 {
+    text-align: center;
+    margin-top: 0
+}
+
+/*== LAYOUT ==*/
+
+header {
+    text-align: right;
+    display: block;
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+footer {
+    display: block;
+    color: antiquewhite;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+
+footer a {
+    color: antiquewhite
+}
+
+
+
+
+/*== BUTTON ==*/
+button {
+    padding: 12px 28px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 13pt;
+    background-color: white;
+    text-transform: uppercase;
+    margin-top: 100px
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
