@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chrismas Card</title>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+<script>
+	var fireplaceImg;
+	var sound;
+	var santaImg;
+	var merrImg;
+	var giftImg;
+	var vaule =0;
+   
+	function preload(){
+		fireplaceImg=loadImage('https://raw.githubusercontent.com/aqnkurm/Assignment-1--Interactive-Visual-Item/master/images/Fireplace_Christmas.jpg');
+		santaImg=loadImage('https://raw.githubusercontent.com/aqnkurm/Assignment-1--Interactive-Visual-Item/master/images/image.png');
+		merrImg=loadImage('https://raw.githubusercontent.com/aqnkurm/Assignment-1--Interactive-Visual-Item/master/images/merrychristmas.png');
+		giftImg=loadImage('https://raw.githubusercontent.com/aqnkurm/Assignment-1--Interactive-Visual-Item/master/images/Gifts.png');
+		sound=createAudio('https://raw.githubusercontent.com/aqnkurm/Assignment-1--Interactive-Visual-Item/master/Music/Jingle%20Bells%203.mp3');
+	}
+    function setup(){
+        createCanvas(1280,720);
+        background(200);
+		image(fireplaceImg,0,0);
+		sound.autoplay(true);
+		fill('white');
+		text('Press Enter',0,10);
+    }
+	function keyPressed(){
+		if(keyCode===ENTER){
+		   	image(santaImg,100,50);
+			merrImg.resize(1000,100);
+			image(merrImg,100,35);
+	}
+	function mouseClicked(){				
+			image(giftImg,giftX,giftY);
+	}
+}
+</script>	
+</head>
+
+<body>
+</body>
+</html>
