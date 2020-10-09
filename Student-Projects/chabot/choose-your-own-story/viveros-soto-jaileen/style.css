@@ -1,0 +1,66 @@
+/* typography */
+body {
+    background-image: url(Photos/Mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Broadway Copyist Text';
+    font-size: 35pt;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Poor Richard';
+    font-size: 15pt;
+}
+
+footer {
+    font-style: italic;
+    text-align: left;
+    font-size: 10pt;
+}
+
+button {
+    font-family: 'Chiller';
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: orange;
+    border-style: solid;
+    border-color: #b82b2b;
+    border-width: 3pt;
+    margin: 7px;
+}
+
+a {
+    color: #b82b2b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dimgrey;
+}
+
+* {
+    cursor: url('Photos/Quill.Feather.Pen.png'), auto;
+}
+
+/* backgrounds */
+div {
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    border-color: #b82b2b;
+    border-width: 15px;
+    border-style: solid;
+    width: 1000px;
+}

@@ -1,0 +1,55 @@
+body {
+    
+    background-image: url(backgroundamongus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main {
+
+    background-color: #380000;
+    color: white;
+    padding: 3px;
+    width: 700px;
+}
+
+button {
+    
+    font-size: 18pt;
+    font-family: "Rising Sun";
+    width: 200px;
+    
+}
+
+footer {
+
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    right: 50%;
+    width: 200px;
+}
+
+.container {
+    top: 0;
+    left: 27.6%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    border: 60px solid #380000;
+    border-top: 46px solid #380000;
+    border-bottom: 244px solid #380000;
+    width: 700px;
+}
+
+h1 {
+    
+    font-family: "Rising Sun"
+}
+
+p {
+    
+    font-family: "Rising Sun";
+}
