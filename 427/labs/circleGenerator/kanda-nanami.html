@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nanami Kanda Random Circle Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script>
+        let number = 0;
+        let circleX = 100;
+        let circleY = 100;
+        let circleDiameter = 0;
+        let a;
+        let b;
+        let c;
+
+        let squareX = 150;
+        let squareY = 150;
+        let d;
+        let e;
+        let f;
+
+        let rectX;
+        let rectY;
+        let g;
+        let h;
+        let i;
+
+
+        function setup() {
+            createCanvas(500, 500);
+            background('#cfffd7');
+
+
+        }
+
+        function draw() {}
+
+
+        function mousePressed() {
+            number = number + 1
+
+            if (number < 6) {
+                circleX = random(0, 499);
+                circleY = random(0, 499);
+                circleDiameter = random(100, 150);
+                a = random(0, 255);
+                b = random(0, 255);
+                c = random(0, 255);
+                noStroke();
+                fill(a, b, c);
+                circle(circleX, circleY, circleDiameter);
+            } else if (number < 16) {
+                squareX = random(0, 499);
+                squareY = random(0, 499);
+                d = random(0, 255);
+                e = random(0, 255);
+                f = random(0, 255);
+                fill(d, e, f);
+                square(squareX, squareY, 60);
+            } else {
+                rectX = random(0, 499);
+                rectY = random(0, 499);
+                g = random(0, 255);
+                h = random(0, 255);
+                i = random(0, 255);
+                fill(g, h, i, 80);
+                rect(rectX, rectY, 30, 100);
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <div>Use your mouse to click and create items</div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nanami Kanda Random Circle Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script>
+        let shapeX;
+        let shapeY;
+        let shapeDim;
+        let x = 1;
+        let colorA;
+        let colorB;
+        let colorC;
+
+        function setup() {
+            createCanvas(500, 500);
+            background('#88afb8');
+
+        }
+
+        function keyPressed() {
+            if (x <= 5) {
+                colorA = random(0, 255);
+                colorB = random(0, 255);
+                colorC = random(0, 255);
+                shapeX = random(100, 400);
+                shapeY = random(99, 100);
+                shapeDim = random(30, 60);
+                fill(colorA, colorB, colorC);
+                circle(shapeX, shapeY, shapeDim);
+                x = x + 1;
+            } else {
+                colorA = random(0, 255);
+                colorB = random(0, 255);
+                shapeX = random(0, 500);
+                shapeY = random(250, 290);
+                shapeDim = random(5, 15);
+                fill(colorA, colorB, 225);
+                square(shapeX, shapeY, shapeDim);
+                colorA = random(0, 255);
+                colorB = random(0, 255);
+                shapeX = random(0, 500);
+                shapeY = random(290, 300);
+                shapeDim = random(10, 30);
+                fill(colorA, colorB, 225);
+                square(shapeX, shapeY, shapeDim);
+                colorA = random(0, 255);
+                colorB = random(0, 255);
+                shapeX = random(0, 500);
+                shapeY = random(280, 400);
+                shapeDim = random(30, 35);
+                fill(colorA, colorB, 225);
+                square(shapeX, shapeY, shapeDim);
+                colorA = random(0, 255);
+                colorB = random(0, 255);
+                shapeX = random(0, 500);
+                shapeY = random(400, 500);
+                shapeDim = random(60, 65);
+                fill(colorA, colorB, 225);
+                square(shapeX, shapeY, shapeDim);
+                x = x + 1;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div>Press any key to create shapes</div>
+</body></html>
