@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        
+    <script src="p5.js"></script>
+        
+    <script>
+
+
+let ghostImage;
+let ghostImageX=50;
+let ghostImageY=220;
+        
+let candyImage;
+let candyImageX;
+let candyImageY;
+let candyImage2;
+let candyImage2X;
+let candyImage2Y;
+let candyImage3;
+let candyImage3X;
+let candyImage3Y;
+let candyImage4;
+let candyImage4X;
+let candyImage4Y;
+        
+let halloweenCard1;
+        
+let number=0;
+
+let candyLogo;
+let totalAmount=0;
+        
+let candyCollect=false;
+let candyCollect2=false;
+let candyCollect3=false;
+let candyCollect4=false;
+        
+
+
+
+function preload(){
+  ghostImage=loadImage('https://lauren-wise.github.io/ghost.png');
+  candyImage=loadImage('https://lauren-wise.github.io/candycorn.png');
+  candyImage2=loadImage('https://lauren-wise.github.io/candycorn2.png');
+  candyImage3=loadImage('https://lauren-wise.github.io/candycorn3.png');
+  candyImage4=loadImage('https://lauren-wise.github.io/candycorn4.png');
+  
+  candyCover1=loadImage('https://lauren-wise.github.io/candy.png')
+
+  candyLogo=loadImage('https://lauren-wise.github.io/candycorn5.png')
+    
+    halloweenCard1=loadImage('https://lauren-wise.github.io/halloweencard1.png')
+    
+}
+        
+
+function setup() {
+  createCanvas(650, 400);
+    candyImageX=random(100,240)
+    candyImageY=random(50,219)
+    candyImage2Y=random(50,219)
+    candyImage2X=random(250,400)
+    candyImage3X=random(410,500)
+    candyImage3Y=random(50,200)
+    candyImage4Y=random(50,200)
+    candyImage4X=random(501,600)
+    
+    
+}
+
+function draw() {
+    background('#392c47');
+    
+    //* Random Candies *//
+    image(candyImage,candyImageX,candyImageY);
+    image(candyImage2,candyImage2X,candyImage2Y);
+    image(candyImage3,candyImage3X,candyImage3Y);
+    image(candyImage4,candyImage4X,candyImage4Y);
+    
+    
+    
+ 
+    
+    
+    //* Start Trick or Treating Message *//
+    if (ghostImageX>51 || ghostImageY<219)
+        {fill('#392c47')
+        textFont('Lobster')
+        textSize(24)
+        text('Go Trick or Treating!',20,380);
+        }
+    else{
+        fill('orange')
+        textFont('Lobster')
+        textSize(24)
+        text('Go Trick or Treating!',20,380);
+    }
+    
+      
+    
+    
+    //* Moving the Ghost *//
+        if(keyIsDown(UP_ARROW)){
+        ghostImageY= ghostImageY - 2
+        }
+        if(keyIsDown(DOWN_ARROW)){
+        ghostImageY= ghostImageY + 2
+        }
+        if(keyIsDown(LEFT_ARROW)){
+        ghostImageX= ghostImageX - 2
+        }
+        if(keyIsDown(RIGHT_ARROW)){
+        ghostImageX=ghostImageX +2
+        }
+    
+   
+    
+    
+  //* Candy 1 disappearing after collected *//  
+        if(candyCollect===true){
+            fill('#392c47')
+            noStroke()
+            circle(candyImageX,candyImageY,135)
+            number=1
+            }
+        
+    
+        if(ghostImageX>candyImageX-25 && ghostImageX<candyImageX+25 && ghostImageY>candyImageY-25 && ghostImageY<candyImageY+25){
+            
+            print('candy collected');
+            
+            fill('orange')
+            textFont('Lobster')
+            textSize(24)
+            text('Treat Collected!',20,380);
+            
+            candyCollect = true;   
+            
+        }
+    
+    
+          //* Candy 2 disappearing after collected *//
+    
+        if(candyCollect2===true){
+                fill('#392c47')
+                noStroke()
+                circle(candyImage2X,candyImage2Y,135)
+                number=2
+            }
+    
+        if(ghostImageX>candyImage2X-15 && ghostImageX<candyImage2X+15 && ghostImageY>candyImage2Y-15 && ghostImageY<candyImage2Y+15){
+            
+            print('candy collected');
+            
+            fill('orange')
+            textFont('Lobster')
+            textSize(24)
+            text('Treat Collected!',20,380);
+            
+            candyCollect2 = true; 
+            
+            
+        }
+    
+    
+     //* Candy 3 disappearing after collected *//
+    
+        if(candyCollect3===true){
+                fill('#392c47')
+                noStroke()
+                circle(candyImage3X,candyImage3Y,135)
+                number=3
+            }
+    
+        if(ghostImageX>candyImage3X-25 && ghostImageX<candyImage3X+25&& ghostImageY>candyImage3Y-15 && ghostImageY<candyImage3Y+15){
+            
+            print('candy collected');
+            
+            fill('orange')
+            textFont('Lobster')
+            textSize(24)
+            text('Treat Collected!',20,380);
+            
+            candyCollect3 = true; 
+            
+            
+        }
+    
+      //* Candy 4 disappearing after collected *//
+    
+        if(candyCollect4===true){
+                fill('#392c47')
+                noStroke()
+                circle(candyImage4X,candyImage4Y,135)
+               number=4
+            }
+    
+        if(ghostImageX>candyImage4X-15 && ghostImageX<candyImage4X+25 && ghostImageY>candyImage4Y-15 && ghostImageY<candyImage4Y+15 ){
+            
+            print('candy collected');
+            
+            fill('orange')
+            textFont('Lobster')
+            textSize(24)
+            text('Treat Collected!',20,380);
+            
+            candyCollect4 = true; 
+            
+            
+            
+        }
+        
+    //*ghost*//
+    image(ghostImage,ghostImageX,ghostImageY); 
+    
+    
+    
+    //*change the background*//
+    if(candyCollect4===true && candyCollect===true && candyCollect2===true && candyCollect3===true){
+        image(halloweenCard1,0,0)
+        halloweenCard1.resize(650,400)
+    
+        
+    }
+    
+       
+    //* Number of Candies Collected Display *//
+        fill('orange')
+        rect(545,345,80,80,20)
+        image(candyLogo,555,353,30,40)
+        fill('#392c47')
+        textSize(30)
+        text(number,590,385)
+    
+
+ 
+  
+}
+        
+        
+    </script>
+        
+    </head>
+    <body>
+    
+    </body>
+    
+</html>
