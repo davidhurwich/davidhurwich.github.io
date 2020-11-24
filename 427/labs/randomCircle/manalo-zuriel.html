@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zuriel Manalo Random Circle Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script>
+        //variables
+        let circleDiameter;
+        let circleX
+        let circleY;
+        let colR;
+        let colG;
+        let colB;
+        let colA;
+
+        function setup() {
+            createCanvas(500, 500);
+            background('black');
+        }
+
+        function draw() {
+            circleX = random(0, 500);
+            circleY = random(0, 500);
+
+            //circle
+
+            colR = random(75, 252);
+            colG = random(50, 186);
+            colB = random(0, 5);
+            colA = random(50, 100);
+            noStroke();
+            fill(colR, colG, colB, colA);
+            circleDiameter = random(10, 75);
+            circle(circleX, circleY, circleDiameter);
+
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

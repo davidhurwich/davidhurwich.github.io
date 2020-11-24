@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jasmine Hoang</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script>
+        function setup() {
+            createCanvas(500, 500);
+        }
+
+        function draw() {
+            background("#CBE0FF");
+            stroke("#85929E");
+
+            //left ear
+            fill("#F7F9F9");
+            ellipseMode(RADIUS);
+            ellipse(175, 150, 25, 90);
+            ellipseMode(CENTER);
+            fill("#FADBD8");
+            ellipse(175, 150, 25, 85);
+
+            //right ear
+            fill("#F7F9F9");
+            ellipseMode(RADIUS);
+            ellipse(325, 150, 25, 90);
+            ellipseMode(CENTER);
+            fill("#FADBD8");
+            ellipse(325, 150, 25, 85);
+
+            //head
+            fill("#F7F9F9");
+            circle(250, 250, 200);
+
+            //nose
+            fill("#FADBD8");
+            triangle(235, 290, 250, 310, 265, 290);
+
+            stroke("#85929E");
+            strokeWeight(1.75);
+            line(250, 310, 250, 320);
+            line(250, 320, 240, 330);
+            line(250, 320, 260, 330);
+
+            //eyes
+            noStroke();
+            fill("#943126 ");
+            circle(190, 275, 40);
+            circle(310, 275, 40);
+            fill("white");
+            circle(185, 265, 15);
+            circle(310, 265, 15);
+
+            //Text
+            noStroke();
+            fill("black");
+            textSize(18);
+            text("Bunbun by Jasmine Hoang", 145, 400);
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ellen Wong Random Circle Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script>
+        let squareX;
+        let squareY;
+        let squareS;
+        let squareDiameter;
+        let squareFill;
+        let circleX;
+        let circleY;
+        let circleDiameter;
+        let circleFill;
+        let purple;
+        let yellow;
+        let blue;
+        let green;
+        let black;
+        let red;
+        let pink;
+        let color3 = '#f734b3';
+        let color1 = '#65f798';
+        let color2 = '#4debdb';
+        let color4 = '#db9c72';
+        let color5 = '#6cb89d';
+        let color6 = '#99c7b';
+        let color7 = '#f7adb5';
+        let color8 = '#9181cc';
+        let textX;
+        let textY;
+        let textX1;
+        let textY1;
+        let textX2;
+        let textY2;
+        let x, y;
+        var speedX1;
+        var speedY1;
+        let textX3;
+        let textY3;
+
+
+        function setup() {
+            createCanvas(500, 500);
+            background('#f7edd2');
+            speedX1 = random(1, 3);
+            speedY1 = random(1, 3);
+
+        }
+
+        function draw() {
+
+
+            // text
+            textSize(100);
+            textFont('gotham');
+            text('Hello', textX, textY);
+            purpleTextX = random(0, 250);
+            yellowTextY = random(0, 250);
+            blueTextX = random(0, 250);
+            greenTextY = random(0, 250);
+            blackTextX = random(0, 250);
+            redTextY = random(0, 250);
+            pinkTextX = random(0, 250);
+            color1TextY = random(0, 250);
+            color2TextX = random(0, 250);
+            color3TextY = random(0, 250);
+            color4TextX = random(0, 250);
+            color5TextY = random(0, 250);
+            color6TextX = random(0, 250);
+            color7TextY = random(0, 250);
+            color8TextX = random(0, 250);
+
+            textX = random(0, 500);
+            textY = random(0, 500);
+            textDiameter = random(20, 200);
+
+            textSize(50);
+            textFont('Futura');
+            text('안녕', textX1, textY1);
+            purpleTextX1 = random(0, 250);
+            yellowTextY1 = random(0, 250);
+            blueTextX1 = random(0, 250);
+            greenTextY1 = random(0, 250);
+            blackTextX1 = random(0, 250);
+            redTextY1 = random(0, 250);
+            pinkTextX1 = random(0, 250);
+            color1TextY1 = random(0, 250);
+            color2TextX1 = random(0, 250);
+            color3TextY1 = random(0, 250);
+            color4TextX = random(0, 250);
+            color5TextY1 = random(0, 250);
+            color6TextX1 = random(0, 250);
+            color7TextY1 = random(0, 250);
+            color8TextX1 = random(0, 250);
+
+
+            textX1 = random(0, 400);
+            textY1 = random(10, 400);
+
+            textSize(150);
+            textFont('Baskerville');
+            text('Colors', textX2, textY2);
+            purpleTextX2 = random(0, 250);
+            yellowTextY2 = random(0, 250);
+            blueTextX2 = random(0, 250);
+            greenTextY2 = random(0, 250);
+            blackTextX2 = random(0, 250);
+            redTextY2 = random(0, 250);
+            pinkTextX2 = random(0, 250);
+            color1TextY2 = random(0, 250);
+            color2TextX2 = random(0, 250);
+            color3TextY2 = random(0, 250);
+            color4TextX2 = random(0, 250);
+            color5TextY2 = random(0, 250);
+            color6TextX2 = random(0, 250);
+            color7TextY2 = random(0, 250);
+            color8TextX2 = random(0, 250);
+
+            textX2 = random(0, 300);
+            textY2 = random(0, 300);
+
+            // square
+            purpleSquare = random(0, 350);
+            yellowSquare = random(0, 350);
+            blueSquare = random(0, 350);
+            greenSquare = random(0, 350);
+            blackSquare = random(0, 350);
+            redSquare = random(0, 350);
+            pinkSquare = random(0, 350);
+            color1Square = random(0, 350);
+            color2Square = random(0, 350);
+            color3Square = random(0, 350);
+            color4Square = random(0, 250);
+            color5Square = random(0, 250);
+            color6Square = random(0, 250);
+            color7Square = random(0, 250);
+            color8Square = random(0, 250);
+
+            squareX = random(0, 500);
+            squareY = random(0, 500);
+            squareS = random(0, 500);
+            squareDiameter = random(20, 200);
+            noStroke();
+            fill(purpleSquare, greenSquare, blueSquare, blackSquare, redSquare, pinkSquare, color1Square, color2Square, color3Square, color4Square, color5Square, color6Square, color7Square, color8Square);
+            square(squareX, squareY, squareS, squareDiameter);
+
+
+            // circle 
+            purpleCircle = random(0, 300);
+            YellowCircle = random(0, 300);
+            blueCircle = random(0, 300);
+            greenCircle = random(0, 300);
+            blackCircle = random(0, 350);
+            redCircle = random(0, 250);
+            pinkCircle = random(0, 300);
+            color1Circle = random(0, 300);
+            color2Circle = random(0, 300);
+            color3Circle = random(0, 300);
+            color4Circle = random(0, 300);
+            color5Circle = random(0, 300);
+            color6Circle = random(0, 300);
+            color7Circle = random(0, 300);
+            color8Circle = random(0, 300);
+
+            circleX = random(0, 200);
+            circleY = random(0, 200);
+            circleDiameter = random(20, 100);
+            noStroke();
+            fill(purpleCircle, greenCircle, blueCircle, blackCircle, redCircle, pinkCircle, color1Circle, color2Circle, color3Circle, color4Circle, color5Circle, color6Circle, color7Circle, color8Circle);
+            circle(circleX, circleY, circleDiameter, x, y);
+            x = x + random(-1, 1);
+            y = y - 1;
+
+            // word
+            color = random(0, 300);
+            colorDiameter = random(20, 100);
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
