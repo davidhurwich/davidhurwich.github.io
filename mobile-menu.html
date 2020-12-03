@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Display Buttons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    ==== INSTRUCTIONS ===
+    
+    Use @media screen to change the size of buttons when on smaller, touch based devices like smartphones and tablets.
+   
+    Set a media query with a max-width of 480px.
+    
+    When the browser is smaller than 480px change the <a> into block using CSS display. 
+    Set text alignment to the center
+    Add padding to enlarge the button
+    Use margin-bottom to push the space between navigation buttons.
+   
+   -->
+
+
+    <style>
+        a {
+            color: red;
+            font-size: 14pt;
+            font-weight: bold;
+            margin-right: 15px;
+            text-decoration: none;
+
+        }
+
+
+        @media screen and (max-width:480px) {
+
+
+            a {
+                display: block;
+                background-color: yellow;
+                padding: 10px;
+                text-align: center;
+                margin-bottom: 5px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2> Standard University Homepage</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Future Students</a>
+        <a href="#">Current Students</a>
+        <a href="#">Faculty & Staff</a>
+        <a href="#">Contact</a>
+    </nav>
+
+</body>
+
+</html>

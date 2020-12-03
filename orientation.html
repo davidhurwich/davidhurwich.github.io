@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MQ Orientation</title>
+    <style>
+        @media screen and (max-width:480px) {
+
+            @media (orientation: landscape) {
+                body {
+                    background-color: yellow;
+                }
+
+                #portrait {
+                    display: none;
+                }
+
+                #landscape {
+                    display: block;
+                }
+            }
+
+            @media (orientation: portrait) {
+                body {
+                    background-color: yellow;
+                }
+
+                #portrait {
+                    display: block;
+                }
+
+                #landscape {
+                    display: none;
+                }
+
+            }
+
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="landscape">
+        This is in landscape mode
+    </div>
+
+    <div id="portrait">
+        This is in portrait mode
+    </div>
+
+
+</body>
+
+</html>
