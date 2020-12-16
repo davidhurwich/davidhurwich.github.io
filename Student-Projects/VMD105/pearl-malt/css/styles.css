@@ -1,0 +1,38 @@
+     
+    html 
+{   background-color: floralwhite;
+    font-family: sans-serif}
+
+body {
+    width:1000px;
+    padding:25px;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    border: 10px double;
+    border-color: hotpink;
+    
+    
+}
+img {
+  border: 2px solid #000;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: atypewriterforme;
+}
+
+
+h2 {
+    font-size: 16px;
+    
+}
+
+p {
+    font size: 14px;
+    font-family: courier;
+}
+        
+       

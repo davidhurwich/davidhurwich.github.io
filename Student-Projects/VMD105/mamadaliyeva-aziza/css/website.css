@@ -1,0 +1,63 @@
+html {
+    background-color: #fffda1;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 20pt;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top_section {}
+
+
+.botton_section {
+    border: dotted 5px black;
+    background-color: antiquewhite;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#home_bottom_background {
+    background-color: #f5f1fc;
+}
+
+#raster_bottom_background {
+    background-color: #354969;
+}
+
+#animation_bottom_background {
+    background-color: #f1bfca;
+}
+
+#print_bottom_background {
+    background-color: #e4a65b;
+}
+
+#contact_bottom_background {
+    background-color: #8cccbc;
+}

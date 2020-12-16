@@ -1,0 +1,39 @@
+
+
+html {
+     background-image:url(../Photoshop/bg.jpg)
+}
+
+body    {
+    
+    width:80%;
+    padding: 200px;
+    margin-top: 0px
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
+   text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+        border: 5px solid #000
+    background-color:: #C1761C;
+}
+
+p   {
+    
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-size: 18pt;
+    line-height: 20pt;
+
+}
+
+header  {
+    
+   float:center;  
+    
+}
+         
+
+
