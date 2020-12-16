@@ -1,0 +1,41 @@
+html {    
+    background: url('../images/background.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+}
+body {color: #CB536C}
+
+body {
+    width:1000px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {background-color: #FBF1F1;}
+
+
+
+a {
+    font-size: 14pt;
+    color: #fff;
+    text-decoration: none;
+    background-color: #cb536c;
+}
+
+a:hover {
+    color: #8a3849
+}
+
+li {
+    display: inline;
+    
+}
+
+ul{
+    list-style: none;
+}

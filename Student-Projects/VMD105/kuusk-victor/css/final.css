@@ -1,0 +1,53 @@
+html {
+    color: gold;
+    border: 10px goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    width: 900px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid goldenrod;
+    background-color: rgb(11,11,22);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a {
+    font-size: 15pt;
+    color: gold;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+a:hover {
+    color: lightgoldenrodyellow;
+    font-size: 19pt;
+    font-family: fantasy;
+    letter-spacing: 4px;
+}
+
+h1 {
+    font-size: 15pt;
+    color: goldenrod;
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 15pt;
+    line-height: 14pt;
+    font-family: monospace;
+    
+}
+
+img {
+    border: medium solid #666;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+}

@@ -1,0 +1,49 @@
+img {
+  width: 900px;
+  border: 10px solid #000;
+}
+
+html {
+  background-color:#d89000;
+}
+
+body {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px;
+}
+
+p {
+  text-align: center;
+  font-family: font-family: 'Sen', sans-serif;
+  font-size: 12pt;
+  letter-spacing: 2px;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #fff;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 24pt;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
