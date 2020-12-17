@@ -37,6 +37,12 @@ a {
 
 /* === Backgrounds ===*/
 
+#websites,
+#prototypes,
+#story {
+    padding: 2rem;
+}
+
 header {
     background-color: #d6d6d6;
     padding: 1rem;
@@ -47,25 +53,26 @@ footer {
     padding: 2rem;
 }
 
-#visual {
+#story {
     background-color: #dfffba;
 
 }
 
-#models {
+#prototypes {
     background-color: #ffcff4;
 }
 
-#worlds {
+#websites {
     background-color: #c7fff3
 }
 
 /* === Project Images. ===*/
 .project-splash {
     width: 100%;
-    height: 300px;
+    min-height: 250px;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 0.5em;
 }
 
 #chan1 {
@@ -73,7 +80,7 @@ footer {
 }
 
 
-#chan2 {
+#chen2 {
     background-image: url("chan2.png");
 }
 
@@ -116,6 +123,15 @@ footer {
     width: 90%;
     max-width: 1200px;
     margin: auto;
+}
+
+.website {
+    display: block;
+}
+
+
+img {
+    max-width: 100%;
 }
 
 /* === Responsive ==== */
