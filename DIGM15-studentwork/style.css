@@ -7,6 +7,18 @@ body {
     margin: 0;
 }
 
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+h4,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 /* == Font Setup ==*/
 
 body {
@@ -21,13 +33,12 @@ h1 {
 }
 
 footer {
-    color: #fff;
+    color: #f0f0f0;
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
 }
 
-nav a {
-    display: inline-block;
-    width: 33.33%;
-}
+
 
 
 a {
@@ -45,7 +56,7 @@ a {
 
 header {
     background-color: #d6d6d6;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 footer {
@@ -66,15 +77,18 @@ footer {
     background-color: #c7fff3
 }
 
+nav a {
+    display: block;
+    margin-bottom: 0.25em;
+}
+
 /* === Project Images. ===*/
 .project-splash {
-    width: 100%;
-    min-height: 250px;
-    background-repeat: no-repeat;
-    background-size: contain;
+
     margin-bottom: 0.5em;
 }
 
+/*
 #chan1 {
     background-image: url("chan1.png");
 }
@@ -100,6 +114,7 @@ footer {
     background-image: url("decout1.png");
 }
 
+
 #creations {
     background-image: url("creations-crave.png");
 
@@ -112,11 +127,12 @@ footer {
 #regalarte {
     background-image: url("regal-arte.png");
 }
-
+*/
 
 .grid {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-gap: 1em;
 }
 
 .container {
@@ -134,6 +150,42 @@ img {
     max-width: 100%;
 }
 
+h4 {
+    margin: 0.75em 0;
+
+}
+
+ul {
+    margin-left: 2em;
+    ;
+}
+
+footer {
+    text-align: center;
+}
+
+nav a:hover,
+#websites a:hover {
+    color: #000;
+}
+
+#topbutton {
+
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+
+.fa-chevron-circle-up {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fa-chevron-circle-up:hover {
+    color: #969696;
+}
+
 /* === Responsive ==== */
 
 @media screen and (max-width: 480px) {
@@ -143,11 +195,52 @@ img {
     }
 
     @media (orientation: portrait) {
+
+        body {
+            font-size: .9rem;
+        }
+
+        footer {
+            padding: 1.5em;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+        }
+
+        figure ul {
+            width: 50%;
+            text-align: left;
+            margin: auto;
+        }
+
+        .website,
+        .preproduction {
+            display: block;
+            padding: 1em;
+            background-color: #a2b6b8;
+            color: #444;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+
+        .student {
+            display: block;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .project-splash {
+            margin-bottom: 0em;
+        }
+
         nav a {
             display: block;
             padding: 10px;
             width: 100%;
             text-align: center;
+            background-color: #f7f7f7;
+            margin-bottom: 0.5em;
         }
 
         .grid {
@@ -157,6 +250,13 @@ img {
         footer {
             font-size: .75rem;
             text-align: center;
+        }
+
+        #topbutton {
+
+            position: fixed;
+            bottom: 3%;
+            right: 3%;
         }
     }
 }
