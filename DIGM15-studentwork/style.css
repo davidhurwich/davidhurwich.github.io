@@ -39,8 +39,6 @@ footer {
 }
 
 
-
-
 a {
     text-decoration: none;
     color: #545454;
@@ -88,46 +86,9 @@ nav a {
     margin-bottom: 0.5em;
 }
 
-/*
-#chan1 {
-    background-image: url("chan1.png");
-}
 
+/* === Layout ===*/
 
-#chen2 {
-    background-image: url("chan2.png");
-}
-
-#garcia1 {
-    background-image: url("garcia1.png");
-}
-
-#martin1 {
-    background-image: url(martin1.png);
-}
-
-#chen1 {
-    background-image: url("chen1.png");
-}
-
-#decout1 {
-    background-image: url("decout1.png");
-}
-
-
-#creations {
-    background-image: url("creations-crave.png");
-
-}
-
-#frodojoe {
-    background-image: url(frodo-joes.png);
-}
-
-#regalarte {
-    background-image: url("regal-arte.png");
-}
-*/
 
 .grid {
     display: grid;
@@ -196,6 +157,12 @@ nav a:hover,
 
     @media (orientation: portrait) {
 
+        nav {
+            position: sticky;
+            top: 0px;
+
+        }
+
         body {
             font-size: .9rem;
         }
@@ -206,6 +173,7 @@ nav a:hover,
 
         h1 {
             font-size: 1.25rem;
+            line-height: 1.6rem;
         }
 
         figure ul {
@@ -257,6 +225,16 @@ nav a:hover,
             position: fixed;
             bottom: 3%;
             right: 3%;
+        }
+
+        #copyright {
+            display: block;
+            text-align: center;
+        }
+
+        #school {
+            display: block;
+            text-align: center;
         }
     }
 }
