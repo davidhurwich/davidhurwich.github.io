@@ -1,0 +1,78 @@
+
+main{
+    background: #f1dec3;
+    font-family: 'Arial';
+}
+
+body{
+    background: #dbac68;
+    font-family: 'Arial';
+}
+
+header{
+    background: #dbac68;
+    text-align: center;
+    font-family: 'Gill Sans';
+}
+
+title{
+    font-family: 'Gill Sans';
+}
+
+
+a:link{
+    color: #ffffff;
+    font-family: 'Arial';
+    font-size:20px;
+    background-color:#80643d;
+    cursor: pointer;
+    padding: 14px 28px;
+    display: inline-block;
+    align-content: center;
+    box-sizing: border-box;
+    margin: center;
+    text-decoration: none;
+}
+
+a:hover{background:#f1dec3;
+    
+}
+a:visited{color: white}
+
+.container{
+    float:left;
+}
+
+figure{
+    display:inline-block;
+    padding: 5px;
+    
+}
+
+.image{
+    display:block;
+
+}
+figcaption{
+    display:block;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    text-indent: 40px;
+}
+
+h3{
+    text-align: left;
+    text-indent: 40px;
+}
+
+p{
+    text-indent: 40px;
+}
+
+footer{
+    background: #f1dec3;
+}

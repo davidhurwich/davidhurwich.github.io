@@ -1,0 +1,171 @@
+/* 
+Fonts we used
+font-family: 'Cookie', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Pontano Sans', sans-serif; 
+*/
+
+/* Typography */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 48px;
+    padding-top: 60px;
+}
+
+.slogan{padding-top: 0px}
+
+p {
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: #6C6C6C;
+    margin: 70px;
+    align-content: center;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.button:hover {
+    color: black;
+}
+
+.button {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 20px;
+    background-color: #6C6C6C;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 0px
+}
+
+
+.fab {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+/* Layout */
+
+nav {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%
+}
+
+body {
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 230px;
+    background-color: #EBE2D5;
+    position: fixed;
+    margin: auto;
+    text-align: center;
+}
+
+.resize {
+    width: 200px;
+    padding: 15px
+}
+
+.intro {
+    width: 40%;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px
+}
+
+main {
+    padding-top: 250px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+}
+
+/* GRID */
+.introgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+/* IMAGE RISIZING*/
+
+.introsize {
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+}
+
+.instagramsize {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.size {
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.size2 {
+    width: 500px;
+    padding-bottom: 25px
+}
+
+.aboutus {
+    margin: 50px
+}
