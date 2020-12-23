@@ -1,0 +1,129 @@
+header {
+    background-color: #173537;
+    padding-top: 40px;
+    padding-left: 75px;
+}
+
+.navlow {
+    padding-top:15px;
+}
+
+.logomid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-right: 75px;
+}
+
+.logofooter {
+    margin-left: auto;
+    padding-right: 25px;
+    padding-top: 25px
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 1920px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+    padding-left: 75px;
+    padding-top: 75px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 75px;
+}
+
+nav a {
+    padding-right: 5px;
+}
+
+footer {
+    background-color: #173537;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.footing {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    padding-left: 25px;
+}
+
+.telephone {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: #D3B196;
+}
+
+.copyright {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    color: #D3B196;
+}
+
+.links {
+    font-size: 30pt;
+    color: #D3B196;
+}
+
+a:visited {
+    font-size: 30pt;
+    color: #D3B196;
+}
+
+.brownsugarmilk {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.brownsugartaro {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.chilaioolongtea {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.classictea {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.passionfruittea {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.brownsugarplum {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.info {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: 14pt;
+    padding-top: 40px;
+}
+
+
+.infopage {
+    grid-template-columns: 25% 75%;
+}
+
+.contactinfo {
+    padding-left: 100px;
+}

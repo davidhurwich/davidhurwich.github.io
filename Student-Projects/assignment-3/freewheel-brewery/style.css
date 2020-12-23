@@ -1,0 +1,381 @@
+/*Body*/
+
+
+body {
+    font-family: "roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 14pt;
+    line-height: 23pt;
+    color: #191919;
+    background-color: #000000;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    background-color: #f8f7f7;
+
+}
+
+header {
+    background-color: #191919;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+nav a {
+    font-size: 12pt;
+    margin: 30px;
+    text-decoration: none;
+    color: #acacac;
+
+}
+
+nav a:hover {
+    color: #c8201f;
+}
+
+section a:hover {
+    background-color: #a61515;
+}
+
+article a:hover {
+    background-color: #191919;
+}
+
+.social {
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    font-size: 30px;
+    position: absolute;
+
+}
+
+.social a {
+    color: rgb(172, 172, 172, .4);
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 100px;
+}
+
+.button {
+    font-size: 14pt;
+    text-decoration: none;
+    color: #f8f7f7;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 70px;
+    background-color: #c8201f;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/*mainpage*/
+
+
+.dog {
+    width: 100%;
+}
+
+
+.intro {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+.intro h2 {
+    font-size: 26pt;
+    padding-bottom: 10px;
+    font-variant-caps: small-caps;
+    text-align: center;
+}
+
+
+
+.online {
+    text-align: center;
+    font-size: 8pt;
+    padding-bottom: 100px;
+
+}
+
+
+
+section {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.seasonal {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #f6f4ec;
+    margin-bottom: -9px;
+}
+
+.seasonal2 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #ffffff;
+    margin-bottom: -9px;
+}
+
+
+
+.text1 {
+    margin-left: 30px;
+    font-size: 12pt;
+}
+
+.text1 h2 {
+    margin-bottom: -10px;
+    font-size: 15pt;
+
+
+}
+
+.text1 h3 {
+    font-size: 12pt;
+    line-height: 15pt;
+}
+
+.text1 h4 {
+    padding-top: 30px;
+}
+
+.text2 {
+    margin-right: 30px;
+    font-size: 12pt;
+    text-align: right;
+}
+
+.text2 h2 {
+    margin-bottom: -10px;
+    font-size: 15pt;
+}
+
+.text2 h3 {
+    font-size: 12pt;
+    line-height: 15pt;
+}
+
+.text2 h4 {
+    padding-top: 30px;
+}
+
+
+
+
+.buttonorder {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #f8f7f7;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px 30px;
+    background-color: #c8201f;
+    border-radius: 20px;
+
+}
+
+.buttonorder2 {
+    font-size: 12pt;
+    text-decoration: none;
+    color: #f8f7f7;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px 30px;
+    background-color: #c8201f;
+    border-radius: 20px;
+
+}
+
+.bottom {
+    background-color: #191919;
+    color: #acacac;
+    font-size: 14pt;
+}
+
+#times {
+    height: 500px;
+    display: grid;
+    margin: auto;
+    margin-top: 0px;
+}
+
+#times h3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.halftime {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+
+.hours,
+.days,
+#location p {
+    font-size: 12pt;
+}
+
+.bottom h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: medium;
+    letter-spacing: 1px;
+}
+
+#location {
+    max-width: 50%;
+    margin: auto;
+
+}
+
+article {
+    padding: 10px;
+}
+
+article a img {
+    width: 250px;
+}
+
+
+footer {
+    background-color: #191919;
+    color: #acacac;
+    text-align: center;
+    font-size: 10pt;
+    padding-bottom: 10px;
+}
+
+
+/*Menu page*/
+
+
+.patio {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#menu img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.burger {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 30px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.burger section {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.burger section img {
+    border-radius: 10px;
+}
+
+
+/*about page*/
+
+
+
+.brewery img {
+    display: block;
+    margin: auto;
+
+
+}
+
+.brewery p {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+
+.team {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+
+
+
+
+
+.team section {
+    padding: 20px;
+    padding-top: 0px;
+
+
+
+}
+
+/*beer page*/
+
+
+.ourbrew {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 30px;
+}
+
+.ourbrew section {
+    padding: 30px;
+
+}
+
+
+
+.brews p {
+    text-align: center;
+    font-size: 12pt;
+    color: #c8201f;
+
+
+}
+
+.brews h1 {
+    font-size: 25pt;
+    margin-bottom: -15px;
+
+}
+
+
+/*contact*/
