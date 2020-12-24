@@ -1,0 +1,263 @@
+
+body {
+    background-color: black;
+    height:100%;
+    font-family:'Trebuchet MS', 'Helvetica', 'Ariel' ,sans-serif;
+    font-size: 16px;
+    color: #79fdff;
+    line-height: 28px;
+}
+
+.textcontent {
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(0,0,0,.50);
+    padding: 10px 40px;
+}
+
+p {
+text-indent: 40px;
+    }
+
+
+
+
+h2 {
+    margin-top: 50px;
+    font-size: 20px;
+    text-indent: 40px;
+}
+
+a {
+    text-decoration:none;
+    color:#79fdff;
+}
+
+li {
+    list-style-type:none;
+    text-indent: 60px;
+}
+
+.name {
+    text-indent: 107px;
+    font-size: 25px;
+ 
+}
+
+/* Button */
+
+
+button {
+    border-top: solid 1px #79fdff;
+    border-bottom: solid 1px #79fdff;
+    border-left:none;
+    border-right:none;
+    width: 140px;
+    padding: 4px 6px;
+    background-color: #252525;
+    text-align: center;
+    color: #79fdff;
+     font-family:'Bank Gothic', 'Futura condensed medium', 'Helvetica', sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+    margin-top: 40px;
+    transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #393939;
+box-shadow: 0 1px 30px 0 rgba(	121, 253, 255, .5),0 1px 30px 0 rgba(	121, 253, 255, .5);
+    
+}
+
+
+
+/* Homepage */
+
+.logocenter {
+    width: 70%;
+    margin:auto;
+}
+
+.container {
+    background-image:url(assets/portal.jpg);
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+}
+
+.logo {
+    width:100%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.description {
+    padding: 0px 30px;
+    margin-bottom: 100px;
+    text-align:center;
+    text-indent: 0px;
+}
+
+.credits {
+    font-size: 8pt;
+    width: 100%;
+    border: none;
+    background: none;  
+}
+
+.enter{
+    display:flex;
+    justify-content: center;  
+}
+
+section {
+    display:flex;
+    justify-content:center;
+}
+
+
+/* Page Format */
+
+    /* Nav */
+
+
+nav {
+    background-color:#252525;
+    position:fixed;
+    width: 100%;
+    text-align:right;
+    padding-bottom: 6px;
+}
+
+nav button {
+    font-size: 9pt;
+    margin:0 5px;
+    width: 10%;
+}
+
+
+/* Image */
+
+
+.intro {
+    background-image:url(assets/scavenger%20invasion.jpg);
+    height: 100vh;
+    background-size:cover;
+}
+
+.mountain {
+    background-image:url(assets/caves.jpg);
+    height: 100vh;
+    background-size:cover;
+}
+
+.upthemountain {
+    background-image:url(assets/night-light-1564569.jpg);
+    height: 100vh;
+    background-size:cover;
+}
+
+.valley {
+    background-image:url(assets/eso1629a.jpg);
+    height: 100vh;
+    background-size:cover;
+
+}
+
+
+.blackriver {
+    background-image:url(assets/black%20river.jpg);
+    height: 100vh;
+    background-size:cover;
+
+}
+
+.aroundcanyon {
+    background-image:url(assets/plateau.jpg);
+    height: 100vh;
+    background-size:cover;
+
+}
+
+.canyonpath {
+    background-image:url(assets/canyon.jpg);
+    height: 100vh;
+    background-size:cover;
+    
+}
+
+.rightpath {
+    background-image:url(assets/trading%20aliens.jpg);
+    height: 100vh;
+    background-size:cover;
+}
+
+.reunited {
+    background-image:url(assets/reunited.jpg);
+    height: 100vh;
+    background-size:cover;
+}
+
+
+
+.akrinecity {
+    background-image:url(assets/civilization.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+.translation {
+    border: #00FF00 solid;
+    background:#252525;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px 20px;
+}
+
+/* Text container */
+
+.introcontents {
+    width: 40%;
+    height: 100vh;
+    margin-top: 20px;
+    padding: 5px 50px;
+    background-color: rgb(0,0,0,.60);
+    float:left;
+    overflow:scroll;
+    
+}
+
+.introcontentsrightpath {
+    width: 50%;
+    height: 100vh;
+    margin-top: 20px;
+    padding: 5px 50px;
+    background-color: rgb(0,0,0,.70);
+    float:left;
+    overflow:scroll;
+    
+}
+
+
+
+
+
+/* Choices */
+
+.mainbuttonstyle {
+    width:400px;
+   
+}
+
+.overflowbutton {
+    margin-bottom: 100px;
+}
+
+.tobecontinued {
+    margin-top: 200px;
+    margin-bottom:300px;
+}

@@ -1,0 +1,108 @@
+body {
+	background-image: url(images/background.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+    margin: auto;
+    text-align: center;
+}
+
+.button2 {
+	float: center;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	color: #a9caea;
+	font-family: 'Trade Winds', cursive;
+	font-weight: bold;
+    background-color: #122fc4;
+	font-size: 20px; 
+	letter-spacing: 0.8px;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 15px 15px;
+}
+
+a:active {
+    background-color: #FFFFFF;
+}
+
+a:hover {
+    background-color: #535fd3; 
+}
+
+.i1 {
+	display: block;
+	width: 498px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.i4 {
+	display: block;
+	width: 550px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.h1 {
+	font-family: 'Trade Winds', cursive;
+	font-size: 50px;
+	color: #a9caea;
+	letter-spacing: 4px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+}
+
+.h2 {
+	font-family: 'Trade Winds', cursive;
+	font-size: 50px;
+	color: #a9caea;
+	letter-spacing: 4px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+}
+
+.p1 {
+	font-family: 'Trade Winds', cursive;
+	color: #e6b3ff;
+	letter-spacing: 0.8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	width: 530px;
+	line-height: 20px;
+}
+
+.p2 {
+	font-family: 'Trade Winds', cursive;
+	color: #e6b3ff;
+	letter-spacing: 0.8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 45px;
+	width: 530px;
+	line-height: 20px;
+}
+
+#body {
+    background-color: #181d4c;
+    padding: 25px;
+    width: 750px;
+    margin: auto;
+}
