@@ -1,0 +1,268 @@
+/* CSS files add styling rules to your content */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14pt;
+  margin: 2em;
+  color: #262626;
+  /* textured black background */
+  background-image: url("https://cdn.glitch.com/bfcf5069-558a-46cf-ba4d-4faa12944ce1%2Fdark_wall.png?v=1607409422116");
+  padding: 150px 50px;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  color: #EFA71C;
+  font-size: 36pt;
+}
+
+h2 {
+  font-family: "Righteous", cursive;
+  color: #EFA71C;
+  font-size: 30pt;
+}
+
+h3 {
+  font-family: "Righteous", cursive;
+  color: #262626;
+  font-size: 22pt;
+}
+
+h4 {
+  font-family: "Quicksand", sans-serif;
+  color: #FDF8ED;
+  font-size: 10pt;
+}
+
+/* a styling has been moved to nav a to make sure it only applies to links in the nav */
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+#entireheader {
+}
+
+#address {
+  background-color: #BFA680;
+  display: grid;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+/* styling of navigation links */
+/* "nav" styles entire nav bar, .logo styles JUST "The Richfield" logo, .navlink styles all other links besides The Richfield logo */
+
+nav {
+  /*text-align to move links to right side */
+  text-align: right;
+  font-family: "Righteous", cursive;
+  font-size: 21px;
+  background-color: #FDF8ED;
+  padding: 15px;
+}
+
+nav a {
+  vertical-align: middle;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #EFA71C;
+}
+
+/*.logo replaces .company, allows logo to be easily styled with the rest of nav bar links because it is included in the nav*/
+.logo {
+  /*float to move LOGO to the left side*/
+  float: left;
+  font-size: 24pt;
+  vertical-align: middle;
+}
+
+.logo:hover {
+  color: black;
+}
+
+.navlink:hover {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* .instagram fill style was replaced by a new image url, instagram link now under class "navlink"*/
+
+/* Styling for Buttons below */
+
+.button {
+  font-family: "Righteous", cursive;
+  color: #FDF8ED;
+  background-color: #39B54A;
+  padding: 12px 28px;
+  font-size: 12pt;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.buttonbox {
+  padding: 50px;
+}
+
+.button:hover {
+  background-color: #262626;
+  color: #FDF8ED;
+  font-family: "Righteous", cursive;
+  padding: 12px 28px;
+  font-size: 12pt;
+}
+
+#yelp {
+  display: flex;
+  justify-content: center;
+}
+
+/* container class styles beige colored BG */
+
+.container {
+  background-color: #FDF8ED;
+  padding-bottom: 25px;
+  width: 1500px;
+}
+
+/* centered class styles the overlay text on large image*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FDF8ED;
+  font-family: "Righteous", cursive;
+  font-size: 100pt;
+}
+
+/* crop class styles large image at top of page */
+
+.crop {
+  width: 100%;
+  height: 620px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.crop img {
+  margin: -75px 0 75px 0;
+}
+
+#underbanner {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+#storepic {
+  margin-left: 85px;
+}
+
+#fuelyourday {
+  margin-left: 30%;
+}
+
+/* Styling for About Us content below */
+
+#aboutusheader {
+  padding-top: 50px;
+  text-align: center;
+}
+#aboutus {
+  padding: 75px 300px 75px 300px;
+  line-height: 38px;
+}
+
+#reviewheader {
+  text-align: center;
+}
+
+#yelpreviews {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 20px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+#instagramheader {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#instagramposts {
+  background-color: #FDF8ED;
+  margin-top: 75px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  width: 1500px;
+  text-align: center;
+}
+
+/* Menu Styling Below */
+#menucontainer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 100px;
+}
+
+#menutitle {
+  display: grid;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#coffeeitems {
+  display: grid;
+  text-align: center;
+}
+
+#teaandspecials {
+  display: grid;
+  text-align: center;
+}
+
+#foodandother {
+  display: grid;
+  text-align: center;
+}
+
+/* Footer Style Below */
+footer {
+  background-color: #EFA71C;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  color: #FDF8ED;
+  font-family: "Righteous", cursive;
+  padding: 7px;
+}
+
+footer a {
+  font-family: "Quicksand", sans-serif;
+  color: #FDF8ED;
+  font-size: 12pt;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+img.footericon {
+  vertical-align: middle;
+  margin-right: 20px;
+}
