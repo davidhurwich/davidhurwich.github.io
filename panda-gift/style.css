@@ -1,0 +1,95 @@
+body {
+    background-color: #adecf7;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1.25rem;
+    color: #01333b;
+}
+
+a {
+    text-decoration: none;
+}
+
+iframe {
+    height: 0;
+}
+
+button {
+    display: block;
+    padding: .5em;
+    width: 25%;
+    border-radius: 1.5em;
+    border: 0.25em solid #668b91;
+    margin: auto;
+    font-size: 1.5rem;
+    background-color: #56e5fc;
+    color: #01333b;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+
+button:hover {
+    color: white;
+    background-color: red;
+    border-color: #4f1717;
+}
+
+h1 {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#layout {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+.clock img {
+    width: 10%;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+    #layout {
+        width: 95%;
+    }
+
+    button {
+        width: 75%;
+    }
+
+    img {
+        width: 80%
+    }
+
+    h1 {
+        line-height: 3.5rem;
+    }
+
+    .clock img {
+        min-width: 150px;
+    }
+
+    .mouseimg {
+        min-width: 100%;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 900px) {
+
+    button {
+        width: 50%;
+    }
+
+    .mouseimg {
+        min-width: 100%;
+    }
+}
