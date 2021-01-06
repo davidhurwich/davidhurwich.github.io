@@ -1,0 +1,289 @@
+/* == Page Reset ==*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+h4,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* == Font Setup ==*/
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #545454;
+}
+
+h1 {
+    font-family: 'Comfortaa';
+}
+
+footer {
+    color: #f0f0f0;
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: #545454;
+}
+
+/* === Backgrounds ===*/
+
+#visual,
+#worlds,
+#finals,
+#models,
+#headertext {
+    padding: 2rem;
+}
+
+header {
+    background-color: #d6d6d6;
+
+}
+
+footer {
+    background-color: #000;
+    padding: 2rem;
+}
+
+#visual {
+    background-color: #dfffba;
+
+}
+
+#models {
+    background-color: #ffcff4;
+}
+
+#worlds {
+    background-color: #c7fff3;
+}
+
+#finals {
+    background-color: darkseagreen;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 0.25em;
+}
+
+
+
+/* === Project Images. ===*/
+.project-splash {
+
+    margin-bottom: 0.5em;
+}
+
+
+/* === Layout ===*/
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.website {
+    display: block;
+}
+
+
+main img {
+    max-width: 100%;
+    opacity: .8;
+}
+
+main img:hover {
+    opacity: 1;
+}
+
+
+
+h4 {
+    margin: 0.75em 0;
+
+}
+
+ul {
+    margin-left: 2em;
+
+}
+
+footer {
+    text-align: center;
+}
+
+nav a:hover,
+#websites a:hover {
+    color: #000;
+}
+
+#topbutton {
+
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+
+.fa-chevron-circle-up {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fa-chevron-circle-up:hover {
+    color: #969696;
+}
+
+/* === Animation ==== */
+
+body {
+    animation: fadeIn 1s;
+}
+
+
+/* === Responsive ==== */
+
+
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 100%;
+    }
+
+    @media (orientation: portrait) {
+
+        nav {
+            position: sticky;
+            top: 0px;
+
+        }
+
+        body {
+            font-size: .9rem;
+        }
+
+        footer {
+            padding: 1.5em;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            line-height: 1.6rem;
+        }
+
+        figure ul {
+            width: 50%;
+            text-align: left;
+            margin: auto;
+        }
+
+        .website,
+        .preproduction {
+            display: block;
+            padding: 1em;
+            background-color: #a2b6b8;
+            color: #444;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+
+        .student {
+            display: block;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .project-splash {
+            margin-bottom: 0em;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            background-color: #f7f7f7;
+            margin-bottom: 0.5em;
+        }
+
+        .grid {
+            grid-template-columns: 100%;
+        }
+
+        footer {
+            font-size: .75rem;
+            text-align: center;
+        }
+
+        #topbutton {
+
+            position: fixed;
+            bottom: 3%;
+            right: 3%;
+        }
+
+        #copyright {
+            display: block;
+            text-align: center;
+        }
+
+        #school {
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    header {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #bgHeaderImg {
+        background-image: url("backgroundCode.png");
+        background-size: cover;
+    }
+
+    .grid {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    .container {
+        width: 100%;
+        max-width: inherit;
+
+
+    }
+
+}
