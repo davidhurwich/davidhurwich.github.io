@@ -1,0 +1,51 @@
+body {
+    background-color: black
+}
+h1 {
+    color: darkred;
+    font-family: 'Ancient Medium';
+    font-size: 50pt;
+    text-align: center;
+    font-weight: normal
+}
+
+img {
+    width: 300pt;
+    height: 200pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    border-color: #9e0e3c;
+   border-style: solid;
+    border-width: thick
+}
+
+p {
+    font-family: 'Griffon';
+    text-align: center;
+    color: ghostwhite
+}
+
+.story {
+    font-size: 10pt;
+    width: 520px;
+    padding: 10px;
+    border: 5px;
+    margin: 20px;
+    border-color: #9e0e3c;
+    border-style: double;
+    align-self: center;
+    justify-content: center;
+    margin: auto
+}
+
+button {
+    color: ghostwhite;
+    background-color: #9e0e3c;
+    font-family: 'Griffon';
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.8s;
+    
+}

@@ -1,0 +1,97 @@
+body {
+    background-image: url(images/abandoned%20city.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Copperplate';
+
+}
+
+.button {
+    font-family: 'Courier';
+    border-radius: 4px;
+    float: right;
+    float: left;
+
+}
+
+.button:hover {
+
+    color: red;
+
+}
+
+.container {
+
+    background-color: darkgray;
+    background-position: center;
+    width: 800px;
+    margin: auto;
+    border: 3px solid black;
+
+}
+
+
+h1 {
+
+    text-align: center;
+    color: #7d7d7d;
+
+}
+
+h3 {
+
+    text-align: left;
+    padding-left: 77px;
+    color: #deb900;
+
+}
+
+p {
+    font-size: 12pt;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+
+}
+
+/* == images ==*/
+
+.photo {
+
+    width: 800px
+}
+
+
+.knife {
+
+    width: 200px;
+}
+
+.gun {
+
+    width: 178px;
+
+}
+
+.city2 {
+
+    width: 800px;
+}
+
+.gas {
+    width: 800px;
+
+}
+
+.gate {
+    width: 800px;
+}
+
+.camera {
+
+    width: 800px;
+
+}

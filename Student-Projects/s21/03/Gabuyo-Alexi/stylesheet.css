@@ -1,0 +1,117 @@
+body {
+	background-color: #013220;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.i1 {
+	display: block;
+	width: 300px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.i2 {
+	display: block;
+	width: 500px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.i3 {
+	display: block;
+	width: 900px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.h1 {
+	font-family: 'racing sans one';
+	font-size: 40px;
+	color: #FFae42;
+	letter-spacing: 4px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	text-align: center;
+}
+
+.h2 {
+	font-family: 'racing sans one';
+	font-size: 50px;
+	color: #FFae42;
+	letter-spacing: 4px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	text-align: center;
+}
+
+.p1 {
+	font-family: 'helvetica';
+    font-size: 36px;
+	color: #ffffff;
+	letter-spacing: 0.8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 45px;
+	width: 800px;
+	line-height: 20px;
+}
+
+.p2 {
+	font-family: 'helvetica';
+	color: #ffffff;
+	letter-spacing: 0.8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 45px;
+	width: 500px;
+	line-height: 20px;
+}
+
+.button {
+    margin: auto;
+    text-align: center;
+}
+
+.button2 {
+	float: center;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	color: #013220;
+	font-family: 'helvetica';
+	font-weight: bold;
+    background-color: #ffae42;
+	font-size: 20px; 
+	letter-spacing: 0.8px;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+
+a:hover {
+    background-color: #ffffff; 
+}
+
+a:active {
+    background-color: #ffffff;
+}
+
+li {
+	padding: 20px 20px;
+	margin: -10px;
+	font-size: 25px;
+	list-style: none;
+}

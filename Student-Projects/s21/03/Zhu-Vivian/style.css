@@ -1,0 +1,108 @@
+/* general */
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    font-size: 12pt;
+    font-family: 'Proxima Nova', 'Roboto', sans-serif;
+}
+
+.container{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(25, 24, 28, 0.7);
+    padding: 2% 3%;
+    width: 50%;
+    overflow: auto;
+    border: 2px solid #595959;
+}
+
+/* typography */
+
+h1{
+    color: white;
+    font-size: 22pt;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#location{
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px;
+}
+
+.blue{
+    background-color: #13054d;
+}
+
+.green{
+    background-color: #5cab63;
+}
+
+.orange{
+    background-color: #dea03c;
+}
+
+p{
+    color: white;
+    line-height: 16pt;
+}
+
+.text{
+    margin-top: 25px;
+    margin-bottom: 76px;
+}
+
+/* buttons */
+
+button{
+    width: 150px;
+    height: 51px;
+    border: none;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 5px;
+    line-height: 16pt;
+    cursor: pointer;
+}
+
+.buttoncenter{
+    text-align: center;
+}
+
+.buttonleft{
+    float: left;
+}
+
+.buttonright{
+    float: right;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+/* image positions */
+
+img{
+    display: block;
+    margin: auto;
+    overflow: auto;
+    width: 100%;
+}
+
+.resize{
+    margin: 0;
+    text-align: left;
+    width: auto;
+    max-height: 500px;
+}
+

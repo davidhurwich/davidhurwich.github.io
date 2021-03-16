@@ -1,0 +1,60 @@
+h1 {
+    font-family: 'futura';
+    font-style: bold;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'futura';
+    font-style: italic;
+    text-align: center;
+}
+
+
+p {
+    font-family: 'futura';
+    opacity: 100%;
+}
+
+a:link, a:visited {
+    font-family: 'futura';
+  background-color: #FF9C0E;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.2s;
+  margin-top: 75px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+a:hover, a:active {
+  background-color: #049AC0;
+}
+
+
+.main {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+background-color: white;
+margin-top: 100px;
+border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+opacity: 70%;
+}
+
+.box {
+  width: 1000px;
+  padding: 20px;
+  margin: auto;
+background-color: white;
+margin-top: 100px;
+border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+opacity: 70%;
+    }

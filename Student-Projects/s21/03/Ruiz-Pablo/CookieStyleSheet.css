@@ -1,0 +1,43 @@
+button {
+    background-color: #653939;
+    color: #FFFCFC;
+    padding: 10px;
+    font-family: sans-serif;
+    font: 'helvetica neue'
+}
+
+section {
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right
+}
+
+/* == backgrounds == */
+body {
+    background-color: #D4B895;
+}
+
+
+section {
+    text-align: center;
+}
+
+/* == typography == */
+h1 {
+    color: #FFFCFC;
+    font-variant: small-caps;
+    font-size: 36pt;
+}
+
+
+.container {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}

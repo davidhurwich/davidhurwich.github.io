@@ -1,0 +1,51 @@
+body{
+
+background-image:url(wallpaper.jpg);
+
+}
+
+div{
+background-color: #4A2E8B;
+   padding:25px;
+    width: 650px;
+   margin: auto;   
+}
+
+
+
+h1{
+    
+    font-family: "haunted mouse";
+    font-size: 40pt;  
+    text-align: center;
+    background-color: #cbc9c9;
+padding:10px; 
+ 
+}
+
+p{
+   
+  font-family: "andale mono"; 
+    line-height:20pt;
+font-size: 13pt;
+font-weight: 200;
+background-color: #cbc9c9;
+padding:10px; 
+ 
+}
+
+button{
+    padding:10px;
+     font-family: "haunted mouse";
+    font-size: 20pt;
+    
+}
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
