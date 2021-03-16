@@ -1,0 +1,75 @@
+.special {
+    margin-top: 0px;
+}
+
+#left {
+    margin-left: -70px !important;
+
+}
+
+body {
+    width: 1100px;
+    height: 850px;
+    transform: scale(0.9);
+    font-family: Interstate;
+    color: #1c5f56;
+    background-color: #9ec4cf;
+    margin-top: 50px;
+    margin-left: 150px;
+    border: 0px;
+}
+
+h1 {
+    font-size: 50pt;
+    margin-left: 320px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    border: 0pt;
+}
+
+p {
+    font-size: 20pt;
+    padding: 10px;
+   
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:active {
+    color: hotpink;
+}
+
+a:checked {
+    color: yellow
+
+}
+
+a:hover {
+    color: red;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.start,
+.restart {
+    color: orangered;
+    font-size: 20pt;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    background-color: #f4b518;
+    width: 250px;
+    height: 50px;
+    border-width: thick;
+    border-color: skyblue;
+    margin-left: 380px;
+
+}
+
+footer {
+    color: black;
+    font-size: 10pt;
+    margin-top: 150px;
+}

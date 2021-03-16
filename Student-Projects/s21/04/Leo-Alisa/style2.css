@@ -1,0 +1,40 @@
+html {
+    background-color: #F6FBBF;
+    margin: auto
+}
+
+h1 {
+    font-family: "Arial";
+    font-size: 42pt;
+    text-align: center;
+    color: #F24132;
+
+}
+
+.container {
+    background-color: #CCFBBF;
+    font-family: "Arial";
+    font-size: 14pt;
+    align-content: center;
+    text-align: center;
+    width: 800px;
+    height: 1200px;
+    margin: auto;
+}
+
+p {
+    padding: 25px;
+}
+
+img {
+    padding: 25px;
+    width: 700px;
+}
+
+a{
+    font-family: "Arial";
+    font-size: 18pt;
+    color: #59A755;
+    background-color: #F4C4DE;
+    padding: 10px;
+}

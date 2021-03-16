@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Adobe Jenson Pro';
+    color: #462715;
+    font-size: 38pt;
+    text-align: center;
+    letter-spacing: 1px; 
+    }
+
+
+p {
+    width: 500px;
+    height: 25px;
+    margin: auto;
+    padding: 35px;
+}
+body {
+    background-color: #8dd3d5;
+    font-family: 'Adobe Jenson Pro';
+    color: #462715;
+    font-style: italic;
+    text-align: center;
+    font-size: 18pt;
+    
+    
+    
+}
+
+.button{
+    background-color: #9F7C5E;
+    border: solid;
+    color: #462715;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Adobe Jenson Pro';
+    font-style: normal;
+    }
+
+
+
+
+
+

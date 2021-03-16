@@ -1,0 +1,37 @@
+h1{
+    color: #11400e;
+    font-size: 30pt;
+    font-style: normal;
+    font-family: 'garamond';
+}
+
+p,p2,p3{
+    color: black;
+    font-size: 16pt;
+    font-style: normal;
+    font-family: 'adobe jenson pro'
+    
+}
+
+button{
+    color: darkolivegreen;
+    border-color: darkseagreen;
+    background-color: floralwhite;
+}
+
+/* == backgrounds == */
+
+html{background-color: #d1cdc4;}
+
+div{
+ border-color: darkolivegreen;
+    border:3px solid green;
+border-width: 10px;
+    
+    width: 1500px;
+height: 2000px;
+
+
+margin: auto;
+    
+    }
