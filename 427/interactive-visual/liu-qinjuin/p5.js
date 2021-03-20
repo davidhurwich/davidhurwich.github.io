@@ -7,7 +7,7 @@ function preload() {
     pAudio = loadSound('https://neoliu28.github.io/mp3/whatswrong.mp3');
     oAudio = loadSound('https://neoliu28.github.io/mp3/RNBALLN.mp3');
     tAudio = loadSound('https://neoliu28.github.io/mp3/LUFE.mp3');
-    fAudio = loadSound('https://neoliu28.github.io/mp3/Dungeon%20&%20Fighter%20OST%20-%20Wind%20Inside%20YouCover%20by%20Raon%20Lee.mp3');
+    fAudio = loadSound('https://neoliu28.github.io/mp3/Dungeon%20&%20Fighter%20OST%20%20Wind%20Inside%20YouCover%20by%20Raon%20Lee.mp3');
     imgOnOff = loadImage('https://neoliu28.github.io/MVP/imgStartStop.jpg');
     img01 = loadImage('https://neoliu28.github.io/MVP/imgSong1.jpg');
     img02 = loadImage('https://neoliu28.github.io/MVP/imgSongTwo.jpg');
