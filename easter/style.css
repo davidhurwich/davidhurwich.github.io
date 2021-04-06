@@ -4,3 +4,7 @@ body {
     line-height: 1.75em;
     color: #410000;
 }
+
+h1 {
+    margin-top: 2rem;
+}
