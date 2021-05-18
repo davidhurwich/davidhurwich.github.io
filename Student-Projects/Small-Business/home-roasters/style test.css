@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.background-color {
+  width: 100%;
+  height: 1024px;
+  background: rgba(249,247,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+}
+.box-color {
+  width: 100%;
+  height: 100%;
+  background: rgba(249,247,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  overflow: hidden;
+}
+.header-img {
+  width: 100%;
+  height: 249px;
+  background: url(img/home_cafe_latte.jpg)
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Home {
+  width: 62px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 288px;
+  left: 107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.vmenu {
+  width: 54px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 333px;
+  left: 107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.vmerch {
+  width: 65px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 381px;
+  left: 101px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.vcontact {
+  width: 82px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 429px;
+  left: 93px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.browse-menu {
+  width: 230px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 759px;
+  left: 1210px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.top-placeholder {
+  width: 100%;
+  height: 237px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.top-logo {
+  width: 143px;
+  height: 135px;
+  background: url(img/Group%205.png)
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 44px;
+  overflow: hidden;
+}
+
+}
+.home-title {
+  width: 9px;
+  height: 18px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 114px;
+}
+.homeCoffeeHeader {
+  width: 382px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 118px;
+  left: 199px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 72px;
+  opacity: 1;
+  text-align: left;
+}
+.sign-in {
+  width: 78px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.search_menu {
+  width: 78px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1284px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.cart_menu {
+  width: 51px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1209px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.small-logo {
+  width: 34px;
+  height: 32px;
+  background: url(img/Group%206.png)
+  opacity: 1;
+  position: absolute;
+  top: 301px;
+  left: 574px;
+}
+
+.about-home {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 288px;
+  left: 248px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.menu-section {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 583px;
+  left: 248px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.coffee-merch {
+  width: 541px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 951px;
+  left: 248px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.paragraph1 {
+  width: 709px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 365px;
+  left: 248px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.location-pic {
+  width: 424px;
+  height: 247px;
+  background: url("../images/v333_13.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 303px;
+  left: 966px;
+  border-top-left-radius: 31px;
+  border-top-right-radius: 31px;
+  border-bottom-left-radius: 31px;
+  border-bottom-right-radius: 31px;
+  overflow: hidden;
+}
+.menu-pic1 {
+  width: 227px;
+  height: 227px;
+  background: url(img/182579983_1351352091913814_8036075359471310072_n.jpg)
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: ;
+  position: absolute;
+  top: 663px;
+  left: 248px;
+  overflow: hidden;
+}
+.menu-pic2 {
+  width: 227px;
+  height: 227px;
+  background: url("../images/v333_16.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 663px;
+  left: 485px;
+  overflow: hidden;
+}
+.menu-pic3 {
+  width: 230px;
+  height: 227px;
+  background: url("../images/v333_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 663px;
+  left: 722px;
+  overflow: hidden;
+}
+.menu-pic4 {
+  width: 227px;
+  height: 227px;
+  background: url("../images/v333_18.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 663px;
+  left: 962px;
+  overflow: hidden;
+}
+a:link, a:visited {
+  
+  color:#CB9866;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: beige;
+}
+    
+    
+    

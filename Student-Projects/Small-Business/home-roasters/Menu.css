@@ -1,0 +1,365 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.background-BG {
+  width: 100%;
+  height: 1024px;
+  background: rgba(249,247,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.box-color {
+  width: 100%;
+  height: 100%;
+  background:rgba(249,247,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow:auto
+      
+
+}
+
+.header-img {
+  width: 100%;
+  height: 249px;
+  background: url(img/home_cafe_latte.jpg)
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.home {
+  width: 62px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 288px;
+  left: 107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.menu {
+  width: 54px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 333px;
+  left: 107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.merch {
+  width: 65px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 381px;
+  left: 101px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.contact {
+  width: 82px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 429px;
+  left: 93px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.banner {
+  width: 100%;
+  height: 237px;
+  background: url("../images/v345_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.top-logo {
+ width: 143px;
+  height: 135px;
+  background: url(img/Group%205.png)
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 44px;
+  overflow: hidden;
+}
+
+.home-coffee {
+  width: 9px;
+  height: 18px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 114px;
+}
+.home-coffee2{
+  width: 382px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 118px;
+  left: 199px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 72px;
+  opacity: 1;
+  text-align: left;
+}
+.sign-in {
+  width: 78px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.search {
+  width: 78px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1284px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.cart {
+  width: 51px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1209px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.small-logo{
+  width: 34px;
+  height: 32px;
+  background: url(img/Group%206.png)
+
+  opacity: 1;
+  position: absolute;
+  top: 301px;
+  left: 345px;
+}
+. {
+  width: 2px;
+  height: 5px;
+  background
+  opacity: 1;
+  position: absolute;
+  top: 298px;
+  left: 601px;
+}
+.Menu {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 288px;
+  left: 248px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.classic-menu {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 634px;
+  left: 248px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.menu-pic1 {
+  width: 227px;
+  height: 227px;
+  background: url(img/182579983_1351352091913814_8036075359471310072_n.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 356px;
+  left: 248px;
+  overflow: hidden;
+}
+.menu-pic2 {
+  width: 227px;
+  height: 227px;
+  background: url("../images/v345_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 356px;
+  left: 485px;
+  overflow: hidden;
+}
+.menu-pic3 {
+  width: 230px;
+  height: 227px;
+  background: url("../images/v345_28.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 356px;
+  left: 722px;
+  overflow: hidden;
+}
+.menu-pic4  {
+  width: 227px;
+  height: 227px;
+  background: url("../images/v345_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 356px;
+  left: 962px;
+  overflow: hidden;
+}
+.cmlist {
+  width: 417px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 694px;
+  left: 246px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.NC {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1110px;
+  left: 795px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.nclist{
+  width: 417px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1170px;
+  left: 793px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.CM {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1109px;
+  left: 248px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.cmlist2 {
+  width: 482px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1169px;
+  left: 246px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.tea {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 634px;
+  left: 820px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.tealist {
+  width: 417px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 694px;
+  left: 818px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+a:link, a:visited {
+  
+  color:#CB9866;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: beige;
+}

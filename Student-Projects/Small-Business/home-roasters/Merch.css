@@ -1,0 +1,419 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.background-color {
+  width: 100%;
+  height: 1024px;
+  background: rgba(249,247,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.box-color {
+  width: 100%;
+  height: 1024px;
+  background: rgba(249,247,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+}
+.v345_32 {
+  width: 100%;
+  height: 1040px;
+  background: url("../images/v345_32.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  overflow: hidden;
+}
+.v345_33 {
+  width: 100%;
+  height: 100%;
+  background: rgba(249,247,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  overflow: hidden;
+}
+.banner {
+ width: 100%;
+  height: 249px;
+  background: url(img/home_cafe_latte.jpg)
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.home {
+  width: 62px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 288px;
+  left: 107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.menu {
+  width: 54px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 333px;
+  left: 107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.merch {
+  width: 65px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 381px;
+  left: 101px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.contact {
+  width: 82px;
+  color: rgba(203,152,102,1);
+  position: absolute;
+  top: 429px;
+  left: 93px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v345_39 {
+  width: 100%;
+  height: 237px;
+  background: url("../images/v345_39.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.top-logo {
+  width: 143px;
+  height: 135px;
+  background: url(img/Group%205.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 44px;
+  overflow: hidden;
+}
+
+}
+.v345_42 {
+  width: 9px;
+  height: 18px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 114px;
+}
+.home-coffee {
+  width: 382px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 118px;
+  left: 199px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 72px;
+  opacity: 1;
+  text-align: left;
+}
+.sign-in {
+  width: 78px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1107px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.search {
+  width: 78px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1284px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.cart {
+  width: 51px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 152px;
+  left: 1209px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v345_48 {
+  width: 2px;
+  height: 5px;
+  background: rgba(203,152,102,1);
+  opacity: 1;
+  position: absolute;
+  top: 298px;
+  left: 601px;
+}
+.coffee-roast {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 288px;
+  left: 248px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.merchandise {
+  width: 363px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 664px;
+  left: 248px;
+  font-family: Boogaloo;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.sunset-blend {
+  width: 227px;
+  height: 227px;
+  background: url(img/1.png);
+  background-repeat:;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 356px;
+  left: 248px;
+  overflow: hidden;
+}
+.homeies-t-shirt {
+  width: 227px;
+  height: 227px;
+  background: url(img/T-shirt.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 732px;
+  left: 248px;
+  overflow: hidden;
+}
+.EYK {
+  width: 237px;
+  height: 221px;
+  background: url(img/2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 356px;
+  left: 511px;
+  overflow:hidden
+}
+.sloth-pin {
+  width: 227px;
+  height: 227px;
+  background: url(img/pin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 732px;
+  left: 511px;
+  overflow: hidden;
+}
+.POC {
+  width: 230px;
+  height: 227px;
+  background: url(img/3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 356px;
+  left: 774px;
+  overflow: hidden;
+}
+.HP {
+  width: 230px;
+  height: 227px;
+  background: url(img/Home-plush.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 732px;
+  left: 774px;
+  overflow: hidden;
+}
+.sloth-sticker {
+  width: 230px;
+  height: 227px;
+  background: url(img/Sticker.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 732px;
+  left: 1040px;
+  overflow: hidden;
+}
+.vSUNSET {
+  width: 228px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 588px;
+  left: 247px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.vHOMIES {
+  width: 228px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 964px;
+  left: 248px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.vSLOTHPIN {
+  width: 228px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 964px;
+  left: 511px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.vHOMEPLUSH {
+  width: 228px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 964px;
+  left: 774px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.vSLOTHSTICKERSHEET {
+  width: 228px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 964px;
+  left: 1040px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.vPERUORGANICCAJAMARCA {
+  width: 228px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 593px;
+  left: 773px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+.vETHIOPIAYIRGACHEFFEKOKE {
+  width: 228px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 588px;
+  left: 510px;
+  font-family: Josefin Sans;
+  font-weight: Regular;
+  font-size: 22px;
+  opacity: 1;
+  text-align: center;
+}
+a:link, a:visited {
+  
+  color:#CB9866;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: beige;
+}
+    
+    
