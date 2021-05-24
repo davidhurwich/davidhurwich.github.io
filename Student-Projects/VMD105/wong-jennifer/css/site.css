@@ -1,0 +1,68 @@
+html {
+  background-image: url("images/bun.jpg");
+  background-color:#FFC3C3;
+}
+
+img {
+  border: 5px solid #000;
+}
+
+body {
+  width:800px;
+  padding:50px;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  text-align: center;
+  font-family: 'Varela Round',sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+background-color: #FFFFFF;
+border: 5px dashed #DF9C9C;
+border-radius: 25px;
+font-size: 50px;
+font-family: 'Varela Round',sans-serif;
+letter-spacing: 5pt;
+color: #DF9C9C;
+padding: 50px;
+}
+
+p {
+background-color: #FFFFFF;
+border: 5px dashed #DF9C9C;
+border-radius: 25px;
+font-size: 24px;
+font-family: 'Varela Round',sans-serif;
+letter-spacing: 5pt;
+color: #DF9C9C;
+padding: 50px;
+}
+
+p {
+background-color: #FFFFFF;
+border: 5px dashed #DF9C9C;
+border-radius: 25px;
+font-size: 20px;
+font-family: 'Varela Round',sans-serif;
+letter-spacing: 0pt;
+color: #000;
+padding: 50px;
+}
+
+ul {
+background-color: #FFFFFF;
+font-size: 24px;
+font-family: 'Varela Round',sans-serif;
+letter-spacing: 0pt;
+color: #000;
+padding: 50px;
+}
+
+iframe {
+  border-radius: 25px;
+}

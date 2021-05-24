@@ -1,0 +1,27 @@
+body {
+
+    width:700px;padding:150px; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px outset #6b0e04;
+    background: linear-gradient(to right, #2b8767, #d9041d);
+    text-align: center;
+    
+
+}
+
+a { 
+
+    font-size: 12pt;
+    color: #14ffc8;
+    text-decoration: none;
+
+  }
+
+p {
+
+color:#2a046b;
+font-family: 'Newsreader', serif;
+
+}

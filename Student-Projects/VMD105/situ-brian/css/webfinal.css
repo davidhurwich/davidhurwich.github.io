@@ -1,0 +1,62 @@
+html {
+  background-image: url(../images/backgrounds/bacgrkound1.svg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+body {
+  background-color: transparent;
+}
+
+img {
+  border: solid white;
+
+}
+
+p {
+  font-family: 'Fira Mono', monospace;
+  color: white;
+  width: 650px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  position: fixed;
+  text-align: center;
+  color: #696969;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #1e316b;
+}

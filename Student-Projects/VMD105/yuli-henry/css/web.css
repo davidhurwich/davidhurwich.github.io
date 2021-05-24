@@ -1,0 +1,51 @@
+html {
+    background-image: url(../images/background.jpg);
+}
+
+body {
+    width: 1000px;
+    padding: 70px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    border: 20px solid #ffaa00;
+    background-color: #00e0ff;
+}
+
+body {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    font-size: 16pt;
+    color: #ffff00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-size: 8pt;
+    color: #b576a3;
+    border-top: 6px dotted #686143;
+    border-bottom: 6px dotted #686143;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 24pt;
+    font-family: 'Pacifico', cursive;
+}
+
+img {
+    border: medium solid #666;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 3);
+}
