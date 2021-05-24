@@ -1,0 +1,61 @@
+html {
+    background-color: #ab6a02;
+}
+
+body {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 25px;
+    color: #ff9d00;
+    letter-spacing: 1px;
+    background-color: #404040;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, .7);
+}
+
+a {
+    color: #6bc200;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #ff9d00;
+}
+
+
+h1 {
+    color: #6bc200;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 50px;
+}
+
+
+h2 {
+    color: #ff9d00;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer {
+    height: 70px;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #006600;
+    padding-top: 10px;
+}
