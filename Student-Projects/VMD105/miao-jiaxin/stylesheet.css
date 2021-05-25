@@ -1,0 +1,42 @@
+body {
+  background-color: lightgray;
+}
+
+
+nav {
+  width: 1420px;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  background-color: lightgray;
+  border-style: outset;
+}
+
+a {
+  color: darkgreen;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family:fantasy;
+  font-size: 50px;
+  text-align: center;
+  color: darkgreen;
+}
+
+section {
+  margin-left: 250px;
+  margin-right: 300px;
+  width: 500px;
+  height: 300px;
+}
+
+p {
+  margin-top: 350px;
+  margin-left: 280px;
+  width: 800px;
+  text-align: center;
+  color: darkgreen;
+}

@@ -1,0 +1,45 @@
+html {
+background-image: url(../Images/background.jpg);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  width: 900px;
+  border: 10px solid #000;
+}
+
+p {
+  text-align: center;
+  font-family: font-family: 'Rubik', sans-serif;
+  font-size: 12pt;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+  font-family: font-family: 'Rubik', sans-serif;
+  font-size: 20pt;
+  letter-spacing: 4px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+  font-family: font-family: 'Rubik', sans-serif;
+  font-size: 12pt;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

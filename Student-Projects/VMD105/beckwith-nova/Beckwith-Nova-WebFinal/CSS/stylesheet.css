@@ -1,0 +1,30 @@
+
+/* font-family: 'Lemonada', cursive; */
+
+body {background-color: #000;
+      color: white;
+      text-align: center;}
+
+section
+{font-size: 14pt;
+font-family: 'Lemonada', cursive;
+border: 7px outset #915a00;
+padding: 10px;
+margin: 75px;
+text-align: center;
+background-color: #1f1300;}
+
+br {margin: 10px;}
+
+hr {color: #915a00;
+width: 80%;
+height: 3px;
+background-color: #915a00;}
+
+a {font-size: 12pt;
+color: #47084d;
+text-decoration: none;
+font-family: 'Lemonada', cursive;
+color: #915a00;}
+
+a:hover {color: #ff9c00;}

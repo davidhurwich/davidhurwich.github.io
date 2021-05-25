@@ -1,0 +1,63 @@
+html {
+  background-image: url(../finalproject/clouds.gif);
+}
+
+body { width: 700px;
+      padding: 50px;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+body {
+    border: 5px solid #F9F9F3;
+    background-color: #EFE7DB;
+    }
+
+body {
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+  }
+
+a {
+    font-size: 14pt;
+    color: #686143;
+    text-decoration: none;
+}
+
+a:hover{
+  color: #000000;
+}
+
+p {
+  font-size: 12pt;
+  line-height: 14pt;
+}
+
+img {
+  border: medium solid #666;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, .3);
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h2 {
+    width: 400px;
+    padding: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+      }
+h3{
+  font-size: 12pt;
+  line-height: 14pt;
+  font-family: "times new roman", sans-serif;
+}

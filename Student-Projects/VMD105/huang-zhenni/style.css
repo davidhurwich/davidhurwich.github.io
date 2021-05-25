@@ -1,0 +1,17 @@
+h1{
+  color:red;
+  font-size: 42pt;
+  font-style: italic;
+  font-family: 'Courier'
+}
+
+
+body{
+  background-color:#ffda58;
+}
+
+
+main{
+  display:grid;
+  grid-template-columns:500px 500px;
+}
