@@ -1,0 +1,110 @@
+html {
+    background-color: #2b333f;
+}
+
+.container {
+    background-color: #EEF1EF;
+    width: 1100px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    font-size: 13pt;
+    letter-spacing: 0.65px;
+}
+
+p{
+    padding: 3px;
+    font-family: "Helvetica";
+}
+
+figcaption{
+    padding-top: 6px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 11pt;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Palatino;
+}
+
+img {
+    margin: auto;
+    display: block;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+footer{
+    font-size: 9pt;
+    font-style:italic;
+    text-align: center;
+    margin-top: 65px;
+}
+
+/*
+NEWS PAGE
+*/
+
+.newspage{
+    color:darkred;
+    font-size: 16pt;
+    text-shadow: 1px 1px 4px red;
+    letter-spacing: 1.35px;
+}
+
+/*
+NOTE
+*/
+
+.note, section{
+    color:navy;
+    font-size:16pt;
+    letter-spacing: 1.35px;
+}
+
+section{
+    margin-top: 35px;
+    text-indent: 55px;
+}
+.last{
+    font-size: 13pt;
+    font-family:"Helvectica"!important;
+}
+
+/*
+Buttons
+*/
+
+button {
+    font-size: 12pt;
+    background-color: gainsboro;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button:hover {
+    background-color: white;
+    box-shadow: solid 4px darkgrey;
+    text-decoration: underline;
+    border-top: 2px ridge navy;
+}
+
+button:active {
+    background-color:navy;
+    color: red;
+}
+
+.divider {
+    margin-right: 30px;
+}

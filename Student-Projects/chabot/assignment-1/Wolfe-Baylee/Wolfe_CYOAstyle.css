@@ -1,0 +1,85 @@
+body{
+    background-image: url(Images/TreeLandscape.jpg);
+    background-size: cover;
+    font-family: "Orator Std", "Letter Gothic Std", "Lucida Grande", sans-serif;
+    font-size: 12pt;
+    color: #f3f0dd;
+    font-variant-caps: small-caps;
+}
+
+main{
+    width: 600px;
+    background-color: #17533a;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    box-shadow: 0px 5px 5px black;
+}
+
+img{
+    width: 594px;
+    border: 3px solid #3a7342;
+}
+h1{
+    color: #17533a;
+    font-size: 30pt;
+    text-align: center;
+}
+h2{
+    font-size: 25pt;
+}
+h3{
+    font-size: 20pt;
+}
+footer{
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+button{
+    font-size: 12pt;
+    font-family: "Orator Std", "Letter Gothic Std", "Lucida Grande", sans-serif;
+    color: #f3f0dd;
+    border-color: #2a6221;
+    background-color: #3a7342;
+    font-variant-caps: small-caps;
+}
+
+button:hover{
+    background-color: #17494d;
+}
+
+button:active{
+    color: #488051;
+}
+
+/*TITLE PAGE ONLY*/
+
+.resetbackground{
+    width: 300px;
+    background-color: inherit;
+    box-shadow: none;
+    
+}
+.startbutton{
+    width: 300px;
+    height: 60px;
+    font-size: 30pt;
+    border-color: #3a7342;
+    background-color: #17533a;
+}
+
+.startbutton:hover{
+    background-color: #3a7342;
+}
+
+.title{
+    font-size: 60pt;
+    padding-top: 150px;
+    margin: 0px;
+}
+.byline{
+    margin-top: 250px;
+}

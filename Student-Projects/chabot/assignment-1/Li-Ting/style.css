@@ -1,0 +1,98 @@
+ *{
+     cursor:url(Images/compass.png),auto;
+}
+            
+body {
+    background-image: url(Images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:sans-serif;
+    color:white;
+
+}
+
+
+main{
+    width: 800px;
+    padding: 30px 30px 20px 30px;
+    background: rgba(255,255,255,0.3);
+    box-shadow: 0px 0px 10px 2px rgba(255,255,255,0.35);
+    margin: auto;
+    margin-top: 60px;
+}
+
+main.end{
+     background: rgba(227,38,54,0.3);
+    box-shadow: 0px 0px 10px 2px rgba(227,38,54,0.35);
+}
+
+div{
+    width: 800px;
+    height: 450px;
+}
+
+
+h1{
+    font-size: 28pt; 
+    letter-spacing: 1px;
+    text-align: center;
+    position:relative;
+    bottom:160px;
+}
+
+h1.end{
+    font-family:Avaca Davra;
+    font-size: 45pt;
+    letter-spacing: 8px;
+    color:#E32636; 
+    bottom:200px;
+}
+
+p{
+    font-size: 12pt;
+    line-height: 18pt;
+    letter-spacing: 1px;
+    text-align: justify;
+    
+}
+
+section{
+    text-align: center;
+}
+
+
+
+button{
+    padding: 10px 25px 10px 25px;
+    border:white solid 2px;
+    background: rgba(255,255,255,0);
+    border-radius: 23px;
+    color:white; 
+    font-size: 14pt;
+}
+button:hover{
+    background-color: white;
+    color:#808080; 
+    cursor:pointer;
+}
+
+button.end{
+    padding: 10px 25px 10px 25px;
+    border:#E32636 solid 2px;
+    background: rgba(227,38,54,0);
+    border-radius: 23px;
+    color:#E32636;  
+}
+button.end:hover{
+    background-color: #E32636;
+    color:white;  
+}
+
+
+footer{
+    font-size: 12pt;
+    letter-spacing: 1px;
+    width: 216px;
+    height: 70px;
+    margin: auto;
+}

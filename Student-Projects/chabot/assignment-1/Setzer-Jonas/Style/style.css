@@ -1,0 +1,112 @@
+@font-face {
+	font-family: GratefulHeadW;
+	src: url(../Font/InstantZen3D-MP0p.otf);
+}
+@font-face {
+	font-family: GratefulHeadBa;
+	src: url(../Font/InstantZenAcademy-KmoW.otf);
+}
+@font-face {
+	font-family: GratefulHeadFoot;
+	src: url(../Font/InstantZenExpandedItalic-Ld4y.otf);
+}
+@font-face {
+	font-family: GratefulText;
+	src: url(../Font/Griffin.ttf);
+}
+body {
+	margin: 0px;
+	background-color: #000000;
+}
+h1 {
+	font-weight: 100;
+	margin: 0px;
+	color: #ffffff;
+	text-decoration: underline;
+	font-family: GratefulHeadBa;
+	font-size: 60pt;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-weight: 100;
+	margin: 0px;
+	color: #000000;
+	font-family: GratefulHeadW;
+	font-size: 40pt;
+	text-align: center;
+}
+h3 {
+	font-weight: 100;
+	margin: 0px;
+	color: #000000;
+	font-family: GratefulHeadW;
+	font-size: 30pt;
+	text-align: center;
+}
+p {
+	font-family: GratefulText;
+	font-size: 20pt;
+}
+a {
+	display: block;
+	border: 2px solid black;
+	padding: 3px;
+	color: #000000;
+	font-family: GratefulText;
+	font-size: 20pt;
+	box-shadow: 10px 5px 5px;
+}
+a:hover {
+	background-color: black;
+	color: #FFFFFF;
+}
+a:active{
+	border-radius: 5px;
+}
+footer p {
+	text-align: center;
+	font-style: italic;
+	font-family: GratefulHeadFoot;
+	font-size: 10pt;
+	opacity: 30%;
+}
+.bodyDiv{
+
+}
+
+.mainBody1Div {
+	background-color: #FFFFFF;
+	margin: 25px;
+	padding: 15px;
+	border-radius: 10px;
+	
+}
+.StoryMB1Section {
+	z-index: 2;
+}
+.headingMH1Div {
+	background-color: #000000;
+	width: min-content;
+	margin: auto;
+	padding: 5px;
+	border-radius: 25px
+
+}
+.textMB1Div {
+	padding: 5px;
+	border: 2px dashed #000000;
+	width: 50% ;
+	margin: auto;
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+.textMB1PRed {
+	text-align: center;
+}
+.playerChoiceDiv {
+	display: flex;
+}
+.playerChoiceDiv a{
+	margin: auto;
+}
