@@ -1,0 +1,51 @@
+body {
+            background-image: url(Wallpaper.jpg);
+                
+
+        }
+
+        h1 {
+            font-size: 20px;
+            font-family: "treasuremap", Impact;
+        }
+
+        h2 {
+            font-size: 50px;
+            font-family: "treasuremap", Impact;
+        }
+
+        p {
+            font-size: 22px;
+            font-family: "Aye Matey", Comic Sans MS;
+        }
+
+        button {
+            font-family: "Jack Pirate PERSONAL USE ONLY", Comic Sans MS;
+            font-size: 20px;
+        }
+
+        button:hover {
+            background-color: darkred
+        }
+
+        div {
+            margin: auto;
+            background-color: #c9a35d;
+            padding: 20px;
+            width: 800px;
+            border: black 3px solid;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        img {
+            width: 800px;
+            border: black 2px dashed
+        }
+.copyright {font-family: "arial";
+font-size: 12px;
+line-height: 50px;}

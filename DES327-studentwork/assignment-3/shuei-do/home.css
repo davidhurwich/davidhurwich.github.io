@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFE4BC;
+    font-family: 'Raleway', sans-serif;
+    color: #483D87;
+    font-size: 1.1em;
+}
+
+nav {
+    padding: 0.5em;
+    background-image: linear-gradient(to bottom, rgba(147, 139, 194, 1), rgba(175, 168, 216, 0.7));
+    max-height: 1.2em;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    padding-left: 5em;
+    color: #483D87;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 1px 1px 2px grey;
+}
+
+nav i {
+    padding-left: 1em;
+    font-size: 1.3em;
+    color: #483D87;
+}
+
+i:hover {
+    color: white;
+    text-shadow: 1px 1px 2px grey;
+}
+
+img {
+    max-width: 100%;
+}
+
+.banner {
+    position: relative;
+    top: -2em;
+    z-index: -10;
+}
+
+main {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image: linear-gradient(#FFE4BC, #FBCED4);
+    grid-row-gap: 10%;
+    grid-column-gap: 5%;
+    line-height: 1.6em;
+}
+
+footer {
+    background-image: linear-gradient(#FBCED4, #949BD9);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 3em;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+.logo {
+    max-height: 15em;
+}
+
+.social {
+    float: right;
+    margin-right: 1.2em;
+}
+
+.social2 {
+    position: relative;
+    right: 3%;
+}
+
+.social2 a {
+    padding-left: 1em;
+    font-size: 1.3em;
+    color: #483D87;
+}
+
+.links .home {
+    color: white;
+    text-shadow: 1px 1px 2px grey;
+}
+
+
+.links a {
+    padding-right: 10%;
+}
+
+.two {
+    float: right;
+}
+
+.text {
+    margin: auto;
+}
+
+.contact {
+    margin: auto;
+}
+
+.hours {
+    margin: auto;
+}
+
+.navlogo {
+    max-width: 1.9em;
+    float: left;
+    position: relative;
+    top: -.35em;
+    padding-left: .5em;
+}
