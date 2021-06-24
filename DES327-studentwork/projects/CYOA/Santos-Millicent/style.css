@@ -1,0 +1,142 @@
+/* == text == */
+
+h1 {
+    text-align: center;
+    font-family: 'Cako', monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.p1 {
+    text-align-last: left;
+    font-family: 'Josefin Sans', monospace;
+    line-height: 25px;
+}
+
+.p2 {
+    text-align-last: center;
+    font-family: 'Josefin Sans', monospace;
+    line-height: 25px;
+}
+
+/* == color and background == */
+
+div.container {
+    background-color: #222223;
+    padding: 5px;
+    width: 800px;
+    margin: auto;
+}
+
+body {
+    background-color: #222223;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+/* == images == */
+
+.image0 {
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.image1 {
+    display: block;
+    width: 300px;
+    height: ;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image2 {
+    display: block;
+    width: 150px;
+    height: ;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* == buttons == */
+
+.buttonbox {
+    display: block;
+    text-align: center;
+}
+
+.button {
+    border: solid 2px #64A3AD;
+    width: 33%;
+    height: 50px;
+    border-radius: 900px;
+    background-color: #E5C6E2;
+    color: #64A3AD;
+    text-align: center;
+    font-family: 'Cako', 'Josefin Sans', 'Futura', sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.button2 {
+    border: solid 2px #EDCB3B;
+    width: 33%;
+    height: 50px;
+    border-radius: 900px;
+    background-color: #DD7D52;
+    color: #EDCB3B;
+    text-align: center;
+    font-family: 'Cako', 'Josefin Sans', 'Futura', sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.button3 {
+    border: solid 2px #EA786C;
+    width: 33%;
+    height: 50px;
+    border-radius: 900px;
+    background-color: #9469CC;
+    color: #EA786C;
+    text-align: center;
+    font-family: 'Cako', 'Josefin Sans', 'Futura', sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.button:hover {
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #64A3AD;
+    color: #E5C6E2;
+    border: solid 2px #E5C6E2;
+}
+
+.button2:hover {
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #EDCB3B;
+    color: #DD7D52;
+    border: solid 2px #DD7D52;
+}
+
+.button3:hover {
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #EA786C;
+    color: #9469CC;
+    border: solid 2px #9469CC;
+}

@@ -1,0 +1,171 @@
+/* CSS for Small Devices / Smartphone */
+
+@media screen and (max-width: 400px) {
+    #nav-bar{
+        margin-top: 0;
+    }
+
+    #location{
+        margin-top: 3rem;
+    }
+    footer{
+    font-size: 0.5rem;
+    }
+   
+    i{
+        font-size: 1rem;
+       padding-top: 1rem;
+   
+    }
+    #cart{
+        position: fixed;
+        right:2rem;
+        bottom:2rem;
+    }
+    /* home page*/
+       #special-order{
+        margin-top: 4.29rem;
+        width:86%;
+    }
+     .categories{
+        display:grid;
+        grid-template-columns: 100%;
+   
+    }
+    
+      #wings {
+            display: inline-block;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        #sandwiches {
+            display: inline-block;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        #sauces {
+            display: inline-block;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        #staffs {
+            display: inline-block;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+    /* Menu page*/
+    #menu{
+        width:100%;
+        margin-left:0;
+
+    }
+    /*Chicken Wings page*/
+    .chickenwings{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    #wings{ font-size: 1rem;}
+    #wings img{
+        width:auto;
+        
+    }
+
+}
+
+/* CSS for medium devices / Tablets */
+
+@media screen and (min-width: 401px) and (max-width: 738px) {
+    
+        #nav-bar{
+        margin-top:0%;
+     
+    }
+    footer{
+    font-size: .75rem;
+    }
+     i{
+        font-size: 1.2rem;
+       padding-top: 1rem;
+   
+    }
+    
+     #menu{
+        width:100%;
+        margin:0;
+    }
+      /*Chicken Wings page*/
+    .chickenwings{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    #2ndrow{
+         display: inline-block;
+            grid-column-start: 2;
+            grid-column-end: 3;
+    }
+
+    
+}
+
+/* CSS for large device/ Computers */
+
+@media screen and (min-width: 779px) {}
+
+
+/* color choice
+
+red #ed2024
+Yellow #febe10
+Dark red #ae2124 */
+@media (prefers-color-scheme: dark) {
+    header {
+        background-color: black;
+    }
+
+    .dropdownbtn {
+        background-color: black;
+    }
+
+    .dropdown-content {
+        background-color: black;
+    }
+
+     !important #info {
+        background-color: none;
+
+    }
+
+    body {
+        background-image: none;
+        background-color: #8f8e8b;
+        color: grey;
+    }
+
+    main {
+        background-color: black;
+        color: grey;
+    }
+
+    .container {
+        width: 100%;
+        background-color: black;
+    }
+
+    #detail {
+        color: white;
+
+    }
+
+  .wings {
+      background-color:black;}
+
+    footer {
+        background-color: black;
+
+    }
+
+}

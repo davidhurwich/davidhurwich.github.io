@@ -1,2 +1,0 @@
-font-family: 'Fredoka One', cursive;
-font-family: 'Anton', sans-serif;
