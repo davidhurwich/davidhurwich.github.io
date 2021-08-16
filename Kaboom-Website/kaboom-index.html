@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaboom!</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
@@ -18,7 +20,8 @@
             <a href="#homeE">HOME</a>
             <a href="#watch">WATCH</a>
             <a href="#about">ABOUT</a>
-            <a href="#schedule">SCHEDULE</a>
+            <a href="#shows">SHOWS</a>
+            <!-- <a href="#schedule">SCHEDULE</a> -->
             <a href="#contact">CONTACT</a>
         </nav>
         <section id="splash">
@@ -27,10 +30,10 @@
     </header>
 
     <main>
-        <section id="watch">
-            <div class="centercolumn">
+        <section id="watch" class="section">
+            <div class="centercolumn" id="watchText">
                 <h2>WATCH</h2>
-                <p>We are live 7 days a week. We stream live on this website and through Twitch.com/</p>
+                <p>We are live 7 days a week. We stream live on this website and through our <a href="https://www.twitch.tv/KaboomChannel415">  Twitch channel </a></p>
             </div>
             <div id="twitch-embed"></div>
             <script src="https://player.twitch.tv/js/embed/v1.js"></script>
@@ -44,7 +47,7 @@
 
 
         </section>
-        <section id="about">
+        <section id="about" class="section">
             <div class="centercolumn">
                 <h2>ABOUT</h2>
                 <p>Kaboom! is an art project decided to the wild, amazing world of animation. As we say at Kaboom!
@@ -56,7 +59,7 @@
                 </p>
             </div>
         </section>
-        <section id="schedule">
+        <!-- <section id="schedule" class="section">
             <h2>SCHEDULE</h2>
 
             <div id="tvschedule">
@@ -395,10 +398,43 @@
 
 
 
-        </section>
-        <section id="contact"></section>
-        <div class="centercolumn"></div>
+        </section> -->
+        <section id="shows" class="section">
+            <h2>Shows on Kaboom!</h2>
+            <section id="tvshows">
+               
+                <div>
+                    <div class="tvshow-image popeye"></div>
+                    <h3>The Popeye Show</h3>
+                    <p> The super strong sailor returns to fight Bluto and win the hand of the fair Olive Oil, as long as he has his vegatable of choice nearby.</p>
+                </div>
+                <div>
+                    <div class="tvshow-image superman"></div>
+                    <h2>Superman</h2>
+                    <p>Max Fleisher's famous depiction of the Man of Steel from the 1940s. Watch him fight to protect Metropolis and save the day!</p>
+                </div>
+                <div>
+                    <div class="tvshow-image klabooey"></div>
+                    <h2>Cartoon Klablooey!</h2>
+                    <p>Watch a collection of classic cartoon shorts with some of the world's most famous characters including: Betty Boop, Mighty Mouse, Daffy Duck, Casper the Friendly Ghost and more!
+                </div>
+                <div>
+                    <div class="tvshow-image scibots"></div>
+                    <h3>Sci-Bots</h3>
+                    <p>
+                        Join the Princess of the Moon, Aurora and her three cyborg companions (Kugo, Djorgo, and Hakka) who must travel to the Great King planet and restore the Galaxy Energy in the year 2072.
+                    </p>
+                </div>
+                <div>
+                    <div class="tvshow-image spaceangel"></div>
+                    <h3>Space Angel</h3>
+                    <p>Join the classic 1960s space adventure with Scott McCloud as he explores the universe.</p>
+                </div>
+            </section>
         
+        </section>
+        <section id="contact" class="section">
+           
         <div class="centercolumn">
             <h2>CONTACT</h2>
             <p>Do you have an animation that you would like to featured on Kaboom? </p>
@@ -406,7 +442,7 @@
             <p>Or do you just want to drop us a line and shoot the breeze?</p>
             <p>Contact us <a href="mailto:kaboom.tv.415@gmail.com">kaboom.tv.415@gmail.com</a></p>
         </div>
-        </div>
+    </section>
     </main>
     <footer>
         <a href="https://www.twitch.tv/KaboomChannel415"><i class="fa fa-twitch"></i></a>
