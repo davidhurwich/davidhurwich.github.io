@@ -8,7 +8,7 @@
     <title>Kaboom!</title>
     <!-- this is the Google AdSense Code  -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4814860919913752"
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,18 +17,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="#homeE">HOME</a>
-            <a href="#watch">WATCH</a>
-            <a href="#about">ABOUT</a>
-            <a href="#shows">SHOWS</a>
-            <!-- <a href="#schedule">SCHEDULE</a> -->
-            <a href="#contact">CONTACT</a>
+        
+        <nav id="navMain">
+            <div class="navMobileHeader">
+                <img src="kaboom-logo.svg" id="mobilelogo">
+                <a class="navButton" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            
+            <nav id="desktopNav">
+                <a href="#home">HOME</a>
+                <a href="#watch">WATCH</a>
+                <a href="#about">ABOUT</a>
+                <a href="#shows">SHOWS</a>
+                <!-- <a href="#schedule">SCHEDULE</a> -->
+                <a href="#contact">CONTACT</a>
+            </nav>
+            <nav id="mobileNav">
+
+                <a href="#home">HOME</a>
+                <a href="#watch">WATCH</a>
+                <a href="#about">ABOUT</a>
+                <a href="#shows">SHOWS</a>
+                <!-- <a href="#schedule">SCHEDULE</a> -->
+                <a href="#contact">CONTACT</a>
+            </nav>
         </nav>
+
+
         <section id="splash">
             <span id="logo"><img src="kaboom-logo.svg"></span>
         </section>
@@ -38,7 +60,8 @@
         <section id="watch" class="section">
             <div class="centercolumn" id="watchText">
                 <h2>WATCH</h2>
-                <p>We are live 7 days a week. We stream live on this website and through our <a href="https://www.twitch.tv/KaboomChannel415">  Twitch channel </a></p>
+                <p>We are live 7 days a week. We stream live on this website and through our <a
+                        href="https://www.twitch.tv/KaboomChannel415"> Twitch channel </a></p>
             </div>
             <div id="twitch-embed"></div>
             <script src="https://player.twitch.tv/js/embed/v1.js"></script>
@@ -55,7 +78,7 @@
         <section id="about" class="section">
             <div class="centercolumn">
                 <h2>ABOUT</h2>
-                <p>Kaboom! is an art project decided to the wild, amazing world of animation. As we say at Kaboom!
+                <p>Kaboom! is an art project dedicated to the wild, amazing world of animation. As we say at Kaboom!
                     <span> "Live life more animated!</span></p>
                 <p>
                     We show a wide variety of work including classics like Betty Boop, Popeye and Daffy Duck, to
@@ -407,27 +430,31 @@
         <section id="shows" class="section">
             <h2>Shows on Kaboom!</h2>
             <section id="tvshows">
-               
+
                 <div>
                     <div class="tvshow-image popeye"></div>
                     <h3>The Popeye Show</h3>
-                    <p> The super strong sailor returns to fight Bluto and win the hand of the fair Olive Oil, as long as he has his vegatable of choice nearby.</p>
+                    <p> The super strong sailor returns to fight Bluto and win the hand of the fair Olive Oil, as long
+                        as he has his vegatable of choice nearby.</p>
                 </div>
                 <div>
                     <div class="tvshow-image superman"></div>
                     <h2>Superman</h2>
-                    <p>Max Fleisher's famous depiction of the Man of Steel from the 1940s. Watch him fight to protect Metropolis and save the day!</p>
+                    <p>Max Fleisher's famous depiction of the Man of Steel from the 1940s. Watch him fight to protect
+                        Metropolis and save the day!</p>
                 </div>
                 <div>
                     <div class="tvshow-image klabooey"></div>
                     <h2>Cartoon Klablooey!</h2>
-                    <p>Watch a collection of classic cartoon shorts with some of the world's most famous characters including: Betty Boop, Mighty Mouse, Daffy Duck, Casper the Friendly Ghost and more!
+                    <p>Watch a collection of classic cartoon shorts with some of the world's most famous characters
+                        including: Betty Boop, Mighty Mouse, Daffy Duck, Casper the Friendly Ghost and more!
                 </div>
                 <div>
                     <div class="tvshow-image scibots"></div>
                     <h3>Sci-Bots</h3>
                     <p>
-                        Join the Princess of the Moon, Aurora and her three cyborg companions (Kugo, Djorgo, and Hakka) who must travel to the Great King planet and restore the Galaxy Energy in the year 2072.
+                        Join the Princess of the Moon, Aurora and her three cyborg companions (Kugo, Djorgo, and Hakka)
+                        who must travel to the Great King planet and restore the Galaxy Energy in the year 2072.
                     </p>
                 </div>
                 <div>
@@ -436,24 +463,33 @@
                     <p>Join the classic 1960s space adventure with Scott McCloud as he explores the universe.</p>
                 </div>
             </section>
-        
+
         </section>
         <section id="contact" class="section">
-           
-        <div class="centercolumn">
-            <h2>CONTACT</h2>
-            <p>Do you have an animation that you would like to featured on Kaboom? </p>
-            <p>Are you looking to advertise on Kaboom!?</p>
-            <p>Or do you just want to drop us a line and shoot the breeze?</p>
-            <p>Contact us <a href="mailto:kaboom.tv.415@gmail.com">kaboom.tv.415@gmail.com</a></p>
-        </div>
-    </section>
+
+            <div class="centercolumn">
+                <h2>CONTACT</h2>
+                <p>Do you have an animation that you would like to featured on Kaboom? </p>
+                <p>Are you looking to advertise on Kaboom!?</p>
+                <p>Or do you just want to drop us a line and shoot the breeze?</p>
+                <p>Contact us <a href="mailto:kaboom.tv.415@gmail.com">kaboom.tv.415@gmail.com</a></p>
+            </div>
+        </section>
     </main>
     <footer>
         <a href="https://www.twitch.tv/KaboomChannel415"><i class="fa fa-twitch"></i></a>
         <a href="https://www.instagram.com/kaboomtv415/"> <i class="fa fa-instagram"></i></a>
     </footer>
-
+    <script>
+        function toggleFunction() {
+            var x = document.getElementById("mobileNav");
+            if (x.className.indexOf(" mobile-menu") == -1) {
+                x.className += " mobile-menu";
+            } else {
+                x.className = x.className.replace(" mobile-menu", "");
+            }
+        }
+    </script>
 </body>
 
 </html>

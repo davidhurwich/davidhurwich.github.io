@@ -1,0 +1,55 @@
+
+#mobileNav {
+    display: none;
+}
+
+.mobile-menu {
+    display: block !important;
+    animation: fadein 1s;
+    animation: mobileMenu 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+
+    #tvshows {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    body {
+        margin: 0 rem;
+    }
+
+    #splash {
+        display: none;
+    }
+
+    footer {
+        
+        padding: 3rem 0;
+    }
+    #desktopNav {
+        display: none;
+    }
+    #mobileNav {
+        margin-top: 50px;
+    }
+    #mobileNav a {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+        
+    }
+
+    .navButton {
+        display: block;
+   
+    }
+   
+  
+}
+
+@media screen and (min-width: 480px){
+    .navButton {
+        display: none;
+    }
+}

@@ -1,33 +1,97 @@
+/* 
+Author: David Hurwich
+Contact: davidhurwich@gmail.com
+Last Updated: September 2021 */
+
+/* === FONTS & COLORS === */
+
+html {
+  scroll-behavior: smooth;
+}
 body
 {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
 }
 
-body,
-html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-  padding: 0;
-  margin: 0;
-}
-
-header {
-  
-  color: #fff;
-  
-}
-
 header a {
   text-decoration: none;
   color: #fff;
 }
-nav {
+
+#mobilelogo {
+  filter:  invert(100%);
+  width: 50%;
+}
+
+.mobileNavHeader {
   display: flex;
+  align-items: center;
+}
+
+/* === BACKGROUND IMAGES === */
+
+.tvshow-image {
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.popeye {
+  background-image: url(popeye.jpg);
+}
+
+.superman {
+  background-image: url(superman.jpg);
+}
+.klabooey {
+  background-image: url(bettyboop.png);
+}
+.scibots {
+  background-image: url(sci-bots.jpeg);
+}
+
+.spaceangel {
+  background-image: url(spaceangel.jpeg);
+}
+
+
+body,
+html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8rem;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+header {
+  color: #fff;
+}
+
+
+
+body {
+  padding-top: 3rem;
+}
+
+.navButton {
+  float: right;
+  margin-right: 1rem;
+}
+
+.nav-button {
+  display: 
+}
+
+nav {
+
   align-content: center;
   padding: 1rem;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
   background-color: #000000;
@@ -86,8 +150,8 @@ filter:  invert(100%)
 
 footer {
   background-color: #000;
-  height: 30vh;
-  min-height: 25rem;
+  padding: 15rem 0;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,58 +222,26 @@ a:hover {
   text-align: center;
 }
 
-/* Create a Parallax Effect */
-.bgimg-1,
-.bgimg-2,
-.bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-/* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url("anime.png");
   min-height: 100%;
   
 }
 
-/* Second image (Portfolio) */
+
 .bgimg-2 {
   background-image: url("bettyboop.png");
   min-height: 400px;
 }
 
-/* Third image (Contact) */
+
 .bgimg-3 {
   background-image: url("superman.jpg");
   min-height: 400px;
 }
 
-.tvshow-image {
-  height: 15rem;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.popeye {
-  background-image: url(popeye.jpg);
-}
-
-.superman {
-  background-image: url(superman.jpg);
-}
-.klabooey {
-  background-image: url(bettyboop.png);
-}
-.scibots {
-  background-image: url(sci-bots.jpeg);
-}
-
-.spaceangel {
-  background-image: url(spaceangel.jpeg);
-}
 
 #shows {
   background-color: #f7f7f7;
@@ -231,15 +263,14 @@ a:hover {
     opacity: 1;
   }
 }
-
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-
-  .bgimg-1,
-  .bgimg-2,
-  .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
+@keyframes mobileMenu {
+  from {
+    margin-top: -25rem;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0rem;
+    opacity: 1;
   }
 }
+
