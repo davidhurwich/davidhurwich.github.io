@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 13pt;
+    font-family: 'Courier', monospace;
+}
+
+body {
+    background-color: black;
+    background-image: url(images/background.png);
+    background-repeat: repeat;
+}
+
+/* Content */
+.container {
+    background-color: #f3e8d8;
+    align-content: center;
+    width: 800px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 2px #f3e8d8, 0 0 25px #f3e8d8, 0 0 5px #dacdbb;
+    border-radius: 10px;
+}
+
+.container p {
+    line-height: 18pt;
+    margin-bottom: 15px;
+    color: #2e0117;
+}
+
+.credits {
+    text-align: left;
+}
+
+/* Basics */
+img {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 50pt;
+    margin-bottom: 15px;
+    color: #f06236;
+    font-family: 'Trade Winds', sans-serif;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-bottom: 15px;
+    color: #2e0117;
+}
+
+a {
+    color: #f06236;
+}
+
+a:hover {
+    color: #f5d756
+}
+
+/* Choices */
+.choices button {
+    color: #f3e8d8;
+    background-color: #f06236;
+    border: none;
+    border-radius: 40px;
+    margin-top: 25px;
+    padding: 25px;
+    margin: 10px 10px 0px 10px;
+}
+
+.choices button:hover {
+    color: #2e0117;
+    background-color: #f06236;
+    box-shadow: 1px 1px 2px #f06236, 0 0 25px #f06236, 0 0 5px #b14828;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #f3e8d8;
+}
+
+footer p,
+footer a {
+    line-height: 18pt;
+    font-size: 10pt;
+    line-height: 12pt;
+}
+
+footer a {
+    color: #f06236;
+}
+
+footer a:hover {
+    color: #f5d756;
+}

@@ -1,0 +1,545 @@
+/* 
+=== Contents ====
+
+1. Typography and Colors
+2. Images
+3. Box Model
+4. Layout
+5. Homepage Product Listings
+6. About Page
+7. Teacup Page
+8. FAQ Page
+
+=== Colors ===
+
+BG - #FBF7F2
+BG darker - #F8F2EB
+Body text - #674F44
+H1/H2 - #4E2F20
+Links - #5E6D4E
+Footer - #D6AC70
+Price - #966044
+Button - #829796
+Button darker - #354B4A
+
+=== Fonts ===
+
+Body - Calibri regular/bold/italic
+H1 - Swear-Display bold
+H2 - FreightNeo bold
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography and Colors */
+body {
+    font-family: calibri, sans-serif;
+    font-style: normal;
+    font-size: 1.0625rem;
+    background-color: #FBF7F2;
+    color: #674F44;
+}
+
+a {
+    color: #674F44;
+}
+
+a:hover {
+    color: #5E6D4E;
+}
+
+nav a {
+    letter-spacing: .1875rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    letter-spacing: .1875rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: swear-display, serif;
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: #4E2F20;
+}
+
+h2 {
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 700;
+    color: #4E2F20;
+    font-size: 1.5625rem;
+}
+
+/* Homepage Banner */
+
+#home-banner h1,
+#home-banner a {
+    color: #FBF7F2;
+}
+
+#home-banner h1 {
+    font-size: 5rem;
+    padding-bottom: 1.875rem;
+}
+
+#home-banner .fas {
+    margin-left: .3125rem;
+    font-size: .75rem;
+}
+
+#home-banner a {
+    font-size: 1.25rem;
+}
+
+#home-banner a:hover {
+    color: #5E6D4E;
+}
+
+/* Section Titles */
+
+.section-title a h2:hover {
+    color: #5E6D4E
+}
+
+h2 .fas {
+    margin-left: .3125rem;
+    font-size: .9375rem;
+}
+
+/* Footer */
+
+.fab {
+    color: #4E2F20;
+    font-size: 1.875rem;
+}
+
+.fab:hover {
+    color: #FBF7F2;
+}
+
+/* Homepage Images */
+
+.logo img {
+    width: 15.625rem;
+}
+
+#home-banner {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(Images/home-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+}
+
+.home-photo img {
+    width: 31.25rem;
+}
+
+#home-photo1 {
+    background-image: url(Images/home-photo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+}
+
+#home-photo2 {
+    background-image: url(Images/home-photo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+}
+
+/* Box Model */
+
+nav {
+    border: .09375rem solid #674F44;
+    height: 4.375rem;
+    background-color: #FBF7F2;
+}
+
+nav a {
+    padding-right: 1.25rem;
+}
+
+.logo {
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    margin-top: .625rem;
+}
+
+#home-banner {
+    height: 40.625rem;
+}
+
+.section-title {
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4.375rem;
+}
+
+#instagram-link .section-title {
+    padding-bottom: 2.5rem;
+}
+
+.section-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4.0625rem;
+}
+
+#home-photos {
+    height: 34.375rem;
+}
+
+footer {
+    background-color: #D6AC70;
+    padding: .625rem;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    font-size: .75rem;
+}
+
+/* Layout */
+
+nav {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+main {
+    margin-top: 4.375rem;
+    width: 100%;
+}
+
+#home-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#home-photos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* Homepage Product Listings */
+
+#home-productlistings {
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+}
+
+.home-teacupsimage {
+    height: 25rem;
+    background-image: url(Images/home-teacup.png);
+    background-size: 12.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+    grid-column: 1 / 3;
+}
+
+.home-teacupsimage:hover {
+    background-image: url(Images/teacup-hover.gif);
+    background-size: 20rem;
+    background-color: #e9e0d7;
+}
+
+.home-platesimage {
+    background-image: url(Images/home-plates.png);
+    background-size: 18.75rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+    grid-column: 3 / 5;
+}
+
+.home-platesimage:hover {
+    background-image: url(Images/plates-hover.gif);
+    background-size: 26.25rem;
+    background-color: #e9e0d7;
+}
+
+.home-cliffhandleimage {
+    background-image: url(Images/home-cliffhandle.png);
+    background-size: 12.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+    grid-column: 5 / 8;
+}
+
+.home-cliffhandleimage:hover {
+    background-image: url(Images/cliff-hover.gif);
+    background-size: 20rem;
+    background-color: #e9e0d7;
+}
+
+.home-teacupsinfo {
+    grid-column: 1 / 2;
+}
+
+.home-teacupsbutton {
+    grid-column: 2 / 3;
+}
+
+.home-platesinfo {
+    grid-column: 3 / 4;
+}
+
+.home-platesbutton {
+    grid-column: 4 / 5;
+}
+
+.home-cliffhandleinfo {
+    grid-column: 5 / 6;
+}
+
+.home-cliffhandlebutton {
+    grid-column: 6 / 7;
+}
+
+.home-teacupsinfo,
+.home-platesinfo,
+.home-cliffhandleinfo,
+.home-cartbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.25rem;
+    border: .09375rem solid #674F44;
+}
+
+.price {
+    color: #9a5939;
+}
+
+.home-cartbutton {
+    background-color: #829796;
+    color: #FBF7F2;
+}
+
+.home-cartbutton:hover {
+    background-color: #354B4A;
+}
+
+/* ABOUT PAGE */
+
+#about-page {
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+}
+
+#about-photo1 {
+    background-image: url(Images/about-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+    grid-column: 1 / 4;
+    height: 43.75rem;
+}
+
+#about-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: .09375rem solid #674F44;
+    grid-column: 4 / 7;
+    height: 43.75rem;
+}
+
+#about-text p {
+    margin-top: 2.5rem;
+    width: 28.125rem;
+}
+
+#about-photo2 {
+    background-image: url(Images/about-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+    grid-column: 1 / 3;
+    height: 25rem;
+}
+
+#about-photo3 {
+    background-image: url(Images/about-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+    grid-column: 3 / 5;
+    height: 25rem;
+}
+
+#about-photo4 {
+    background-image: url(Images/about-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+    grid-column: 5 / 7;
+    height: 25rem;
+}
+
+/* TEACUP PAGE */
+
+#product-page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100fr;
+}
+
+#product-photos {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 70% 30%;
+}
+
+#product-photo1 {
+    grid-column: 1 / 4;
+    background-image: url(Images/product-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+}
+
+#product-photo2 {
+    grid-column: 1 / 2;
+    background-image: url(Images/product-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+}
+
+#product-photo3 {
+    grid-column: 2 / 3;
+    background-image: url(Images/product-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+}
+
+#product-photo4 {
+    grid-column: 3 / 4;
+    background-image: url(Images/product-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: .09375rem solid #674F44;
+}
+
+#product-info {
+    border: .09375rem solid #674F44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56.25rem;
+}
+
+#product-info div {
+    width: 75%;
+}
+
+.product-specs {
+    padding: .625rem 1.25rem;
+}
+
+.product-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBF7F2;
+    background-color: #829796;
+    padding: 1.5625rem;
+}
+
+.product-button:hover {
+    background-color: #354B4A;
+}
+
+.breadcrumbs,
+.breadcrumbs a {
+    color: #5E6D4E;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.pricetitle {
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.product-specs {
+    color: #796053;
+    background-color: #F8F2EB;
+}
+
+/* FAQ Page */
+
+#faq {
+    border: .09375rem solid #674F44;
+    margin: 2.5rem 31.25rem;
+    width: 100%;
+    margin: auto;
+}
+
+#faq-shipping,
+#faq-care {
+    border-bottom: .09375rem solid #e9e0d7;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#faq-other {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#faq-shipping,
+#faq-care,
+#faq-other {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-width p,
+.faq-width h2 {
+    width: 50rem;
+}
