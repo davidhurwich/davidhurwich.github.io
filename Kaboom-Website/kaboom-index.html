@@ -15,6 +15,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+<link href="https://unpkg.com/silvermine-videojs-quality-selector@1.1.2/dist/css/quality-selector.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
@@ -63,7 +65,7 @@
                 <p>We are live 7 days a week. We stream live on this website and through our <a
                         href="https://www.twitch.tv/KaboomChannel415"> Twitch channel </a></p>
             </div>
-            <!-- <div id="twitch-embed"></div>
+            <div id="twitch-embed"></div>
             <script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
             Create a Twitch.Player object. This will render within the placeholder div 
@@ -73,12 +75,15 @@
                 });
             </script> -->
 
-            <!-- Paste the following into the <head>  -->
-<link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
-<link href="https://unpkg.com/silvermine-videojs-quality-selector@1.1.2/dist/css/quality-selector.css" rel="stylesheet">
+            
 
-<!-- Paste the following into the <body> -->
-<video id="videojs" class="video-js vjs-fluid vjs-default-skin vjs-big-play-centered" controls preload="auto" autoplay muted fluid="true" >
+
+
+<!-- 
+    
+    RTMP server
+    
+    <video id="videojs" class="video-js vjs-fluid vjs-default-skin vjs-big-play-centered" controls preload="auto" autoplay muted fluid="true" >
 
       <source src="https://5caf24a595d94.streamlock.net:1937/qbrfcwfsyc/qbrfcwfsyc/playlist.m3u8" type="application/x-mpegURL">
     <p class="vjs-no-js">
@@ -91,7 +96,7 @@
   <script type="text/javascript">
   var player = videojs('videojs');
 
-   </script>
+   </script> -->
             
 
         </section>
