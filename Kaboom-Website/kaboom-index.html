@@ -63,16 +63,36 @@
                 <p>We are live 7 days a week. We stream live on this website and through our <a
                         href="https://www.twitch.tv/KaboomChannel415"> Twitch channel </a></p>
             </div>
-            <div id="twitch-embed"></div>
+            <!-- <div id="twitch-embed"></div>
             <script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
-            <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+            Create a Twitch.Player object. This will render within the placeholder div 
             <script type="text/javascript">
                 new Twitch.Player("twitch-embed", {
                     channel: "kaboomchannel415"
                 });
-            </script>
+            </script> -->
 
+            <!-- Paste the following into the <head>  -->
+<link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+<link href="https://unpkg.com/silvermine-videojs-quality-selector@1.1.2/dist/css/quality-selector.css" rel="stylesheet">
+
+<!-- Paste the following into the <body> -->
+<video id="videojs" class="video-js vjs-fluid vjs-default-skin vjs-big-play-centered" controls preload="auto" autoplay muted fluid="true" >
+
+      <source src="https://5caf24a595d94.streamlock.net:1937/qbrfcwfsyc/qbrfcwfsyc/playlist.m3u8" type="application/x-mpegURL">
+    <p class="vjs-no-js">
+  To view this video please enable JavaScript, and consider upgrading to a web browser that
+  <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+ </p>
+</video>
+
+<script src="https://unpkg.com/video.js@7/dist/video.min.js"></script>
+  <script type="text/javascript">
+  var player = videojs('videojs');
+
+   </script>
+            
 
         </section>
         <section id="about" class="section">
