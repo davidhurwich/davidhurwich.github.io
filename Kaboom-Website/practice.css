@@ -1,0 +1,41 @@
+h1 {
+  font-weight: normal;
+  font-size: 28pt;
+  font-family: "Courier";
+}
+
+h2 {
+  color: blue;
+  font-size: 14pt;
+}
+
+h3 {
+  color: blue;
+  font-size: 14pt;
+}
+
+h4 {
+  color: blue;
+  font-size: 14pt;
+}
+
+h5 {
+  color: blue;
+}
+
+div {
+  color: gold;
+}
+
+nav {
+  display: block;
+}
+
+nav a {
+  color: red;
+}
+
+nav a :hover {
+  color: green;
+}
+/*# sourceMappingURL=practice.css.map */
