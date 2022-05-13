@@ -1,0 +1,306 @@
+:root {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+}
+
+body {
+    background-color: #ededed;
+    color: #363636;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+}
+/* === Video Player === */
+
+#videoPlayer, #twitchPlayer {
+    width: 100%;
+    aspect-ratio: 16/9;
+    min-height: 100vh;
+}
+
+/* === Controls Menu === */
+
+#logo {
+    width: 5rem;
+}
+#controls-panel {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+}
+
+#controls {
+    background-color: rgb(255,255,255,0.85);
+    padding: 1rem;
+}
+
+#main-drop-down {
+    display: block;
+    background: red;
+}
+
+#controls div {
+    display: flex;
+    align-items: center;
+
+}
+
+#controls {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr 1fr;
+    place-content: center;
+}
+
+.category, .selection {
+    display: block;
+    width: 90%;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    border: 0;
+    box-shadow: 0.15rem 0.15rem 0 darkgray;
+
+}
+.buttonCloseMainUI {
+
+    position: absolute;
+    right: 3rem;
+    top: 1rem;
+    border: 0;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 3rem;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    transition: all 0.25s;
+}
+
+.buttonCloseMainUI:hover {
+    background-color: #b34f54;
+    color: #fff;
+}
+
+.buttonOpenMainUI{
+    border: 0;
+    background: transparent;
+}
+
+#info {
+    position: fixed;
+    left: 3rem;
+    bottom: 3rem;
+    
+}
+
+
+
+.moreInfoButton {
+    padding: 1rem;
+    border-radius: 50%;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    border: 0;
+    background-color: rgb(255,255,255,0.7);
+    transition: 0.1s all;
+}
+
+.moreInfoButton:hover {
+    background-color: rgb(255,255,255,1);
+    width: 5.5rem;
+}
+
+#controls_min {
+    position: fixed;
+    left: 3rem;
+    top: 3rem;
+}
+
+.addFavorite, .defaultStream {
+    border: 0;
+    background: transparent;
+}
+
+.fa-bookmark, .fa-heart {
+    font-size: 3rem;
+    transition: all 0.1s;
+    color: rgb(92, 92, 92);
+}
+
+.fa-heart {
+    margin-right: .85rem;
+}
+
+.fa-bookmark:hover, .fa-heart:hover {
+    color: red
+}
+
+
+.fa-circle-chevron-down{
+    font-size: 3rem;
+    transition: all 0.1s;
+    color: #fff;
+    text-shadow: 0 0 15px rgb(70, 70, 70);
+}
+
+.fa-circle-chevron-down:hover{
+    color: red;
+}
+
+
+h1 {
+    font-family: fantasy;
+}
+
+
+.questions {
+    display: grid;
+    place-content: center flex-end;
+    margin-right: 3rem;
+}
+
+.question-button {
+    font-size: 3rem;
+    width: 3rem;
+    padding: 0.5rem;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-content: center center;
+    border: .3rem solid black;
+    border-radius: 50%;
+}
+
+.question-button:hover {
+    color: red;
+    border-color: currentcolor;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-grid {
+    display: grid;
+}
+
+
+/* === modal CSS === */
+
+#modal {
+    position: relative;
+    font-size: 1rem;
+    color: #333;
+    border: 0;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.video-input-stream {
+    margin-left: 0;
+    padding-left: 0;
+    padding: 1rem;
+    width: 50%;
+    border-radius: .5rem;
+    box-shadow: 0.25rem 0.25rem 0 darkgray; 
+}
+
+.video-input-stream-name {
+    background-color: rgb(227, 255, 227);
+    width: 25%;
+    border-radius: 0.1rem;
+    display: block;
+    border: 0;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+}
+
+#modal::backdrop {
+    background: black;
+    opacity: .65;
+}
+
+.add-video-stream {
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0.25rem 0.25rem 0 darkgray;
+    margin-left: 1rem;
+}
+
+
+.add-video-stream:hover {
+    background-color: rgb(65, 40, 40);
+    color: #fff;
+}
+
+.open-video-stream-modal {
+    padding: 0.5rem 1rem;
+    border-radius: 0.6rem;
+    background-color: lightyellow;
+    border-radius: 0;
+} 
+.close-button {
+    width: 3rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    color: #000;
+    border: 0;
+    float: right;
+}
+
+.close-button:hover {
+    background-color: rgb(126, 64, 64);
+    color: #fff;
+}
+
+
+
+
+
+
+/* == Animations == */
+
+#startlogo {
+    width: 25rem;
+    animation: fadeIn 3s;
+    animation-fill-mode: forwards;
+}
+
+#introAnimation {
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle, #f2f0e4, #93928a);
+    display: grid;
+    place-content: center;
+    
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+

@@ -1,0 +1,27 @@
+@media screen and (max-width: 450px){
+    
+    h1 {
+        font-size: 1.5rem;
+        
+    }
+    
+    header {
+        padding: 0.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .container {
+        box-shadow: 0 0 0 transparent;
+        grid-template-columns: 50% 50%;
+    }
+
+    .operator-plus, .operator-multiply, .num7, 
+    .num9, .num1  {
+        grid-column: 1/2;
+    }
+    .operator-minus, .operator-divide, .num8, .num6, .num4{
+        grid-column: 2/3;
+    }
+    
+    
+}

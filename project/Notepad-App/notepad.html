@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fa/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    <script src="notepad.js"></script>
+    <title>Notepad App</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <i class="fa-solid fa-circle-chevron-down" alt="menu icon" id="menuIcon"></i>
+
+        </div>
+        <div>
+            Notepad
+        </div>
+        <nav id="nav" class="hide">
+            <a href="#">Save List</a>
+            <a href="#" id="saveList">Download List as DocX</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <main class="container">
+        <div id="addToList">
+            <input type="text" id="add">
+        </div>
+        <div id="note1">
+            <div id="visbileList">
+                <div>
+
+                    <div id="edit-area">
+                        <img src="pencil.svg" alt="Edit Name of List" id="edit">
+                        <span id="currentListName"></span>
+
+                    </div>
+                    <div id="userListName" class="hide">
+                        <span> </span>
+                        <input type="text" id="updateListName" value="type list name">
+                    </div>
+                </div>
+
+                <div>
+                    <ul id="list">
+
+                    </ul>
+                    <img src="pencil.svg" alt="Edit List Items" id="editList"> Edit list items
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        Created by David Hurwich
+    </footer>
+</body>
+
+</html>

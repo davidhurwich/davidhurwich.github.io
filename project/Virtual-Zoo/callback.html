@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    <script>
+
+        let paragraphs;
+
+        function setup(){
+            paragraphs = selectAll("p");
+            for(let i = 0; i < paragraphs.length; i++){
+                paragraphs[i].mousePressed(paragraphsFunctions);
+            }
+
+        }
+
+        function paragraphsFunctions(){
+            this.style('color', 'red');
+        }
+
+
+    </script>
+</head>
+<body>
+    
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+<p>Animi mollitia quis consequuntur! Hic ducimus cupiditate mollitia.</p>
+<p>Perferendis recusandae eius quidem illo sint aliquam molestias.</p>
+<p>Assumenda deleniti, neque et eius voluptatum doloribus autem.</p>
+<p>Assumenda reiciendis ullam neque. Velit veritatis eligendi inventore?</p>
+<p>Error eligendi omnis dolorem nihil voluptatibus totam nostrum.</p>
+<p>Quaerat autem ad nulla saepe magni mollitia cupiditate!</p>
+<p>Officiis ratione tempora, fuga possimus dicta nesciunt ipsum.</p>
+
+
+</body>
+</html>

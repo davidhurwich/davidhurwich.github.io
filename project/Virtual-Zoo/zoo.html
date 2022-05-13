@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Zoo</title>
+
+    <!-- CSS related  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+
+    <!-- allow twitch streams  -->
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script src="zoo.js"></script>
+</head>
+
+<body id="body">
+    <!-- <div id="introAnimation">
+        <img src="Virtual-Zoo-Logo.svg" id="startlogo">
+    </div> -->
+
+    <div id="container">
+
+
+
+        <div id="controls_min">
+            <button class="buttonOpenMainUI">
+
+                <i class="fa-solid fa-circle-chevron-down"></i>
+            </button>
+
+
+
+        </div>
+
+        <section id="info">
+            <button class="moreInfoButton">More Info</button>
+        </section>
+
+
+
+
+        <iframe src="" title="Virtual Zoo Video Player" frameborder="0" allow="autoplay" allowfullscreen
+            id="videoPlayer"></iframe>
+
+
+
+
+        <section id="controls-panel">
+            <div id="controls">
+                <div>
+                    <img src="Virtual-Zoo-Logo.svg" id="logo">
+                </div>
+                <div>
+                    <select id="animalType" class="selection">
+                        <option> Mammals </option>
+                        <option> Ocean / Sea Life</option>
+                        <option> Birds </option>
+                        <option> Pets</option>
+                        <option> Reptiles</option>
+                        <option> Favorites</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <select id="animalFavorites" class="category">
+
+                    </select>
+                    <select name="" id="animalSelectBirds" class="category">
+                        <option value="Barn Owl"> Barn Owl</option>
+                        <option Value="Birds"> Birds</option>
+                        <option value="Pretoriam, South Africa - Bird Cam">Pretoria, South Africa - Bird Cam</option>
+                        <option value="Bald Eagle"> Bald Eagle</option>
+                        <option value="Condor"> Condor</option>
+                    </select>
+
+                    <select name="" id="animalSelectMammals" class="category">
+                        <option value="Grizzly Bear"> Grizzly Bear</option>
+                        <option value="Pandas"> Pandas</option>
+                        <option value="Polar Bear"> Polar Bear</option>
+                        <option value="Racoons"> Racoons </option>
+                        <option value="Tigers"> Tigers</option>
+                    </select>
+
+                    <select name="" id="animalSelectPets" class="category">
+                        <option value="Dogs"> Dogs</option>
+                        <option value="Rabbits"> Rabbits</option>
+                        <option value="Sheep"> Sheep</option>
+                    </select>
+
+                    <select id="animalSelectOcean" class="category">
+                        <option value="Deerfield Ocean"> Deerfield Ocean Florida</option>
+                        <option value="Jellyfish"> Jellyfish</option>
+
+                        <option value="Otters"> Otters</option>
+                        <option value="Penguins"> Penguins</option>
+                        <option value="Shark Lagoon"> Shark Lagoon</option>
+                        <option value="Marine Mammal Rescue"> Marine Mammal Rescue</option>
+                    </select>
+
+                    <select id="animalSelectReptiles" class="category">
+                        <option value="Alligator">Alligator</option>
+                        <option value="Iguna">Iguana</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <button class="addFavorite"><i class="fa-solid fa-heart"></i></button>
+
+                    <button class="defaultStream"> <i class="fa-solid fa-bookmark"></i></button>
+                </div>
+                <div>
+                    <div class="questions">
+                        <div class="question-button"> ? </div>
+                    </div>
+                    <button class="buttonCloseMainUI">X</button>
+                </div>
+                `
+            </div>
+
+            <div id="main-drop-down">
+                <nav>
+                    <a href="#"> What is This?</a>
+                    <a href="#"> Help</a>
+                </nav>
+            </div>
+        </section>
+
+
+        <dialog id="infoMenu">
+            <h2>More Information about <span class="animalInput"></span></h2>
+            <p>To learn more about this animal check out the links below. Please note these links will take you to
+                additional websites</p>
+            <div id="animalWebsites">
+
+            </div>
+
+        </dialog>
+
+
+
+        <dialog id="modal">
+
+            <h2> Add an Animal Stream </h2>
+            <p>Find, copy and paste the stream URL into the box below. View the video for assitance on this</p>
+
+
+
+        </dialog>
+
+
+
+
+</body>
+
+</html>

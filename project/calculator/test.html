@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    
+    
+    
+    <script>
+
+        let myDiv, myH1;
+
+        function setup(){
+            myDiv = select("div");
+            myH1 = select("h1");
+            myH1.parent(myDiv);
+            let x = createElement("h2", "This is an h2");
+        }
+
+
+        class Number {
+            constructor(){
+                this.place1 = 0;
+                this.place10=0;
+                this.place100=0;
+                this.place1000 = 0;
+                this.place10000 = 0;
+                this.place100000 = 0;
+            }
+        }
+
+    </script>
+</head>
+<body>
+ <div></div>   
+<h1>Lorem ipsum dolor sit amet.</h1>
+
+</body>
+</html>
