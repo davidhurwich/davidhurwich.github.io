@@ -1,0 +1,68 @@
+body {
+    color: #6b4710;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 18pt;
+    background-image: url("background.jpg");
+}
+
+h1 {
+    text-align: center;
+    font: size 24pt;
+    font-variant: small-caps;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20pt;
+    font-variant: small-caps;
+    margin-bottom: 50pt;
+}
+
+.container {
+    background-color: #103045;
+    width: 800px;
+    border-color: #061925;
+    border-width: 9pt;
+    border-style: groove;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 20px 100px;
+
+}
+
+article {
+    text-align-last: center;
+}
+
+a {
+
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20pt;
+    margin-left: 60pt;
+
+}
+
+button {
+    background-color: #70501f;
+    cursor: url("ufo.png"), auto;
+    font-size: large;
+    border: 2px solid rgb(202, 161, 108);
+    border-radius: 50%;
+    padding: 15px 32px;
+}
+
+button:hover {
+    background-color: #03121b;
+}
+
+a:visited {
+    color: rgb(202, 161, 108);
+}
+
+footer {
+    font-style: italic;
+    line-height: 17pt;
+    text-align: center;
+}
