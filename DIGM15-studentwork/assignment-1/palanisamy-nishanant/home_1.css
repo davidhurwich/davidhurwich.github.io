@@ -1,0 +1,62 @@
+h1 {
+    font-family: 'Times New Roman', serif, Times;
+    font-size: 38pt;
+    font-variant:small-caps;
+}
+
+h2{
+    font-family: 'Arial';
+    font-size: 20pt;
+    line-height: 24pt;
+    font-variant: small-caps;
+}
+
+p{
+    font-family: 'Times New Roman', serif, Times;
+    font-size: 14pt;
+    line-height: 18pt;
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 17pt;
+}
+
+body{
+    background-color: #000437;
+}
+
+.spaceship{
+    max-width:100%;
+}
+
+.question{
+    font-size: 20pt;
+    text-align: center;
+}
+
+.btns1_2{
+    font-family: 'Arial';
+    color: #e5c9f5;
+    font-size: 20pt;
+    margin: 0 auto;
+    background: #000437; 
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+
+}
+
+.buttoncenter{
+    text-align: center;
+}
+
+.container{
+    background-color: #e5c9f5;
+    width: 800px;
+    border: 20px solid #000000;
+    padding: 80px;
+    margin: auto;
+}
