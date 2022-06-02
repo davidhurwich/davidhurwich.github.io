@@ -1,12 +1,14 @@
+let arrayNumbers = [];
 let num1, num2, num3, num4, num5, num6, num7, num8, num9, totalPrint, total = 0;
-let operAdd, operSub, operMult, operDiv;
-let number1;
+let operAdd, operSub, operMult, operDiv, operEqual;
+let counter = 0;
 
 
 
 function setup() {
     // selections
-    number1 = new Number;
+    let newNumber = new Number();
+    arrayNumbers.push(newNumber);
     totalPrint = select("#total");
     num1 = select("#num-1");
     num2 = select("#num-2");
@@ -21,6 +23,7 @@ function setup() {
     num0 = select("#num-0");
 
     operAdd = select("#operator-plus");
+    operEqual = select("#operator-equal");
 
     num1.mousePressed(num1Function);
     num2.mousePressed(num2Function);
@@ -32,13 +35,12 @@ function setup() {
     num8.mousePressed(num8Function);
     num9.mousePressed(num9Function);
     num0.mousePressed(num0Function);
-
+    operAdd.mousePressed(operatorAdd);
+    operEqual.mousePressed(operatorEqual);
 }
 
 function num1Function() {
     updateScreen(1);
-
-
 }
 
 function num2Function() {
@@ -81,39 +83,33 @@ function num0Function() {
 }
 
 function updateScreen(number) {
-   if (number1.place1 === true){
-    number1.place1Num = number;
-    number1.place1 = false;
-    number1.place10 = true;   
-} else if (number1.place10 === true){
-    number1.place10Num = number1.place1Num * 10;
-    number1.place1Num = number;
-    number1.place10 = false;
-    number1.place100 = true;
-   }
-   else if (number1.place100 === true){
-    number1.place100Num = number1.place10Num * 10;
-    number1.place10Num = number1.place1Num * 10;
-    number1.place1Num = number;
-    number1.place100 = false;
-    number1.place1000 = true;
-   }
 
-   else if (number1.place1000 === true){
-    number1.place1000Num = number1.place100Num * 10;
-    number1.place100Num = number1.place10Num * 10;
-    number1.place10Num = number1.place1Num * 10;
-    number1.place1Num = number;
-    number1.place100 = false;
-    number1.place1000 = true;
-   }
-   
-    printNumber = number1.place1Num + number1.place10Num + number1.place100Num + number1.place1000Num;
-    totalPrint.html(printNumber);
+    arrayNumbers[counter].updateNumber(number);
+
 }
 
 function operatorAdd() {
- 
+  
+    totalPrint.html("");
+    let newNumber = new Number();
+    arrayNumbers.push(newNumber);
+    counter ++;
+    operatorEqual();
+}
+
+function operatorSubtract(){
+
+}
+
+
+
+
+function operatorEqual(){
+    let a = 0;
+    for(i = 0; i < arrayNumbers.length; i++){
+        a += arrayNumbers[i].total();
+    }
+    totalPrint.html(a);
 }
 
 function operator(operator, number) {
@@ -122,20 +118,53 @@ function operator(operator, number) {
     }
 }
 
+
+
 class Number {
-    constructor(){
-    this.place1 = true;
-    this.place10 = false;
-    this.place100 = false;
-    this.place1000 = false;
-    this.place1Num = 0;
-    this.place10Num = 0;
-    this.place100Num = 0;
-    this.place1000Num = 0;
+    constructor() {
+        this.place1 = true;
+        this.place10 = false;
+        this.place100 = false;
+        this.place1000 = false;
+        this.place1Num = 0;
+        this.place10Num = 0;
+        this.place100Num = 0;
+        this.place1000Num = 0;
     }
-    total(){
+
+    updateNumber(number) {
+        if (this.place1 === true) {
+            this.place1Num = number;
+            this.place1 = false;
+            this.place10 = true;
+        } else if (this.place10 === true) {
+            this.place10Num = this.place1Num * 10;
+            this.place1Num = number;
+            this.place10 = false;
+            this.place100 = true;
+        } else if (this.place100 === true) {
+            this.place100Num = this.place10Num * 10;
+            this.place10Num = this.place1Num * 10;
+            this.place1Num = number;
+            this.place100 = false;
+            this.place1000 = true;
+        } else if (this.place1000 === true) {
+            this.place1000Num = this.place100Num * 10;
+            this.place100Num = this.place10Num * 10;
+            this.place10Num = this.place1Num * 10;
+            this.place1Num = number;
+            this.place100 = false;
+            this.place1000 = true;
+        }
+
+
+        totalPrint.html(this.place1Num + this.place10Num + this.place100Num + this.place1000Num);
+    }
+
+
+    total() {
         let a = this.place1Num + this.place10Num + this.place100Num + this.place1000Num;
         return a;
     }
-    
+
 }
