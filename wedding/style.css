@@ -1,0 +1,401 @@
+/* 
+Author: David Hurwich
+Date: June 2022
+Contact: davidhurwich@gmail.com
+*/
+
+/* === main === */
+
+:root {
+    scroll-behavior: smooth;
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #393939;
+}
+
+#title {
+    font-family: "Tangerine", script;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.fa-bars {
+    font-size: 3rem;
+    color:#393939;
+    margin-right: 2rem;
+    transition: 0.5s all;
+}
+
+.fa-bars:hover {
+    color: #000;
+}
+#desktop nav {
+    display: inline-block;
+}
+
+/* === Layout === */
+
+.area {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.mobile {
+    
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 178, 176, 0.6);
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    padding: 1rem 1rem;
+  
+}
+.mobile nav {
+    text-align: center;
+}
+
+.mobile nav a {
+    display: block;
+    font-size: 4rem;
+    padding: 3rem 0;
+    text-decoration: none;
+    color: #fff;
+}
+.mobile nav a:hover {
+    background-color: rgb(255,255,255,0.6);
+    color: #017d7b;
+    
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.75);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+#splash {
+
+    background-image: url(hawaii-1.jpg);
+    background-size: cover;
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#splash .text {
+    min-width: 50%;
+}
+
+#rsvp {
+    color: #27413a
+}
+
+#rsvp>div:nth-child(1) {
+    background-image: url(lobster-roll.jpeg);
+    background-size: cover;
+    position: relative;
+
+}
+
+#rsvp div:nth-child(2) {
+    background: radial-gradient(circle, #f4e57a, #f0da78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#directions {
+    color: #b63220;
+}
+
+#directions>div:nth-child(1) {
+    background: radial-gradient(circle, #fbc4a8, #f0b0a5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#directions>div:nth-child(2) {
+    background-image: url(sf2.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+.swirls {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    width: 300px;
+    border-bottom: 2px solid red;
+}
+
+#rsvp .text {
+    box-shadow: 0.6rem .6rem 0 #bdb15e;
+}
+
+#directions .text {
+    box-shadow: -0.6rem .6rem 0 #b6907c;
+}
+
+#donate .text {
+    box-shadow: 0.6rem .6rem 0 #434618;
+}
+
+
+
+
+
+
+#donate>div:nth-child(1) {
+    background-image: url(hawaii-2.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    position: relative;
+}
+
+#donate>div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #7d842d, #616623);
+    background-color: #7d842d;
+}
+
+
+.text {
+    background-color: rgb(255, 255, 255, 0.65);
+    padding: 2rem;
+    width: 500px;
+    position: relative;
+}
+
+
+/* === Buttons === */
+
+#desktop a {
+    display: inline-block;
+    padding: 0.5rem .75rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #393939;
+    transition: background-color 0.5s;
+    border: 0.2rem solid transparent;
+    transition: 0.5s all;
+}
+
+#desktop a:hover {
+
+    border-color: rgb(56, 100, 100);
+
+}
+
+#rsvp a {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #4d7f72;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+#rsvp a:hover {
+    background-color: #396055;
+}
+
+#directions a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: .25rem;
+    background-color: #fd5c12;
+    color: #fff;
+    transition: 0.5s all;
+}
+
+#directions a:hover {
+    background-color: #b13902;
+}
+
+#donate a {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #960e2c;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+#donate a:hover {
+    background-color: #460614;
+}
+
+#contact a {
+    color: #460614;
+}
+
+#contact {
+    background-color: #b81035;
+    padding: 4rem;
+    position: relative;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+/* === design elements */
+
+.design1,
+.design2,
+.design3,
+.design4,
+.design5,
+.design5,
+.design6,
+.design7,
+.design8,
+.design9,
+.design10,
+.design11 {
+    z-index: 100;
+    position: absolute;
+}
+
+.design1 {
+
+    top: 0px;
+    right: -8rem;
+    z-index: 100;
+}
+
+.design2 {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+
+}
+
+.design3 {
+
+    right: 25%;
+    bottom: -3rem;
+
+}
+
+.design4 {
+
+    left: 10%;
+    top: -5rem;
+    filter: drop-shadow(0.2rem 0.2rem 0px white);
+}
+
+.design5 {
+
+    bottom: 10rem;
+    left: 20%;
+}
+
+.design6 {
+
+    bottom:0;
+    right: -7.5rem;
+    filter: drop-shadow(0.2rem 0.2rem 0px white);
+}
+
+
+.design7 {
+    left: 20rem;
+    top: -9rem;
+}
+
+.design8 {
+    bottom: 1rem;
+    right: -3rem;
+}
+
+.design9 {
+    top: -10rem;
+    left: 5rem;
+}
+
+.design10 {
+    right: -2rem;
+    top: -2rem;
+}
+
+.design11 {
+    left: -2rem;
+    bottom: -2rem;
+}
+
+#mobileMenuBtn {
+    color: white;
+}
+#mobile-button {
+    text-align: center;
+}
+.close-button {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 0.5rem solid;
+    color: #017d7b;
+    border-color: #017d7b;
+    font-weight: bold;
+}
+
+.close-button:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+   
+}
+.open {
+    display: block;
+}
+.hide {
+    opacity: 0;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ming and David Party</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/abecfb3612.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    <script>
+        let mobilemenu, mobileMenuClose, modal;
+        let invited, rsvp, directions, contribute, contact;
+        let open = false;
+
+        function setup() {
+            mobilemenu = select("#menuBtn");
+            mobileMenuClose = select("#mobileMenuBtn");
+            invited = select("#invitedBtn");
+            rsvp = select("#rsvpBtn");
+            directions = select("#directionsBtn");
+            contribute = select("#contributeBtn");
+            contact = select("#contactBtn");
+            modal = select(".mobile")
+            mobilemenu.mousePressed(menu);
+            mobileMenuClose.mousePressed(menu);
+            invited.mousePressed(menu);
+            rsvp.mousePressed(menu);
+            directions.mousePressed(menu);
+        }
+
+
+
+        function menu() {
+            if (open) {
+                print("closed");
+                modal.toggleClass("open");
+                mobilemenu.toggleClass("hide");
+
+            }
+            if (!open) {
+                
+                modal.toggleClass("open");
+                mobilemenu.toggleClass("hide");
+                open = true;
+            }
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <section class="mobile">
+        <i class="fa-solid fa-bars" id="mobileMenuBtn"></i>
+       <div id="mobile-button"> <span class="close-button">X</span> </div>
+        <nav>
+            <a href="#splash" id="invitedBtn">You're Invited!</a>
+            <a href="#rsvp" id="rsvpBtn">RSVP</a>
+            <a href="#directions" id="directionsBtn">Directions</a>
+            <a href="#donate" id="contributeBtn">Contribute</a>
+            <a href="#contact" id="contactBtn">Contact</a>
+        </nav>
+
+    </section>
+
+
+    <header>
+        <i class="fa-solid fa-bars" id="menuBtn"></i>
+        <nav id="desktop">
+            <a href="#splash">You're Invited!</a>
+            <a href="#rsvp">RSVP</a>
+            <a href="#directions">Directions</a>
+            <a href="#donate">Contribute</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <div class="container">
+        <section class="area" id="splash">
+
+
+            <div class="text">
+                <h1 id="title">Ming and David's Celebration!</h1>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque repudiandae quisquam, eveniet
+                    exercitationem tempore!</p>
+                <p>Vel maiores deleniti nesciunt non at debitis error odit accusantium, velit repellat laborum
+                    pariatur soluta.</p>
+                <p>Sunt sapiente voluptate dicta dolorum earum eaque aliquid architecto, labore quis consectetur
+                    fugiat obcaecati voluptatem?</p>
+                <div class="design10">
+                    <img src="squiggle.svg" style="width: 100px">
+                </div>
+            </div>
+            <div class="design3">
+                <img src="flower1.svg" style="width: 250px;">
+            </div>
+        </section>
+        <section class="area" id="rsvp">
+            <div>
+                <div class="design4">
+                    <img src="vertical-oblong-rectangle.svg" style="width: 250px;">
+                </div>
+            </div>
+            <div>
+                <div class="text">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>
+                        Please RSVP to the event by writing an email to minganddavid@gmail.com. Please confirm that you
+                        are
+                        attending, how many people / children are joining and if anyone in the group is a vegetarian,
+                        vegan
+                        or psecatrian.
+                    </p>
+                    <p><a href="mailtso:mingandavid@gmail.com">MingandDavidsf@gmail.com</a></p>
+                    <div class="design8">
+                        <img src="squiggle.svg" style="width: 100px">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="area" id="directions">
+
+            <div>
+
+                <div class="text">
+                    <h2>Directions</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore consequatur rerum nostrum
+                        labore eos commodi!</p>
+                    <a
+                        href="https://www.google.com/maps/place/1735+39th+Ave,+San+Francisco,+CA+94122/@37.7544673,-122.5004107,17z/data=!3m1!4b1!4m5!3m4!1s0x808587847a6793c5:0x26737d3f4ba2abdf!8m2!3d37.7544631!4d-122.498222">1735
+                        39th Ave, San Francisco, CA</a>
+                    <div class="design11">
+                        <img src="squiggle.svg" style="width: 100px">
+                    </div>
+                </div>
+                <div class="design1">
+                    <img src="design-flowers.svg" style="width: 250px;">
+                </div>
+            </div>
+
+            <div>
+                <div class="design5">
+                    <img src="flower2.svg" style="width: 250px;">
+                </div>
+            </div>
+
+        </section>
+        <section class="area" id="donate">
+            <div>
+                <div class="design2">
+                    <img src="design-flowers.svg" style="width: 250px;">
+                </div>
+                <div class="design6">
+                    <img src="oblong-rectangle.svg" style="width: 250px;">
+                </div>
+            </div>
+            <div>
+                <div class="text">
+                    <h2>Donate</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, odio.
+                    </p>
+                    <a href="#"> GoFundMe</a>
+                    <div class="design9">
+                        <img src="squiggle.svg" style="width: 100px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="design7">
+                <img src="flower2.svg" style="width: 145px;">
+            </div>
+            <div class="text">
+                <h2>Contact</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quisquam, amet quam nobis ipsa
+                    sit.</p>
+                <ul>
+                    <li>Call: <a href="tel:415-964-6145"> 415.964.6145</a></li>
+                    <li>Email: <a href="mailto:minganddavidsf@gmail.com">minganddavidsf@gmail.com</a></li>
+                </ul>
+
+
+            </div>
+        </section>
+    </div>
+
+
+
+</body>
+
+</html>
