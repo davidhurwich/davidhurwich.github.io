@@ -104,8 +104,9 @@ header {
 
 #splash {
 
-    background-image: url(hawaii-1.jpg);
+    background-image: url(wedding.jpg);
     background-size: cover;
+    background-position: left bottom;
     grid-template-columns: repeat(1, 1fr);
     display: flex;
     justify-content: center;
