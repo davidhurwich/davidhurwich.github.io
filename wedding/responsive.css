@@ -1,0 +1,45 @@
+img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 480px){
+
+    #desktop {
+        display: none;
+    }
+
+    #title {
+       font-size: 4rem;
+       line-height: 4rem;
+    }
+
+    .area > div {
+        grid-template-columns: 100%;
+    }
+
+
+
+
+    .area > div {
+        height: 100vh;
+    }
+    .text {
+        max-width: 100%;
+    }
+
+    .design1,
+    .design2,
+    .design3,
+    .design4,
+    .design5,
+    .design5,
+    .design6,
+    .design7,
+    .design8,
+    .design9,
+    .design10,
+    .design11 {
+        display: none;
+    }
+
+}

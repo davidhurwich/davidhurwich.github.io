@@ -123,7 +123,7 @@ header {
 }
 
 #rsvp>div:nth-child(1) {
-    background-image: url(lobster-roll.jpeg);
+    background-image: url(lobster-roll2.jpg);
     background-size: cover;
     position: relative;
 
@@ -134,6 +134,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(modern-design4.png);
+    background-color: #f4e57a;
+    
 }
 
 
@@ -144,11 +147,14 @@ header {
 }
 
 #directions>div:nth-child(1) {
-    background: radial-gradient(circle, #fbc4a8, #f0b0a5);
+    
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    background-image: url(modern-design2.png);
+    background-color:  #fbc4a8;
+    /* background: radial-gradient(circle, #fbc4a8, #f0b0a5); */
 }
 
 #directions>div:nth-child(2) {
@@ -195,6 +201,7 @@ header {
     align-items: center;
     background: radial-gradient(circle, #7d842d, #616623);
     background-color: #7d842d;
+    background-image: url(modern-design1.png);
 }
 
 
@@ -273,6 +280,7 @@ header {
 }
 
 #contact {
+    background-image: url(modern-design4.png);
     background-color: #b81035;
     padding: 4rem;
     position: relative;
@@ -399,4 +407,22 @@ ul {
 }
 .hide {
     opacity: 0;
+}
+
+
+
+
+.design1,
+.design2,
+.design3,
+.design4,
+.design5,
+.design5,
+.design6,
+.design7,
+.design8,
+.design9,
+.design10,
+.design11 {
+    display: none;
 }
