@@ -3,7 +3,17 @@ img{
 }
 
 @media screen and (max-width: 480px){
+   .mobile nav a {
+    font-size: 2rem;
+    padding: 1rem 0;
+   }
+    
 
+   .area {
+    grid-template-columns: 100%;
+    height: inherit;
+   }
+    
     #desktop {
         display: none;
     }
@@ -13,14 +23,7 @@ img{
        line-height: 4rem;
     }
 
-    .area > div {
-        grid-template-columns: 100%;
-    }
-
-
-
-
-    .area > div {
+    .column {
         height: 100vh;
     }
     .text {
@@ -40,6 +43,10 @@ img{
     .design10,
     .design11 {
         display: none;
+    }
+
+    #rsvp a, #directions a, #donate a {
+        width: 100%;
     }
 
 }
