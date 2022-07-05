@@ -32,6 +32,7 @@ body {
 #title {
     font-family: "Tangerine", script;
     font-size: 5rem;
+    line-height: 3.5rem;
     font-weight: normal;
 }
 
@@ -104,8 +105,9 @@ header {
 
 #splash {
 
-    background-image: url(wedding3.jpg);
+    background-image: url(wedding5.jpg);
     background-size: cover;
+    background-color: #fff;
     background-position: left bottom;
     grid-template-columns: repeat(1, 1fr);
     display: flex;
@@ -143,7 +145,7 @@ header {
 
 
 #directions {
-    color: #b63220;
+    color: #013e13;
 }
 
 #directions>div:nth-child(1) {
@@ -152,7 +154,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url(palmetto-pattern.png);
+    background-image: url(ferns3.png);
     background-color: #7d842d;
     
     /* background: radial-gradient(circle, #fbc4a8, #f0b0a5); */
@@ -177,7 +179,7 @@ header {
 }
 
 #donate .text {
-    box-shadow: 0.6rem .6rem 0 #b6907c;
+    box-shadow: 0.6rem .6rem 0 #8c6274;
 }
 
 #directions .text {
@@ -190,9 +192,9 @@ header {
 
 
 #donate>div:nth-child(1) {
-    background-image: url(hawaii-2.jpg);
+    background-image: url(wedding3.jpg);
     background-size: cover;
-    background-position: right bottom;
+    background-position: left bottom;
     position: relative;
 }
 
@@ -201,7 +203,7 @@ header {
     justify-content: center;
     align-items: center;
     /* background: radial-gradient(circle, #7d842d, #616623); */
-    background-color:  #fbc4a8;
+    background-color:  #de9bb8;
     background-image: url(hibicus-pattern.png);
 }
 
@@ -253,13 +255,13 @@ header {
     text-decoration: none;
     padding: 0.75rem 1.25rem;
     border-radius: .25rem;
-    background-color: #fd5c12;
+    background-color: #00651e;
     color: #fff;
     transition: 0.5s all;
 }
 
 #directions a:hover {
-    background-color: #b13902;
+    background-color: #003c12;
 }
 
 #donate a {
