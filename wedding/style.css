@@ -30,11 +30,17 @@ body {
 }
 
 #title {
-    font-family: "Tangerine", script;
-    font-size: 5rem;
-    line-height: 3.5rem;
+    font-family: "Lobster", script;
+    font-size: 4rem;
+    line-height: 4rem;
     font-weight: normal;
 }
+
+.party-info {
+    font-weight: bold;
+    line-height: 0.25rem;
+}
+
 
 .fa-bars {
     font-size: 3rem;
@@ -156,7 +162,7 @@ main {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url(ferns3.png);
+    background-image: url(palm.png);
     background-color: #7d842d;
     
     /* background: radial-gradient(circle, #fbc4a8, #f0b0a5); */
@@ -188,15 +194,10 @@ main {
     box-shadow:-0.6rem .6rem 0 #434618;
 }
 
-
-
-
-
-
 #donate>div:nth-child(1) {
-    background-image: url(wedding3.jpg);
+    background-image: url(wedding4.jpg);
     background-size: cover;
-    background-position: left bottom;
+    background-position: right bottom;
     position: relative;
 }
 
@@ -239,6 +240,11 @@ main {
 }
 
 #rsvp a {
+    color: #393939;
+}
+
+
+#rsvp a.link {
     display: inline-block;
     padding: 0.75rem 1.25rem;
     border-radius: .25rem;
@@ -248,8 +254,9 @@ main {
     transition: 0.5s all;
 }
 
-#rsvp a:hover {
+#rsvp a.link:hover {
     background-color: #396055;
+    color: #393939;
 }
 
 #directions a {
