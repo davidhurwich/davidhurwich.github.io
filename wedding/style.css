@@ -102,7 +102,9 @@ header {
     align-items: center;
 }
 
-
+main {
+    height: 0;
+}
 #splash {
 
     background-image: url(wedding5.jpg);

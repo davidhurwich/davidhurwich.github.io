@@ -16,9 +16,12 @@
     <script>
         let mobilemenu, mobileMenuClose, modal, closeMenuBtn;
         let invited, rsvp, directions, contribute, contact;
+        let rsvpMarker, donateMarker, directionsMarker, contactMarker;
+        let rsvpMarkerNumber, directionsMarkerNumber, donateMarkerNumber, contactMarkerNumber;
         let open = false;
 
         function setup() {
+            noCanvas();
             mobilemenu = select("#menuBtn");
             mobileMenuClose = select("#mobileMenuBtn");
             closeMenuBtn = select(".close-button");
@@ -30,9 +33,36 @@
             modal = select(".mobile")
             mobilemenu.mousePressed(menu);
             mobileMenuClose.mousePressed(menu);
-            invited.mousePressed(menu);
-            rsvp.mousePressed(menu);
-            directions.mousePressed(menu);
+            
+            
+            
+            rsvpMarker = select("#rsvp");
+            rsvpMarkerNumber = rsvpMarker.position();
+            
+           directionsMarker = select("#directions");
+           directionsMarkerNumber = directionsMarker.position();
+
+           donateMarker = select("#donate");
+           donateMarkerNumber = donateMarker.position();
+
+           contactMarker = select("#contact");
+           contactMarkerNumber = contactMarker.position();
+
+            invited.mousePressed(() => {
+                scroll(0);
+            });
+            rsvp.mousePressed(() => {
+                scroll(rsvpMarkerNumber.y);
+            });
+            directions.mousePressed(() => {
+                scroll(directionsMarkerNumber.y);
+            });
+            contribute.mousePressed(() => {
+                scroll(donateMarkerNumber.y);
+            });
+            contact.mousePressed(() => {
+                scroll(contactMarkerNumber.y);
+            });
             closeMenuBtn.mousePressed(menu);
         }
 
@@ -40,9 +70,11 @@
 
         function menu() {
             if (open) {
-                print("closed");
+                
+                
                 modal.toggleClass("open");
                 mobilemenu.toggleClass("hide");
+                open = false;
 
             }
             if (!open) {
@@ -51,6 +83,16 @@
                 mobilemenu.toggleClass("hide");
                 open = true;
             }
+
+        }
+
+
+        function scroll(navHeight){
+            
+            window.scrollTo(0,navHeight);
+            modal.toggleClass("open");
+                mobilemenu.toggleClass("hide");
+                open = false;
 
         }
     </script>
