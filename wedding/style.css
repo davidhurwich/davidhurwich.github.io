@@ -93,9 +93,7 @@ body {
     text-align: center;
 }
 
-#mobile-button {
-    display: none;
-}
+
 
 .mobile nav a {
     display: block;
@@ -170,7 +168,7 @@ main {
     color: #013e13;
 }
 
-#directions>div:nth-child(1) {
+#directions>div:nth-child(2) {
     
     display: flex;
     justify-content: center;
@@ -182,10 +180,11 @@ main {
     /* background: radial-gradient(circle, #fbc4a8, #f0b0a5); */
 }
 
-#directions>div:nth-child(2) {
-    background-image: url(sf2.jpg);
+#directions>div:nth-child(3) {
+    background-image: url(house.jpg);
     background-size: cover;
     position: relative;
+    background-position: right bottom;
 }
 
 
