@@ -46,12 +46,6 @@ body {
 }
 
 
-
-
-
-
-
-
 .fa-bars {
     font-size: 3rem;
     color:#393939;
@@ -93,14 +87,10 @@ body {
     text-align: center;
 }
 
-#mobile-button {
-    display: none;
-}
-
 .mobile nav a {
     display: block;
-    font-size: 3rem;
-    padding: 2rem 0;
+    font-size: 4rem;
+    padding: 3rem 0;
     text-decoration: none;
     color: #fff;
 }
@@ -164,10 +154,12 @@ main {
 }
 
 
-
+#splash strong {
+    font-weight: 700;
+}
 
 #directions {
-    color: #013e13;
+    /* color: #013e13; */
 }
 
 #directions>div:nth-child(1) {
@@ -187,9 +179,6 @@ main {
     background-size: cover;
     position: relative;
 }
-
-
-
 
 
 .swirls {
@@ -227,13 +216,7 @@ main {
     background-image: url(hibicus-pattern.png);
 }
 
-
-#contact .column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+#contact>div:nth-child(1)
 
 
 
@@ -318,7 +301,7 @@ main {
 }
 
 #contact {
-    background-image: url(modern-design4.png);
+    background-image: url(modern-design4-alpha.png);
     background-color: #b81035;
     padding: 4rem;
     position: relative;
@@ -447,10 +430,7 @@ ul {
     opacity: 0;
 }
 
-iframe {
-    max-width: 100%;
-   min-height: 250px;
-}
+
 
 
 .design1,
@@ -466,12 +446,4 @@ iframe {
 .design10,
 .design11 {
     display: none;
-}
-
-.mobile-only {
-    display: none;
-}
-
-.desktop-only {
-    display: block;
 }

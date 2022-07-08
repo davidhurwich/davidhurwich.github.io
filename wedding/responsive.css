@@ -3,31 +3,92 @@ img{
 }
 
 @media screen and (max-width: 480px){
-   .mobile nav a {
+   body {
+    font-size: 1rem;
+    line-height: 1.25rem;
+   }
+   
+    .mobile nav a {
     font-size: 2rem;
     padding: 1rem 0;
    }
-    
 
+   #contact {
+    padding: 0;
+   }
+   
    .area {
     grid-template-columns: 100%;
     height: inherit;
    }
     
+#splash .text {
+    padding: 2rem 1rem;
+}
+
+#rsvp .text, #directions .text, #donate .text, .col-video .text, .col-contact .text {
+    display: flex;
+    align-items: center;
+}
+
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
     #desktop {
         display: none;
     }
 
     #title {
-       font-size: 4rem;
-       line-height: 4rem;
+       font-size: 2rem;
+       line-height: 2rem;
+       margin-top: 5rem;
     }
 
-    .column {
-        height: 100vh;
+    #mobile-button {
+        display: none;
     }
+    .column {
+        min-height: 50vh;
+    }
+
+    #contact .column {
+        display: block;
+    }
+
+    #directions>div:nth-child(1){
+        background-image: url(sf2.jpg);
+        background-size: cover;
+    }
+
+    #directions>div:nth-child(2){
+        background-image: none;
+        background-image: url(palm.png);
+        background-color: #7d842d;
+    }
+
+
     .text {
-        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        padding: 0rem 1rem;
+        background-color: rgb(255,255,255,0.85);
+    }
+
+    .col-rsvp-photo, .col-directions-photo, .col-donate-photo {
+        min-height: 50vh;
+    }
+
+    .col-video {
+        background-color: #5effb1;
+    }
+
+    .col-video h2 {
+        margin-top: 1rem;
     }
 
     .design1,
@@ -45,6 +106,7 @@ img{
         display: none;
     }
 
+    
     #rsvp a, #directions a, #donate a {
         width: 100%;
     }
