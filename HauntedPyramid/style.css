@@ -1,0 +1,303 @@
+
+/* === Base CSS === */
+
+:root {
+    --darkblue: #080838;
+    --mediumblue: #012035;
+}
+
+* { 
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* === Typography ===   */
+
+body {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: "Helvetica", sans-serif;
+    color: var(--darkblue);
+   
+}
+
+#mainTitle {
+    font-family: "Rubik Dirt", script;
+    font-weight: normal;
+    color: white;
+    font-size: 2.25rem;
+}
+
+.title {
+    font-family: "Rubik Dirt", script;
+    font-size: 6rem;
+    line-height: 4.5rem;
+    color: #fff;
+    text-shadow: 0.18rem 0.18rem 0 #ba1313;
+}
+
+.nav {
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 1.15rem;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav a:hover {
+    color: #ffa3a3;
+}
+
+.free  {
+    color: #c8f3c1;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#hauntway a {
+    color: var(--darkblue); 
+    text-decoration: none;
+}
+
+.eventdetail {
+    color: #fff;
+    font-size: 1.75rem;
+    line-height: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eventdetail div {
+    width: 600px;
+}
+.eventdetail h3 {
+    margin-bottom: 0.65rem;
+    font-size: 6rem;
+    line-height: 5rem;
+}
+.eventdetail p {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#hauntway a:hover {
+    text-decoration: underline;
+}
+
+.heiroglyphics {
+    background-image: url(heiroglyphics.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heiroglyphics > div {
+    background-color: rgb(8, 8, 56,0.65);
+    width: 100%;
+    height: 100%;
+}
+
+.orange-text {
+    color: #ffa3a3;
+}
+
+.text {
+    color: rgb(243, 243, 243);
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+#faq {
+    color: #fff;
+    background: linear-gradient( 90deg,#222236, var(--darkblue), #00001c);
+}
+#sponsors {
+    min-height: 33vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+#sponsors div {
+    width: 50%;
+    margin: auto;
+    
+}
+#hauntway {
+    background: linear-gradient( 270deg,#002741, #012035, #001725);
+}
+
+#faq>div {
+    background-color: rgb(255, 255, 255, 0.65);
+}
+
+#faq h2, #hauntway h2 {
+    color:  var(--darkblue);
+    font-size: 2rem;
+}
+
+#faq .question+.answer {
+    padding-left: 1rem;
+}
+.question {
+    background-color: #012035;
+    padding: 0.75rem;
+    color: #fff;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+}
+
+/* === BACKGROUNDS ===  */
+
+body {
+    background-color: #012035;
+}
+
+header {
+    background-color: var(--darkblue);
+}
+
+nav {
+    background-color:  var(--darkblue);
+}
+
+.flyerbg {
+    background-image: url(blurred-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive {
+  
+   max-width: 100%;
+ 
+}
+
+
+/* === Layout ===  */
+
+.pharoah {
+    height: 33vh;
+    background-image: url(pharoah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 20%;;
+}
+
+
+.pharoah>div {
+    background-color: rgb(8, 8, 56,0.45);
+    width: 100%;
+    height: 100%;
+}
+header {
+   height: 65vh;
+ 
+   position: relative;
+}
+
+.headertext {
+    position: absolute;
+    bottom: 4rem;
+}
+
+#faq {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.headertext>div:nth-child(1){
+    padding-left: 1rem;
+}
+#faq>div {
+    width: 50%;
+    margin: auto;
+    padding: 1.5rem;
+    color: black;
+}
+
+nav>div:nth-child(1){
+    margin-left: 1rem;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+.headertext {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+#hauntway {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#hauntway>div:nth-child(1) {
+    width: 75%;
+    margin: auto;
+    background-color: rgb(255,255,255,0.85);
+    padding: 1.5rem;
+}
+
+#hauntway button {
+    background-color: orange;
+    border: 0;
+    padding: 0.5rem;
+}
+
+header .row1 {
+    height: 5rem;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: fixed;
+    width: 100%;
+   
+}
+
+.text p {
+    margin-top: 0;
+    margin-bottom: .85rem;
+}
+
+.explaination {
+    height: 615px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
