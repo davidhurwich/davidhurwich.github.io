@@ -1,0 +1,59 @@
+.container {
+    border: -2px inline whitesmoke;
+    width: auto;
+    margin: 70px 100px 20px;
+    padding: 50px;
+   
+    box-sizing: content-box;
+    color: white;
+    box-shadow: 10px 10px 10px rgb(151, 151, 151, 45%);
+}
+
+body {
+    font-family: JejuGothic;
+    letter-spacing: 3px;
+}
+
+p {
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    float:inline-start;
+}
+.styled{
+    cursor: pointer;
+    margin: 80px 50px 0px;
+    border: 0;
+    position: static;
+    top:10%; left: 10%;
+    line-height: 2.5;
+    padding: 5%,  5px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(128,108,254, 50%);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled:hover {
+    background-color: rgba(94, 72, 220, 35%);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

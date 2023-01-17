@@ -1,0 +1,144 @@
+.h1{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 70px;
+    letter-spacing: 4px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+
+
+}
+.par{
+    color: #c98143;
+    font-family: 'Sniglet', cursive;
+    letter-spacing: 0.8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 45px;
+	width: 530px;
+	line-height: 20px;
+
+}
+.button0{
+    color: #989f8b;
+    font-family: 'Sniglet', bold;
+    font-size: 25px;
+    float: center;
+	margin: auto;
+	text-align: center;
+
+
+
+}
+body{
+    background-color: #fcf0ef;
+    margin-left: auto;
+	margin-right: auto;
+
+}
+img {
+    margin-left: 100px;
+    max-width: 800px;
+}
+.h2{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 70px;
+    letter-spacing: 4px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+}
+.h3{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 70px;
+    letter-spacing: 4px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+}
+.h4{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    max-width: 500px;
+    margin: auto;
+}
+.h5{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    max-width: 500px;
+    margin: auto;
+}
+.h6{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    max-width: 500px;
+    margin: auto;
+}
+.h7{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    max-width: 500px;
+    margin: auto;
+}
+.h8{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    max-width: 500px;
+    margin: auto;
+}
+.h9{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    max-width: 500px;
+    margin: auto;
+}
+.h10{
+    color: #7d886e;
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    max-width: 500px;
+    margin: auto;
+}
+img{
+    display: block;
+	width: 550px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+li{
+    padding: 20px 20px;
+    margin: -10px;
+	font-size: 25px;
+	list-style: none;
+
+
+}
+a {
+	color: #a54f24;
+	font-family: 'Sniglet', cursive;
+	font-weight: bold;
+	font-size: 20px; 
+    background-color: #ddb8a8;
+	letter-spacing: 0.8px;
+	text-decoration: none;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
