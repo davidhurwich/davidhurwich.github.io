@@ -1,0 +1,58 @@
+/*responsive css*/
+
+@media screen and (max-width:600px) {
+  header {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  main {
+    grid-template-columns: 100%;
+    text-align: center;
+
+  }
+
+
+  a {
+    position: relative;
+
+  }
+
+
+  li a {
+    padding: .7rem 1.1rem .7rem;
+
+  }
+
+  #outfits {
+    grid-template-columns: 100%;
+    margin: auto;
+    height: auto;
+    max-width: auto;
+    padding-left: .8rem;
+  }
+
+  #clothes {
+    grid-template-columns: 50% 50%;
+    
+  }
+
+  footer {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #social {
+    max-width: 100%;
+    grid-template-columns: 100%;
+    position: relative;
+    text-align: center;
+  }
+
+  #instagram{
+    padding-right: 5rem;
+  }
+}
+ 

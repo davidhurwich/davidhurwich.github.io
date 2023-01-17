@@ -1,0 +1,150 @@
+header {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    text-align: center;
+    z-index: 99999
+}
+
+#mobile-menu {
+    position: absolute;
+    top: 4.643rem;
+    left: 0.714rem;
+}
+
+#shopper-menu {
+    position: absolute;
+    top: 4.643rem;
+    right: 0.714rem;
+}
+
+.logo {
+    text-align: center;
+    justify-content: center;
+    top: 4.286rem;    
+    position: relative;
+}  
+
+#nav {
+    text-align: center;
+    position: static;
+    padding-top: 5.714rem;
+    width: 100%;
+    line-height: 3.571rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color:  #432a1b;
+    width: auto;
+    height: 0.714rem;
+    border-radius: 0.714rem;
+    padding: 0.714rem;
+    white-space: 0.714rem;
+    font-family: Lustria;
+    font-size: 1rem;
+    
+    
+}
+
+#brandpic {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    position: static;
+    padding-top: 5rem;
+
+}
+
+.button {
+    text-align: left;
+    margin-top: 4.286rem;
+    margin-bottom: 2.143rem;
+    text-align: center;
+}
+
+#social-media {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 4.571rem;
+    height: auto;
+    
+}
+
+#columns {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color;
+    padding: 0.714rem;
+}
+
+.shopping {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0.357rem;
+    
+}
+
+figcaption {
+    text-align: center;
+    padding-top: 0.714rem;
+    font-family: Lustria;
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: Lustria;
+    font-size: 4.20rem;
+    color: #000;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+P {
+    font-family: Lustria;
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-family: Lustria;
+    font-size: 2.20rem;
+    color: #000;
+    
+}
+
+h3 {
+    font-family: Lustria;
+    font-size: 1.20rem;
+    color: #000; 
+}
+
+.social-pic1 {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    max-width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+}
+
+.social-contents {
+    padding-left: 2.143rem;
+    padding-right: 2.143rem;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: #c8aa8163;
+    border: solid 0.5rem #333;
+    border-radius: 5%;
+    margin-top: 0.9rem;
+}
