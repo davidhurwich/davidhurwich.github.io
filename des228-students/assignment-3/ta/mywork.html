@@ -1,0 +1,239 @@
+<head>
+    <title>My Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<style>
+    
+
+    h2{
+    color:rgb(215, 181, 110);
+    font-size: 25px;
+}
+    
+    
+    
+    img {
+      vertical-align: middle;
+    }
+    
+    
+    .container {
+      position: relative;
+      padding-bottom: 20px;
+    }
+    
+    
+    .mySlides {
+      display: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    
+    .cursor {
+      cursor: url("cursor2.png"), auto;
+    }
+    
+   
+    .prev,
+    .next {
+      cursor: pointer;
+      position: fixed;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight:bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+   
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    </style>
+    
+<header class="primary-header flex">
+    <nav class="navbar">
+        <img class="logo" src="roundlogo.png" alt="logo">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="mywork.html">My Work</a>
+
+    </nav>
+    </header>
+<body>
+    
+    
+    
+    
+    <body>
+
+        <h2 style="text-align:center">Portfolio</h2>
+
+        <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="../portfolio/content /singularity.png" style="width:100%" onclick="currentSlide(1)" alt="Singularity">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../portfolio/content /omen.png" style="width:100%" onclick="currentSlide(2)" alt="Reaver Omen">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../portfolio/content /studycropped.png" style="width:100%" onclick="currentSlide(3)" alt="Photo Study">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../portfolio/content /piercecropped.png" style="width:100%" onclick="currentSlide(4)" alt="Pierce">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../portfolio/content /poppysodacropped.png" style="width:100%" onclick="currentSlide(5)" alt="Poppy Soda Project">
+            </div>    
+            <div class="column">
+              <img class="demo cursor" src="../portfolio/content /horrorcropped.png" style="width:100%" onclick="currentSlide(6)" alt="Animal in Horror Movies Poster">
+            </div>
+          </div>
+        <br>
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="../portfolio/content /singularity.png" style="width:100%">
+            <img src="../portfolio/content /singularity2.png" style="width:100%">
+            <img src="../portfolio/content /singularity3.png" style="width:100%">
+            <img src="../portfolio/content /singularity4.png" style="width:100%">
+            
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="../portfolio/content /omen.png" style="width:100%">
+            <img src="../portfolio/content /omen2.png" style="width:100%">
+            <img src="../portfolio/content /omen3.png" style="width:100%">
+            <img src="../portfolio/content /omen4.png" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="../portfolio/content /study.jpeg" style="width:100%">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="../portfolio/content /pierce.jpeg" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="../portfolio/content /poppysoda1.png" style="width:100%">
+            <img src="../portfolio/content /poppy2.png" style="width:100%">
+            <img src="../portfolio/content /poppy3.png" style="width:100%">
+            <img src="../portfolio/content /poppy4.png" style="width:100%">
+            <img src="../portfolio/content /poppy5.png" style="width:100%">
+            <img src="../portfolio/content /poppy6.png" style="width:100%">
+          </div>
+            
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="../portfolio/content /Animal Poster2.png" style="width:100%">
+            <img src="../portfolio/content /horror3.png" style="width:100%">
+          </div>
+            
+          <a class="prev" onclick="plusSlides(-1)"><</a>
+          <a class="next" onclick="plusSlides(1)">></a>
+        
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+          
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+            
+        </body>
+        </html>
+<div class="footer">
+    &copy2022 Christopher Ta 
+</div>
