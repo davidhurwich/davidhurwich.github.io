@@ -1,0 +1,51 @@
+.buttonGreen {
+    background-color: green;
+}
+
+.buttonYellow {
+    background-color: yellow;
+}
+
+.buttonPurple {
+    background-color: purple;
+}
+
+.textArial {
+   font-family: "Arial";
+}
+
+.textCourier {
+   font-family: "Courier";
+}
+
+.textVerdana {
+   font-family: "Verdanan";
+}
+
+.textTimes {
+   font-family: "Times New Roman";
+}
+
+.textImpact {
+   font-family: "Impact"; 
+}
+
+.textTahoma {
+   font-family: "Tahoma";
+}
+
+.sizeSmall {
+    font-size: 10pt;
+}
+
+.sizeMedium {
+    font-family: 16pt
+}
+
+.sizeLarge {
+   Font-family: 24pt;
+}
+
+.shadow {
+   text-shadow: 2px 2px 2px black;
+}
