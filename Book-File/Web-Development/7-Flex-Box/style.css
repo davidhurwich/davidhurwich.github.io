@@ -1,0 +1,76 @@
+
+
+/* === DO NOT EDIT CSS BELOW THIS LINE */
+
+#splash {
+    height: 300px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+footer ul {
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+h1 {
+ font-size: 40pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+#navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 12pt;
+    line-height: 16pt;
+    color: #2a2a2a;
+    background-color: #d5d5d5;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    padding: 25px;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #2a2a2a; 
+}
+
+#splash {
+   
+    color: #fff;
+    text-shadow: 0 0 15px black;
+    background-image: url(splash-background.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* #locations img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+} */
+
+#locations section, footer {
+    clear: both;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}

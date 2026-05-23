@@ -1,0 +1,32 @@
+Our Story
+
+==== navigation ===
+
+Home
+Female
+Male
+Shop 
+Contact
+
+
+=== Splash ===
+
+New Collection
+
+View the hot new trends and pieces of our collection
+
+[button] Discover More
+
+== Main ===
+
+Free shipping. All orders over $150 or more of eligible items across any product category quality
+
+Payment Methods. Visa, Mastercard, American Express, Apple Pay and Android Pay.
+
+Returns and Refunds. You can return any item purchased on OurStory within 30 days for a full refund.
+
+=== Footer ===
+
+© OurStory. All trademarks and logos are registered trademarks of OurStory©. All rights Reservered.
+
+For those interested in job opportunities please contact our Human Resources Department.

@@ -1,0 +1,225 @@
+/*  CSS Animation     */
+
+.social-media {
+    color: white;
+    font-size: 22pt;
+    margin-left: 10px;
+}
+
+nav a {
+    color: #fff;
+    
+}
+
+.option {
+    transform:translate(0);
+}
+
+#information  {
+    background-color: #bb205e;
+    font-family: "Arial", sans-serif;
+    color: #ffffff; 
+}
+
+#splash {
+    background-color: pink; 
+}
+
+#splash a {
+    text-decoration: none;
+    color: #bb205e;
+    padding: 15px;
+    font-size: 24pt;
+    border: 6px solid #bb205e;
+    font-family: "Arial", sans-serif;
+}
+
+#splash a:hover {
+    color: #682550;
+    border-color: #682550;
+    background-color: #fff;
+}
+
+
+#news-letter a {
+    display: inline-block;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    font-size: .6rem;
+    border-radius: .25rem;
+    background-color: #bb205e;
+}
+
+
+
+#advertisement {
+    background-color: #fff;
+    border: 4px solid #bb205e;
+    padding: 20px;
+    width: 400px;
+    position: fixed;
+    top: 100px;
+    right: 100px; 
+}
+
+
+
+/* === Do Not Edit the CSS Below this Point     ==== */
+
+
+/* Basic resets / setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+
+
+/* Typography */
+
+body {
+    
+    font-size: 1rem;
+}
+figcaption {
+    font-family: "Arial", sans-serif;
+}
+
+#options {
+    font-family: "Arial", sans-serif;
+}
+
+footer {
+    font-family: "Arial", sans-serif;
+}
+nav a {
+    font-family: "Arial", sans-serif;
+    text-decoration: none;  
+}
+
+#information a { 
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.fa-ice-cream {
+    font-size: 24pt;
+}
+
+/* Box Model */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 14pt;
+}
+
+header {
+    color: white;
+    background-color: #bb205e;
+}
+
+
+
+.container {
+    width: 1200px;
+    margin: auto;
+    border: 5px solid #bb205e;
+    background-color: #fff;
+}
+
+#icecream {
+    background-image: url("information.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+#information {
+    padding: 24pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#splash {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/3;
+}
+
+#options {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+#options figure {
+    margin: 10px 0;
+    display: inline-block;
+    margin-right: 15px;
+    color:#2f2f2f;
+}
+
+#information a { 
+    display: inline-block;
+    text-decoration: none;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+footer {
+    background-color: #dedede;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: #272727;
+}
+
+footer input {
+    padding: 8px;
+}
+
+#title h1 {
+    display: inline-block;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+
+

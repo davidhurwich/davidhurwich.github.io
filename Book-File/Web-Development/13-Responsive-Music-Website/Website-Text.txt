@@ -1,0 +1,59 @@
+-header-
+
+-Nav-
+Stream
+Albums
+Features
+Podcast 
+Video
+
+--Main--
+
+-Stream Now
+
+Elvis Presley
+Elvis Presley
+1956
+
+The Beatles
+A Hard Day's Night
+1964
+
+Donna Summers
+I Remember Yesterday
+1977
+
+Michael Jackson
+Bad
+1987
+
+Nirvana
+In Utero
+1993
+
+-Album Reviews
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YAaUn5sn1T0"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Jessie Ware
+
+Jessie Ware hinted at leaving the dancefloor behind after 2020’s What’s Your Pleasure, but on “Pearls,” the single announcing her upcoming album, That! Feels Good!, the UK singer has her feet still planted. Assisted by the likes of Clarence Coffee Jr. (Dua Lipa, Beyoncé) and Stuart Price (Kylie Minogue, Madonna), “Pearls” is ascendant and evangelistic disco that feels fuller than the smoky club tracks of her last album. Gliding over springy keys and cheery percussion, Ware trades her sinuous purrs for jubilant cries that showcase her dazzling upper range. The harmonies plume like steam, the production is dense and fortissimo, and Ware sets the intention to chase a little danger. “Offfff, let me go! Let me dance!” she belts, as if pushing through a scrum of bouncers, never sounding so warm-blooded and rapturous.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cfBmizHxJec"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+Beach House
+
+Beach House’s very first non-album single, released in the wake of Devotion in 2008, with the “Apple Orchard” demo on the flip, was a scruffy early take on “Used to Be,” a song that eventually appeared in finished, thrilling form on 2010’s Teen Dream. The single version recalled their previous music while hinting at the towering run to come, asking, “Are you not the same as you used to be?” The band’s new Become EP doesn’t pull the same trick, and in fairness Beach House said it wouldn’t. “It’s not really where we are currently going, but it’s definitely somewhere we have been,” they’ve written. Become, originally released for Record Store Day, consists of five songs that Victoria Legrand and Alex Scally didn’t think fit on their most recent album, 2022’s Once Twice Melody. Don’t expect anything radically different, though.
+
+--Footer
+
+About AudioFire
+Join Us
+Press
+
+Investor
+Terms
+Help

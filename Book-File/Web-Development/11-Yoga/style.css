@@ -1,0 +1,177 @@
+
+.container {
+    width: 1200px;
+    margin: auto;
+    font-family: "Times New Roman";
+}
+
+#company-title {
+    line-height: 0.6;
+    font-size: 30pt;
+}
+
+header {
+    border-bottom: 20px double #7b1c7b;
+    font-family: "Times New Roman";
+}
+
+main {
+    font-family: "Times New Roman";
+}
+
+#title {
+    padding-left: 15px;
+    color:#7b1c7b;
+}
+
+.fa-paw {
+    font-size: 24pt;
+    margin-right: 10px;
+}
+
+#splashButton {
+    font-size: 20pt;
+    background-color: #ffde09;
+    color:black;
+}
+
+#aboutButton {
+    background-color: #ffde09;
+    color: black;
+}
+
+#signUpButton {
+    background-color: #ffde09;
+
+}
+
+#special {
+    background-color: #7b1c7b;
+    color: white;
+    padding: 12px;
+}
+
+#yoga-class {
+    background-color: #7b1c7b;
+}
+body {
+    background-color: #ffffce;
+}
+footer {
+    background-color: #7b1c7b;
+    color: #ffffff;
+    font-family: "Times New Roman";
+}
+
+
+/* == DO NOT DELETE CSS BELOW THIS LINE == */
+
+/* == BOX MODEL === */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#title, #navigation {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+#navigation {
+    padding-right: 15px;
+}
+
+#navigation {
+    justify-content: end;
+}
+
+#splash {
+    height: 400px;
+    background-image: url(splash.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#splashButton {
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 10px;
+    
+}
+
+.container {
+    background-color: white;
+}
+
+#special {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Arial Black';
+    font-size: 20pt; 
+}
+
+#signUpButton {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#aboutButton {
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+#navigation a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+
+#navigation {
+    text-align: right;
+
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#intro {
+    padding: 15px;
+}
+
+#yoga-class {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#yoga-class img {
+    width: 75%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #cacaca;
+}

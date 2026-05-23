@@ -1,0 +1,72 @@
+
+/* 
+Lab: Basics of Layout
+/* ===== Add new CSS below ===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Do not change CSS below ===  */
+
+
+body {
+    background-color: darkgray;
+    font-size: 14pt;
+    font-family: 'Helvetica', sans-serif;
+    color: #444;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+}
+#subscribe{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    clear: both;
+}
+header {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+
+#subscribe-button, #buy-now-button {
+    border: 0;
+    padding: 15px;
+    background-color:#c15c5c;
+    display: block;
+}
+
+footer {
+    padding: 10px 0;
+}
+
+#subscribe-button {
+    font-size: 20pt;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#buy-now-button {
+    color: white;
+    padding: 10px;
+}
